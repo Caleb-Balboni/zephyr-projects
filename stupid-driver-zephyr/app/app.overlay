@@ -1,0 +1,11 @@
+/ {
+	aliases {
+		hello-world = &hello_world1;
+	};
+
+	custom-hello {
+		hello_world1: custom-hello1 {
+			compatible = "hello,world";
+		};
+	};
+};

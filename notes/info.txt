@@ -1,0 +1,47 @@
+THE DEVICE TREE
+
+- the purpose is to define the structure of the layout of the hardware ex below -->
+
+/ { // <-- this is the root node, devices tree must always start here
+
+      soc { // <-- a node that is supposed to represenent the SOC chip.
+
+          // within any particular node you can have node "children" here is soc has a child
+          // i2c-bus-controller
+
+          i2c-bus-controller {
+
+              i2c-peripheral-1 {
+
+              };
+
+              i2c-peripheral-2 {
+
+              };
+          };
+      };
+};
+
+
+- nodes can also be defined with values within them like this -->
+
+/ {
+    node {
+        foo = <1> // here the node foo now has a property 1 within it
+                  // there is a very helpful guide here to defining different kinds of varibales:
+                  // https://docs.zephyrproject.org/latest/build/dts/intro-syntax-structure.html#dt-writing-property-values
+    };
+};
+
+- another interesting feature is the ability to set certain devices within the address space of
+  another device using the @ symbol
+
+/ {
+    soc {
+        i2c-bus@3000 { // here we are setting the i2c bus to be at a certain address within the
+                       // address space of its parent so i2c-bus is at address 0x3000 within its
+                       // parent soc
+
+        };
+    };
+};

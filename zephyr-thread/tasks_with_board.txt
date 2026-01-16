@@ -1,0 +1,8 @@
+1. Make the board somehow "modular" allow more components to be attached to it, i.e SD Cards
+2. Fast DAC and AAC maybe somehow use that
+3. Potential file system intefration
+4. The board has a whole other chip on it that can preform operations in the DSP realm, and others,
+communication between these chips?
+5. Try to get this board communicating with another board, ie a board running a linux kernal could
+be easy with a Rasberry PI.
+6. look at the zbus (a bus where multiple threads can talk to one another)
