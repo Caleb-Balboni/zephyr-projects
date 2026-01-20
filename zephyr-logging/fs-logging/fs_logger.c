@@ -21,7 +21,7 @@ static void panic(const struct log_backend* const backend) {
 }
 
 static void init(const struct log_backend* const backend) {
-
+	printk("made it to init!");
 }
 
 static const struct log_backend_api fs_log_backend_api = {
@@ -31,4 +31,4 @@ static const struct log_backend_api fs_log_backend_api = {
 	.init = init
 };
 
-LOG_BACKEND_DEFINE(fs_log_backend, fs_log_backend_api, false);
+LOG_BACKEND_DEFINE(fs_log_backend, fs_log_backend_api, true);
