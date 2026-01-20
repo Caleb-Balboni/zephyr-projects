@@ -1,0 +1,6 @@
+config FS_LOG_BACKEND
+	bool "file system logging backend"
+	default n
+	depends on LOG
+
+source 'Kconfig.zephyr'

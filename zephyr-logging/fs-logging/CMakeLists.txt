@@ -1,0 +1,1 @@
+zephyr_library_sources_ifdef(CONFIG_FS_LOG_BACKEND fs_logger.c)

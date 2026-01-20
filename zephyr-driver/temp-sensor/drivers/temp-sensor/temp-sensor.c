@@ -19,6 +19,8 @@ static const uint8_t K2_VAR = 0xA6;
 static const uint8_t K3_VAR = 0xA4;
 static const uint8_t K4_VAR = 0xA2;
 
+// our configuration file which holds the information for the driver
+// on a per device basis
 struct temp_sensor_config {
 	struct i2c_dt_spec temp_sensor;
 };

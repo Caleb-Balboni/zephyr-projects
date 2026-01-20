@@ -1,0 +1,59 @@
+THE DEVICE TREE
+
+
+GENERAL STRUCTURE:
+
+  - formatted in heirarchical structure of parent and children nodes (somewhat like a json file)
+
+  - node { // name of the node comes first
+           // contents are within the brackets
+    };     // end with a semi-colon
+
+  EXAMPLE:
+  / { // <-- this is the root node, devices tree must always start here
+
+        soc { // <-- a node that is supposed to represenent the SOC chip.
+
+            // within any particular node you can have node "children" here is soc has a child
+            // i2c-bus-controller
+
+            i2c-bus-controller {
+
+              i2c-peripheral-1 {
+
+              };
+
+              i2c-peripheral-2 {
+
+              };
+          };
+      };
+  };
+
+ATTRIBUTES:
+
+  - within a node there can be attributes, some of these are predefined keywords, others can be
+    defined by the dev
+  - attribute definition follow a "C" like standard generall <name> = <attribute> the type of the
+    attribute is defined by the below syntax
+
+      IMPORTANT ATTRIBUTES:
+        - string: a-string = "hello, world";
+        - int: a-int = <1>
+        - boolean: a-boolean; <-- this one is weird, if its defined than its true, else its not
+        - array: a-array = <1 2 3 4 5>
+
+
+ADDRESS SPACE REFRENCING:
+  - for some by placing an @ follow by an address you can specify the location in physicaly memory
+    of the child node within its parent node (for example an i2c device on an i2c controller)
+
+/ {
+    soc {
+        i2c-bus@3000 { // here we are setting the i2c bus to be at a certain address within the
+                       // address space of its parent so i2c-bus is at address 0x3000 within its
+                       // parent soc
+
+        };
+    };
+};
