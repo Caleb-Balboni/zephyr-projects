@@ -764,11 +764,11 @@
     "CONFIG_MAIN_STACK_SIZE",
     "y",
     "int",
-    "4096",
+    "8192",
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
-      10
+      14
     ]
   ],
   [
@@ -1255,7 +1255,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
-      4
+      8
     ]
   ],
   [
@@ -6988,6 +6988,14 @@
     null
   ],
   [
+    "CONFIG_CBPRINTF_STATIC_PACKAGE_CHECK_ALIGNMENT",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_CBPRINTF_CONVERT_CHECK_PTR",
     "n",
     "bool",
@@ -7351,7 +7359,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
-      6
+      10
     ]
   ],
   [
@@ -7668,7 +7676,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
-      7
+      11
     ]
   ],
   [
@@ -7735,8 +7743,8 @@
     "CONFIG_FS_LOG_LEVEL_OFF",
     "y",
     "bool",
-    null,
-    "unset",
+    "y",
+    "assign",
     null
   ],
   [
@@ -7775,22 +7783,19 @@
     "CONFIG_FS_LOG_LEVEL_DEFAULT",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/logging/Kconfig.template.log_config",
-      5
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_FS_LOG_LEVEL",
     "n",
     "int",
-    "3",
+    "0",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/logging/Kconfig.template.log_config",
-      36
+      31
     ]
   ],
   [
@@ -7809,7 +7814,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
-      8
+      12
     ]
   ],
   [
@@ -8396,11 +8401,11 @@
     "CONFIG_LOG_PRINTK",
     "y",
     "bool",
-    "y",
-    "default",
+    "n",
+    "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/logging/Kconfig.processing",
-      10
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
+      3
     ]
   ],
   [
@@ -8740,10 +8745,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/logging/backends/Kconfig.uart",
-      7
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
+      4
     ]
   ],
   [
@@ -9112,7 +9117,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-logging/prj.conf",
-      5
+      9
     ]
   ],
   [

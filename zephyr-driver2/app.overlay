@@ -1,0 +1,17 @@
+/ {
+	aliases {
+		temp-sensor = &tsys01;
+	};
+};
+
+
+&flexcomm2_lpi2c2 {
+	status = "okay";
+	clock-frequency = <I2C_BITRATE_FAST>;
+
+	tsys01: tsys01@77 {
+		compatible = "tsys01,sensor";
+		reg = <0x77>;
+		status = "okay";
+	};
+};
