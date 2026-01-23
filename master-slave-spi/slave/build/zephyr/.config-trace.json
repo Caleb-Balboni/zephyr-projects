@@ -1375,7 +1375,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/master-slave-spi/slave/prj.conf",
-      5
+      7
     ]
   ],
   [
@@ -6050,9 +6050,12 @@
     "CONFIG_SPI_ASYNC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/master-slave-spi/slave/prj.conf",
+      3
+    ]
   ],
   [
     "CONFIG_SPI_RTIO",
@@ -6070,7 +6073,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/master-slave-spi/slave/prj.conf",
-      2
+      4
     ]
   ],
   [
@@ -6170,10 +6173,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/spi/spi_nxp_lpspi/Kconfig",
-      6
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/master-slave-spi/slave/prj.conf",
+      2
     ]
   ],
   [
@@ -7742,7 +7745,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/master-slave-spi/slave/prj.conf",
-      6
+      8
     ]
   ],
   [

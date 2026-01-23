@@ -15,11 +15,11 @@ int main(void)
         return 0;
     }
 
-    uint8_t buf[8] = {0};
+    uint8_t data[3]= {0x00, 0x00, 0x00};
 
     struct spi_buf rx_buf = {
-        .buf = buf,
-        .len = 7,
+        .buf = data,
+        .len = 2,
     };
 
     struct spi_buf_set rx_set = {
@@ -27,22 +27,21 @@ int main(void)
         .count = 1,
     };
 
+    struct spi_buf tx_buf = {
+	.buf = NULL,
+	.len = 0,
+    };
+
+    struct spi_buf_set tx_set = {
+	.buffers = &tx_buf,
+	.count = 0,
+    };
+
     while (1) {
-        int rc = spi_read_dt(&slave_dev, &rx_set);
+        int rc = spi_write_dt(&slave_dev,&rx_set);
 
         if (rc > 0) {
-            buf[7] = '\0';
-
-            printk("RX hex: ");
-            for (int i = 0; i < 7; i++) {
-                printk("%02X ", buf[i]);
-            }
-            printk("\n");
-
-            printk("RX str: %s\n", (char *)buf);
-        } else {
-            printk("spi_read_dt rc=%d\n", rc);
-            k_msleep(10);
+		printk("hex 1: 0x%X, hex 2: 0x%X\n", data[0], data[1]);
         }
     }
 

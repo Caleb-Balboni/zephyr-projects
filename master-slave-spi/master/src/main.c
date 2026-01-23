@@ -9,7 +9,6 @@
 static const struct spi_dt_spec master_dev =
     SPI_DT_SPEC_GET(DT_NODELABEL(master_frdm), SPI_OP, 0);
 
-static uint8_t tx_buf_data[] = { 'H', 'e', 'l', 'l', 'o', '!', '\0' };
 
 int main(void)
 {
@@ -18,23 +17,36 @@ int main(void)
         return 0;
     }
 
-    /* send including '\0' */
-    const size_t tx_len = sizeof(tx_buf_data);
+    uint8_t data[2] = {0x00, 0x00};
 
-    struct spi_buf tx_buf = {
-        .buf = tx_buf_data,
-        .len = tx_len,
-    };
 
-    struct spi_buf_set tx_set = {
-        .buffers = &tx_buf,
-        .count = 1,
-    };
+    k_msleep(3000);
 
     while (1) {
+	struct spi_buf tx_buf = {
+		.buf = &data,
+		.len = 2,
+	};
+
+	struct spi_buf_set tx_set = {
+		.buffers = &tx_buf,
+		.count = 1,
+	};
+
+	struct spi_buf rx_buf = {
+		.buf = NULL,
+		.len = 0,
+	};
+
+	struct spi_buf_set rx_set = {
+		.buffers = &rx_buf,
+		.count = 0,
+	};
         int rc = spi_write_dt(&master_dev, &tx_set);
+	data[0] += 0x10;
+	data[1] += 0x10;
         printk("spi_write_dt rc=%d\n", rc);
-        k_msleep(500);
+	k_msleep(100);
     }
 
     return 0;
