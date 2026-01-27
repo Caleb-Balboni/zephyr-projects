@@ -1,0 +1,13 @@
+# Target labels
+ cpu1
+# Source files and their labels
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/CMakeFiles/cpu1
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/CMakeFiles/cpu1.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/CMakeFiles/cpu1-complete.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-build.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-configure.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-download.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-install.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-mkdir.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-patch.rule
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-update.rule
