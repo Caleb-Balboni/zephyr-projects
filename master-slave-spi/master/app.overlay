@@ -6,7 +6,7 @@
 	master_frdm: master_frdm@0 {
 		compatible = "vnd,spi-device";
 		reg = <0>;
-		spi-max-frequency = <16000000>;
+		spi-max-frequency = <1600000>;
 		label = "master_frdm";
 	};
 };
