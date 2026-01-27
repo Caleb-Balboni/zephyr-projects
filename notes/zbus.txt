@@ -1,0 +1,31 @@
+OVERVIEW
+
+The Zephyr zbus provides a completed implementation of thread safe intercommunication. With the zbus
+system you can have multiple channels (with their own messaging system) which will have listeners,
+observers and subscribers.
+
+Listeners, a callback that the event dispatcher executes every time an observed channel is published or notified
+
+Async Listeners, a callback that the event dispatcher schedules to execute in a work queue (system work queue by default)
+every time an observed channel is published or notified
+
+Subscriber, a thread-based observer that relies internally on a message queue where the event dispatcher puts a changed channel’s
+reference every time an observed channel is published or notified. Note this kind of observer does not receive the message itself.
+It should read the message from the channel after receiving the notification
+(this would be especially interesting for the spi implementation later, as this would fit perfectly
+for the transaction of data)
+
+Message subscribers, a thread-based observer that relies internally on a FIFO where the event dispatcher puts a copy of
+the message every time an observed channel is published or notified.
+
+
+DATA SHARIING OPTIONS
+
+There are two ways that data can be shared in this messaging system.
+
+The first is the message itself, which is a user defined struct. This is obviously helpful as we can essentially pass any
+type of information as long as the reciever knows how to correctly cast the data.
+
+The second is a 'user data' structure that is held internally within the channel itself, the
+modification of this structure will affect all other recievers as this is a shared data structure,
+and is meant to hold info about the channel itself.
