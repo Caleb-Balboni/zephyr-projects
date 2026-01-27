@@ -38,6 +38,7 @@ int main(void) {
 	while (1) {
 		k_msleep(2000);
 		int code = mbox_send_dt(&mbox_transmit, NULL);
+		printk("cpu1\n");
 		if (code != 0) {
 			printk("failed to send message code: %d\n", code);
 		}
