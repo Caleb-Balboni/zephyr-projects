@@ -25,3 +25,4 @@ sysbuild_toplevel_IS_TOP_LEVEL:STATIC=ON
 sysbuild_toplevel_SOURCE_DIR:STATIC=/home/bionet-caleb/testing/zephyr-testing/zephyr/share/sysbuild
 BOARD:STRING=frdm_mcxn947/mcxn947/cpu0
 SYSBUILD_NAME:STRING=cpu1
+cpu1_BOARD:STRING=frdm_mcxn947/mcxn947/cpu1

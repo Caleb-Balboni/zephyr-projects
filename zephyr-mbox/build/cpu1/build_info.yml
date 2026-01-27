@@ -6,13 +6,14 @@ cmake:
     name: 'frdm_mcxn947'
     path:
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947'
-    qualifiers: 'mcxn947/cpu0'
+    qualifiers: 'mcxn947/cpu1'
     revision: ''
   devicetree:
     bindings-dirs:
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/bindings'
     files:
-     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dts'
+     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts'
+     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.overlay'
     include-dirs:
      - '/home/bionet-caleb/testing/zephyr-testing/modules/hal/ambiq/dts'
      - '/home/bionet-caleb/testing/zephyr-testing/modules/hal/atmel/include'
@@ -39,13 +40,17 @@ cmake:
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm'
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arc'
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/dts'
+    user-files:
+     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.overlay'
   kconfig:
     files:
-     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig'
+     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig'
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/prj.conf'
+     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.conf'
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/.config.sysbuild'
     user-files:
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/prj.conf'
+     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.conf'
   toolchain:
     name: 'zephyr'
     path: '/home/bionet-caleb/zephyr-sdk-0.17.4'

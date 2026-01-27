@@ -22,17 +22,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_ARM_ARMV8M_MPU_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      1013
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_ARM_ARMV8M_SYSTICK_ENABLED",
     "n",
     "bool",
@@ -44,14 +33,14 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_ARM_CORTEX_M33F_ENABLED",
+    "CONFIG_DT_HAS_ARM_CORTEX_M33_ENABLED",
     "n",
     "bool",
     "y",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      1128
+      1123
     ]
   ],
   [
@@ -63,17 +52,6 @@
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
       1388
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_ETHERNET_PHY_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      2643
     ]
   ],
   [
@@ -143,17 +121,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_EHCI_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      6833
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_EIM_ENABLED",
     "n",
     "bool",
@@ -198,28 +165,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_ENET_QOS_MAC_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      6883
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_ENET_QOS_MDIO_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      6888
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_ERM_ENABLED",
     "n",
     "bool",
@@ -231,39 +176,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_FLEXCAN_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      6913
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_FLEXCAN_FD_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      6918
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_FLEXIO_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      6923
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_FLEXPWM_ENABLED",
     "n",
     "bool",
@@ -272,61 +184,6 @@
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
       6938
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_IMX_FLEXSPI_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7108
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_IMX_FLEXSPI_NOR_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7143
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_IMX_PWM_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7228
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_IMX_USDHC_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7268
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_IRTC_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7323
     ]
   ],
   [
@@ -363,28 +220,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_LPC_CTIMER_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7493
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_LPC_LPADC_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7543
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_LPC_SYSCON_ENABLED",
     "n",
     "bool",
@@ -415,50 +250,6 @@
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
       7593
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_LPC_WWDT_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7603
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_LPDAC_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7648
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_LPI2C_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7653
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_LPSPI_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7668
     ]
   ],
   [
@@ -506,28 +297,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_MCUX_I2S_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7723
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_MCUX_I3C_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7728
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_MRT_ENABLED",
     "n",
     "bool",
@@ -539,17 +308,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_MRT_CHANNEL_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7818
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_MSF1_ENABLED",
     "n",
     "bool",
@@ -558,17 +316,6 @@
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
       7823
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_OPAMP_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      7848
     ]
   ],
   [
@@ -594,17 +341,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_SCTIMER_PWM_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      8348
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_SMARTDMA_ENABLED",
     "n",
     "bool",
@@ -627,17 +363,6 @@
     ]
   ],
   [
-    "CONFIG_DT_HAS_NXP_USBPHY_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      8453
-    ]
-  ],
-  [
     "CONFIG_DT_HAS_NXP_VBAT_ENABLED",
     "n",
     "bool",
@@ -646,17 +371,6 @@
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
       8458
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_NXP_VREF_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      8473
     ]
   ],
   [
@@ -682,6 +396,17 @@
     ]
   ],
   [
+    "CONFIG_DT_HAS_VND_MBOX_CONSUMER_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
+      14128
+    ]
+  ],
+  [
     "CONFIG_DT_HAS_ZEPHYR_MEMORY_REGION_ENABLED",
     "n",
     "bool",
@@ -701,17 +426,6 @@
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
       15128
-    ]
-  ],
-  [
-    "CONFIG_DT_HAS_ZEPHYR_SDMMC_DISK_ENABLED",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/Kconfig/Kconfig.dts",
-      15183
     ]
   ],
   [
@@ -761,21 +475,13 @@
     ]
   ],
   [
-    "CONFIG_FPU",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
     "CONFIG_SERIAL",
     "y",
     "bool",
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       9
     ]
   ],
@@ -818,7 +524,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       10
     ]
   ],
@@ -889,11 +595,9 @@
     "CONFIG_SOC_RESET_HOOK",
     "y",
     "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_CLOCK_CONTROL",
@@ -909,11 +613,11 @@
     "CONFIG_IDLE_STACK_SIZE",
     "y",
     "int",
-    "320",
+    "256",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      175
+      176
     ]
   ],
   [
@@ -1016,16 +720,6 @@
     null
   ],
   [
-    "CONFIG_CPU_HAS_ARM_MPU",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
-    ]
-  ],
-  [
     "CONFIG_PM_DEVICE",
     "y",
     "bool",
@@ -1070,9 +764,12 @@
     "CONFIG_USE_DT_CODE_PARTITION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "assign",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      13
+    ]
   ],
   [
     "CONFIG_MULTI_LEVEL_INTERRUPTS",
@@ -1179,13 +876,13 @@
   ],
   [
     "CONFIG_FLASH_LOAD_OFFSET",
-    "y",
+    "n",
     "hex",
-    "0",
+    "0x10a000",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
-      106
+      105
     ]
   ],
   [
@@ -1246,12 +943,9 @@
     "CONFIG_HW_STACK_PROTECTION",
     "y",
     "bool",
-    "y",
-    "assign",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
-      14
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_NXP_FW_LOADER",
@@ -1284,7 +978,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       11
     ]
   ],
@@ -1322,9 +1016,12 @@
     "CONFIG_SECOND_CORE_MCUX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "assign",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.conf",
+      2
+    ]
   ],
   [
     "CONFIG_ICACHE_LINE_SIZE",
@@ -1365,11 +1062,11 @@
     "CONFIG_MCUX_CORE_SUFFIX",
     "n",
     "string",
-    "_cm33_core0",
+    "_cm33_core1",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig",
-      67
+      68
     ]
   ],
   [
@@ -1460,7 +1157,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       7
     ]
   ],
@@ -1915,16 +1612,6 @@
     "select",
     [
       "SOC_FAMILY_MCXN"
-    ]
-  ],
-  [
-    "CONFIG_HAS_MCUX_CACHE",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
     ]
   ],
   [
@@ -2595,7 +2282,7 @@
     "CONFIG_BOARD_TARGET",
     "n",
     "string",
-    "frdm_mcxn947/mcxn947/cpu0",
+    "frdm_mcxn947/mcxn947/cpu1",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig",
@@ -2622,7 +2309,7 @@
     ]
   ],
   [
-    "CONFIG_BOARD_FRDM_MCXN947_MCXN947_CPU0",
+    "CONFIG_BOARD_FRDM_MCXN947_MCXN947_CPU1",
     "n",
     "bool",
     "y",
@@ -2636,7 +2323,7 @@
     "CONFIG_BOARD_QUALIFIERS",
     "n",
     "string",
-    "mcxn947/cpu0",
+    "mcxn947/cpu1",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig.v2",
@@ -2693,17 +2380,17 @@
     "y",
     "select",
     [
-      "SOC_MCXN947_CPU0"
+      "SOC_MCXN947_CPU1"
     ]
   ],
   [
-    "CONFIG_SOC_MCXN947_CPU0",
+    "CONFIG_SOC_MCXN947_CPU1",
     "n",
     "bool",
     "y",
     "select",
     [
-      "BOARD_FRDM_MCXN947 && (BOARD_FRDM_MCXN947_MCXN947_CPU0 || BOARD_FRDM_MCXN947_MCXN947_CPU0_QSPI || BOARD_FRDM_MCXN947_MCXN947_CPU0_NS)"
+      "BOARD_FRDM_MCXN947 && BOARD_FRDM_MCXN947_MCXN947_CPU1"
     ]
   ],
   [
@@ -2725,23 +2412,23 @@
     null
   ],
   [
-    "CONFIG_ARM_SECURE_FIRMWARE",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
-      221
-    ]
-  ],
-  [
     "CONFIG_FLASH_DISABLE_CACHE64",
     "y",
     "bool",
     null,
     "unset",
     null
+  ],
+  [
+    "CONFIG_SECOND_CORE_MCUX_ACCESS_LEVEL",
+    "y",
+    "int",
+    "3",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig",
+      75
+    ]
   ],
   [
     "CONFIG_NXP_FLEXSPI_BOOT_HEADER",
@@ -2808,25 +2495,6 @@
     [
       "CPU_CORTEX_M && ARM"
     ]
-  ],
-  [
-    "CONFIG_ARM_MPU_REGION_MIN_ALIGN_AND_SIZE",
-    "n",
-    "int",
-    "32",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/mpu/Kconfig",
-      14
-    ]
-  ],
-  [
-    "CONFIG_MPU_ALLOW_FLASH_WRITE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
   ],
   [
     "CONFIG_CPU_CORTEX_M",
@@ -2920,22 +2588,9 @@
     "CONFIG_BUILTIN_STACK_GUARD",
     "y",
     "bool",
-    "y",
-    "imply",
-    [
-      "ARM_STACK_PROTECTION && CPU_CORTEX_M_HAS_SPLIM && ARM"
-    ]
-  ],
-  [
-    "CONFIG_ARM_STACK_PROTECTION",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
-      203
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_FP16",
@@ -2974,7 +2629,7 @@
     "y",
     "select",
     [
-      "SOC_MCXN947_CPU0"
+      "SOC_MCXN947_CPU1"
     ]
   ],
   [
@@ -3025,8 +2680,7 @@
     "y",
     "select",
     [
-      "ARMV8_M_MAINLINE && CPU_CORTEX_M && ARM",
-      "ARMV8_M_SE && !ARM_NONSECURE_FIRMWARE && (ARMV8_M_BASELINE || ARMV8_M_MAINLINE) && CPU_CORTEX_M && ARM"
+      "ARMV8_M_MAINLINE && CPU_CORTEX_M && ARM"
     ]
   ],
   [
@@ -3067,36 +2721,6 @@
     "select",
     [
       "CPU_CORTEX_M33 && ARM"
-    ]
-  ],
-  [
-    "CONFIG_ARMV8_M_SE",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "CPU_CORTEX_M33 && CPU_HAS_TEE && ARM"
-    ]
-  ],
-  [
-    "CONFIG_ARMV7_M_ARMV8_M_FP",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "CPU_CORTEX_M33 && CPU_HAS_FPU && ARM"
-    ]
-  ],
-  [
-    "CONFIG_ARMV8_M_DSP",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
     ]
   ],
   [
@@ -3151,93 +2775,6 @@
     null
   ],
   [
-    "CONFIG_NULL_POINTER_EXCEPTION_DETECTION_MPU",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_ARM_TRUSTZONE_M",
-    "y",
-    "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
-    ]
-  ],
-  [
-    "CONFIG_ARM_SECURE_BUSFAULT_HARDFAULT_NMI",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_ARM_FIRMWARE_HAS_SECURE_ENTRY_FUNCS",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_MPU_STACK_GUARD",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_MPU_DISABLE_BACKGROUND_MAP",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_CUSTOM_SECTION_ALIGN",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_CUSTOM_SECTION_MIN_ALIGN_SIZE",
-    "y",
-    "int",
-    "32",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/mpu/Kconfig",
-      65
-    ]
-  ],
-  [
-    "CONFIG_ARM_MPU_SRAM_WRITE_THROUGH",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
-  ],
-  [
-    "CONFIG_CPU_HAS_ARM_SAU",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
-    ]
-  ],
-  [
     "CONFIG_ARM",
     "n",
     "bool",
@@ -3277,17 +2814,6 @@
     ]
   ],
   [
-    "CONFIG_ARM_MPU",
-    "y",
-    "bool",
-    "y",
-    "assign",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
-      13
-    ]
-  ],
-  [
     "CONFIG_LITTLE_ENDIAN",
     "n",
     "bool",
@@ -3302,7 +2828,7 @@
     "CONFIG_SRAM_SIZE",
     "y",
     "int",
-    "320",
+    "64",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
@@ -3313,31 +2839,12 @@
     "CONFIG_SRAM_BASE_ADDRESS",
     "y",
     "hex",
-    "0x30000000",
+    "0x30050000",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
       225
     ]
-  ],
-  [
-    "CONFIG_TRUSTED_EXECUTION_SECURE",
-    "y",
-    "bool",
-    "y",
-    "assign",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
-      17
-    ]
-  ],
-  [
-    "CONFIG_USERSPACE",
-    "y",
-    "bool",
-    null,
-    "unset",
-    null
   ],
   [
     "CONFIG_NOINIT_SNIPPET_FIRST",
@@ -3449,16 +2956,6 @@
     ]
   ],
   [
-    "CONFIG_ARCH_HAS_TRUSTED_EXECUTION",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "CPU_CORTEX_M && ARM_TRUSTZONE_M && ARM"
-    ]
-  ],
-  [
     "CONFIG_ARCH_HAS_STACK_PROTECTION",
     "n",
     "bool",
@@ -3466,26 +2963,6 @@
     "select",
     [
       "CPU_CORTEX_M && ((ARM_MPU && !ARMV6_M_ARMV8_M_BASELINE) || CPU_CORTEX_M_HAS_SPLIM) && ARM"
-    ]
-  ],
-  [
-    "CONFIG_ARCH_HAS_USERSPACE",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "CPU_CORTEX_M && ARM_MPU && ARM"
-    ]
-  ],
-  [
-    "CONFIG_ARCH_HAS_EXECUTABLE_PAGE_BIT",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "ARM_MPU && (CPU_AARCH32_CORTEX_R || CPU_CORTEX_M) && CPU_HAS_MPU"
     ]
   ],
   [
@@ -3619,77 +3096,6 @@
     ]
   ],
   [
-    "CONFIG_CPU_HAS_TEE",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "CPU_HAS_ARM_SAU && ARM"
-    ]
-  ],
-  [
-    "CONFIG_CPU_HAS_FPU",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "SOC_MCXN947_CPU0"
-    ]
-  ],
-  [
-    "CONFIG_CPU_HAS_MPU",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "CPU_HAS_ARM_MPU && ARM"
-    ]
-  ],
-  [
-    "CONFIG_MPU",
-    "y",
-    "bool",
-    "y",
-    "select",
-    [
-      "ARM_MPU && CPU_HAS_MPU"
-    ]
-  ],
-  [
-    "CONFIG_MPU_REQUIRES_NON_OVERLAPPING_REGIONS",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "ARM_MPU && CPU_HAS_ARM_MPU && (ARMV8_M_BASELINE || ARMV8_M_MAINLINE || AARCH32_ARMV8_R) && CPU_HAS_MPU"
-    ]
-  ],
-  [
-    "CONFIG_MPU_GAP_FILLING",
-    "y",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
-      948
-    ]
-  ],
-  [
-    "CONFIG_SRAM_REGION_PERMISSIONS",
-    "y",
-    "bool",
-    "y",
-    "select",
-    [
-      "ARM_MPU && CPU_HAS_MPU"
-    ]
-  ],
-  [
     "CONFIG_CACHE_DOUBLEMAP",
     "y",
     "bool",
@@ -3785,23 +3191,12 @@
     "CONFIG_THREAD_STACK_INFO",
     "y",
     "bool",
-    "y",
-    "select",
-    [
-      "BUILTIN_STACK_GUARD && CPU_CORTEX_M_HAS_SPLIM && ARM",
-      "ARM_MPU && CPU_HAS_MPU"
-    ]
-  ],
-  [
-    "CONFIG_THREAD_CUSTOM_DATA",
-    "y",
-    "bool",
     null,
     "unset",
     null
   ],
   [
-    "CONFIG_DYNAMIC_THREAD",
+    "CONFIG_THREAD_CUSTOM_DATA",
     "y",
     "bool",
     null,
@@ -4166,27 +3561,6 @@
     ]
   ],
   [
-    "CONFIG_ARCH_MEM_DOMAIN_SUPPORTS_ISOLATED_STACKS",
-    "n",
-    "bool",
-    "y",
-    "select",
-    [
-      "ARM_MPU && (CPU_AARCH32_CORTEX_R || CPU_CORTEX_M) && CPU_HAS_MPU"
-    ]
-  ],
-  [
-    "CONFIG_MEM_DOMAIN_ISOLATED_STACKS",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.mem_domain",
-      66
-    ]
-  ],
-  [
     "CONFIG_TICKET_SPINLOCKS",
     "y",
     "bool",
@@ -4492,7 +3866,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0_defconfig",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       8
     ]
   ],
@@ -4818,9 +4192,45 @@
     "CONFIG_MBOX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "assign",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.conf",
+      1
+    ]
+  ],
+  [
+    "CONFIG_MBOX_NXP_MAILBOX",
+    "y",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mbox/Kconfig.nxp_mailbox",
+      6
+    ]
+  ],
+  [
+    "CONFIG_MBOX_TI_SECURE_PROXY_PRIORITY",
+    "y",
+    "int",
+    "30",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mbox/Kconfig.ti_secproxy",
+      13
+    ]
+  ],
+  [
+    "CONFIG_MBOX_INIT_PRIORITY",
+    "y",
+    "int",
+    "40",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mbox/Kconfig",
+      37
+    ]
   ],
   [
     "CONFIG_MDIO",
@@ -5725,9 +5135,12 @@
     "CONFIG_SYS_HEAP_SMALL_ONLY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/heap/Kconfig",
+      84
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_BIG_ONLY",
@@ -5741,12 +5154,9 @@
     "CONFIG_SYS_HEAP_AUTO",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/heap/Kconfig",
-      85
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MULTI_HEAP",
@@ -6518,17 +5928,6 @@
     "CONFIG_MEM_ATTR",
     "y",
     "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/mem_mgmt/Kconfig",
-      6
-    ]
-  ],
-  [
-    "CONFIG_MEM_ATTR_HEAP",
-    "y",
-    "bool",
     null,
     "unset",
     null
@@ -6908,13 +6307,13 @@
   ],
   [
     "CONFIG_FLASH_LOAD_SIZE",
-    "y",
+    "n",
     "hex",
-    "0",
+    "0xf6000",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
-      119
+      118
     ]
   ],
   [

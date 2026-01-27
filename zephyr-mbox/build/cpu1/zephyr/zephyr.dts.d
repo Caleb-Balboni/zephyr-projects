@@ -1,7 +1,6 @@
 empty_file.o: \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/misc/empty_file.c \
- /home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dts \
- /home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi \
+ /home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/mem.h \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/armv8-m.dtsi \
@@ -28,4 +27,5 @@ empty_file.o: \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/gpio/arduino-header-r3.h \
  /home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/gpio/dvp-20pin-connector.h \
- /home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h
+ /home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.overlay

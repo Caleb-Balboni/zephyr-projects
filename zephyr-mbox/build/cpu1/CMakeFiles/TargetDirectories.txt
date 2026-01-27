@@ -54,11 +54,6 @@
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/cortex_m/cmse/CMakeFiles/arch__arm__core__cortex_m__cmse.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/cortex_m/cmse/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/cortex_m/cmse/CMakeFiles/rebuild_cache.dir
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/cortex_m/tz/CMakeFiles/edit_cache.dir
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/cortex_m/tz/CMakeFiles/rebuild_cache.dir
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/mpu/CMakeFiles/arch__arm__core__mpu.dir
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/mpu/CMakeFiles/edit_cache.dir
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/arch/arch/arm/core/mpu/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/lib/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/lib/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/lib/libc/CMakeFiles/edit_cache.dir
@@ -189,6 +184,9 @@
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/gpio/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/gpio/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/mbox/CMakeFiles/drivers__mbox.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/mbox/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/mbox/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/mfd/CMakeFiles/drivers__mfd.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/mfd/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/drivers/mfd/CMakeFiles/rebuild_cache.dir

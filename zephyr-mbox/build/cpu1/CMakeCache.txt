@@ -24,7 +24,7 @@ APPLICATION_CONFIG_DIR:PATH=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-
 APPLICATION_SOURCE_DIR:PATH=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1
 
 //Selected board
-BOARD:STRING=frdm_mcxn947/mcxn947/cpu0
+BOARD:STRING=frdm_mcxn947/mcxn947/cpu1
 
 //Main board directory for board (frdm_mcxn947)
 BOARD_DIR:PATH=/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947
@@ -42,7 +42,7 @@ BYPRODUCT_KERNEL_BIN_NAME:FILEPATH=/home/bionet-caleb/testing/zephyr-testing/zep
 BYPRODUCT_KERNEL_ELF_NAME:FILEPATH=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1/zephyr/zephyr.elf
 
 //Selected board
-CACHED_BOARD:STRING=frdm_mcxn947/mcxn947/cpu0
+CACHED_BOARD:STRING=frdm_mcxn947/mcxn947/cpu1
 
 //Selected device: MCXN947
 CACHED_DEVICE:STRING=MCXN947
@@ -312,7 +312,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 // listed, e.g. CONF_FILE="prj1.conf;prj2.conf" The CACHED_CONF_FILE
 // is internal Zephyr variable used between CMake runs. To change
 // CONF_FILE, use the CONF_FILE variable.
-CONF_FILE:STRING=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/prj.conf
+CONF_FILE:STRING=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/prj.conf;/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.conf
 
 //Path to a program.
 DTC:FILEPATH=/home/bionet-caleb/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/usr/bin/dtc
@@ -322,7 +322,7 @@ DTC:FILEPATH=/home/bionet-caleb/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/
 // parameter. These settings will override the settings in the
 // board's .dts file. Multiple files may be listed, e.g. DTC_OVERLAY_FILE="dts1.overlay
 // dts2.overlay"
-DTC_OVERLAY_FILE:STRING=
+DTC_OVERLAY_FILE:STRING=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.overlay
 
 //No help, variable specified on the command line.
 EXTRA_KCONFIG_TARGETS:UNINITIALIZED=
@@ -420,8 +420,8 @@ ZephyrBuildConfiguration_DIR:PATH=ZephyrBuildConfiguration_DIR-NOTFOUND
 //The directory containing a CMake configuration file for Zephyr.
 Zephyr_DIR:PATH=/home/bionet-caleb/testing/zephyr-testing/zephyr/share/zephyr-package/cmake
 
-//The variable core_id_suffix_name: _cm33_core0
-core_id_suffix_name:STRING=_cm33_core0
+//The variable core_id_suffix_name: _cm33_core1
+core_id_suffix_name:STRING=_cm33_core1
 
 //Value Computed by CMake
 cpu1_BINARY_DIR:STATIC=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1
@@ -438,11 +438,8 @@ device:STRING=MCXN947
 //The variable device_root: devices
 device_root:STRING=devices
 
-//The variable multicore_foldername: cm33_core0
-multicore_foldername:STRING=cm33_core0
-
-//The variable multicore_sec_core_foldername: cm33_core1
-multicore_sec_core_foldername:STRING=cm33_core1
+//The variable multicore_foldername: cm33_core1
+multicore_foldername:STRING=cm33_core1
 
 //The variable soc_periph: periph
 soc_periph:STRING=periph
@@ -571,7 +568,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=633
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=632
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

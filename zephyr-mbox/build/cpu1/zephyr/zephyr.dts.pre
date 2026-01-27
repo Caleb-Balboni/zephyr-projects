@@ -1,17 +1,13 @@
 # 0 "/home/bionet-caleb/testing/zephyr-testing/zephyr/misc/empty_file.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dts" 1
+# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 1
 
 
 
 
 
 
-/dts-v1/;
-
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi" 1
-# 11 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi"
 /dts-v1/;
 
 # 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 1 3 4
@@ -1589,7 +1585,7 @@
 &fmu {
  status = "okay";
 };
-# 14 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi" 2
+# 10 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 2
 # 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 1
 
 
@@ -2355,69 +2351,51 @@ zephyr_mipi_dbi_parallel: &flexio0_lcd {
 dvp_20pin_i2c: &flexcomm7_lpi2c7 {};
 
 dvp_20pin_interface: &video_sdma {};
-# 15 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi" 2
+# 11 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 2
 
 / {
+ model = "NXP FRDM_N94 board";
+ compatible = "nxp,mcxn947", "nxp,mcx";
+
  cpus {
-  /delete-node/ cpu@1;
+  /delete-node/ cpu@0;
  };
 
  chosen {
-  zephyr,sram = &sram0;
+  zephyr,sram = &sramg;
   zephyr,flash = &flash;
   zephyr,flash-controller = &fmu;
-  zephyr,code-partition = &slot0_partition;
-  zephyr,uart-mcumgr = &flexcomm4_lpuart4;
-  zephyr,console = &flexcomm4_lpuart4;
-  zephyr,shell-uart = &flexcomm4_lpuart4;
-  zephyr,canbus = &flexcan0;
-  zephyr,code-cpu1-partition = &slot1_partition;
- };
-
- aliases {
-  watchdog0 = &wwdt0;
-  pwm-0 = &flexpwm1_pwm0;
-  pwm-1 = &sc_timer;
-  rtc = &rtc;
+  zephyr,code-partition = &slot1_partition;
+  zephyr,console = &flexcomm2_lpuart2;
+  zephyr,shell-uart = &flexcomm2_lpuart2;
  };
 };
-# 50 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi"
-&sram0 {
- compatible = "mmio-sram";
- reg = <0x20000000 ((320) * 1024)>;
+
+&flexcomm2 {
+ status = "okay";
+};
+
+&flexcomm2_lpuart2 {
+ status = "okay";
 };
 
 &mbox {
  status = "okay";
 };
 
-
-&gpio5 {
- status = "okay";
-};
-
-
 &gpio4 {
  status = "okay";
 };
-
-
-&gpio3 {
- status = "okay";
-};
-
-
-&gpio2 {
- status = "okay";
-};
-
 
 &gpio1 {
  status = "okay";
 };
 
-
 &gpio0 {
+ status = "okay";
+};
+
+&gpio2 {
  status = "okay";
 };
 
@@ -2436,190 +2414,14 @@ dvp_20pin_interface: &video_sdma {};
 &edma0 {
  status = "okay";
 };
-
-&flexcomm1 {
- status = "okay";
-};
-
-
-&flexcomm1_lpspi1 {
- status = "okay";
-};
-
-
-
-
-
-&flexcomm2 {
- status = "okay";
-};
-
-
-&flexcomm2_lpi2c2 {
- status = "okay";
-};
-
-
-&flexcomm2_lpuart2 {
- status = "okay";
-};
-
-&flexcomm3 {
- status = "okay";
-};
-
-
-&flexcomm3_lpi2c3 {
- status = "okay";
-};
-
-&flexcomm4 {
- status = "okay";
-};
-
-
-&flexcomm4_lpuart4 {
- status = "okay";
-};
-# 157 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi"
-&flexcomm6 {
- status = "okay";
-};
-
-&flexcomm7 {
- status = "okay";
-};
-
-
-&flexcomm7_lpi2c7 {
- status = "okay";
-};
-
-&flexspi {
- status = "okay";
-};
-
-&w25q64jvssiq {
- status = "okay";
-
- partitions {
-  compatible = "fixed-partitions";
-  #address-cells = <1>;
-  #size-cells = <1>;
-
-  storage_partition: partition@0 {
-   label = "storage";
-   reg = <0x0 (((8) * 1024) * 1024)>;
-  };
- };
-};
-
-&dac0 {
- status = "okay";
-};
-
-&enet {
- status = "okay";
-};
-
-&enet_mac {
- status = "okay";
-};
-
-&enet_mdio {
- status = "okay";
-};
-
-&phy {
- status = "okay";
-};
-
-&wwdt0 {
- status = "okay";
-};
-
-&flexpwm1_pwm0 {
- status = "okay";
-};
-
-&flexcan0 {
- status = "okay";
-};
-
-&ctimer0 {
- status = "okay";
-};
-
-&usdhc0 {
- status = "okay";
-
- sdmmc {
-  compatible = "zephyr,sdmmc-disk";
-  disk-name = "SD";
-  status = "okay";
- };
-};
-
-&vref {
- status = "okay";
-};
-
-&lpadc0 {
- status = "okay";
-};
-
-zephyr_udc0: &usb1 {
- status = "okay";
- phy-handle = <&usbphy1>;
-};
-
-&usbphy1 {
- status = "okay";
- tx-d-cal = <4>;
- tx-cal-45-dp-ohms = <7>;
- tx-cal-45-dm-ohms = <7>;
-};
-
-&opamp0 {
- status = "okay";
-};
-
-&lptmr0 {
- status = "okay";
-};
-
-&i3c1 {
- status = "okay";
-};
-
-&flexio0 {
- status = "okay";
-};
-
-&mrt0_channel0 {
- status = "okay";
-};
-
-&rtc {
- status = "okay";
-};
-
-&sc_timer {
- status = "okay";
-};
-
-&sai1 {
- status = "okay";
-};
-
-&sai0 {
- status = "okay";
-};
-# 10 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dts" 2
-
+# 0 "<command-line>" 2
+# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/cpu1/boards/frdm_mcxn947_mcxn947_cpu1.overlay" 1
 / {
- model = "NXP FRDM_N94 board";
- compatible = "nxp,mcxn947", "nxp,mcx";
+ cpu1: mbox-consumer {
+  compatible = "vnd,mbox-consumer";
+  mboxes = <&mbox 1>, <&mbox 0>;
+  mbox-names = "tx", "rx";
+ };
 };
 # 0 "<command-line>" 2
 # 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/misc/empty_file.c"

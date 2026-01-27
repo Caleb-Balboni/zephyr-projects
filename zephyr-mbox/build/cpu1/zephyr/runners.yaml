@@ -27,7 +27,7 @@ args:
   linkserver:
     - --dt-flash=y
     - --device=MCXN947:FRDM-MCXN947
-    - --core=cm33_core0
+    - --core=all
     - --override=/device/memory/1/flash-driver=MCXN9xx_S.cfx
     - --override=/device/memory/1/location=0x10000000
     - --override=/device/memory/-={"location":"0x30000000",                               "size":"0x00060000","type":"RAM"}

@@ -1,9 +1,9 @@
  OUTPUT_FORMAT("elf32-littlearm")
-_region_min_align = 32;
+_region_min_align = 4;
 MEMORY
     {
-    FLASH (rx) : ORIGIN = (0x10000000 + 0x0), LENGTH = (2048 * 1024 - 0x0 - 0x0)
-    RAM (wx) : ORIGIN = 0x30000000, LENGTH = (320 * 1K)
+    FLASH (rx) : ORIGIN = (0x10000000 + 0x10a000), LENGTH = (0xf6000 - 0x0)
+    RAM (wx) : ORIGIN = 0x30050000, LENGTH = (64 * 1K)
     SRAMX ( rw ) : ORIGIN = (335544320), LENGTH = (98304)
     IDT_LIST (wx) : ORIGIN = 0xFFFF7FFF, LENGTH = 32K
     }
@@ -41,7 +41,7 @@ SECTIONS
  *(.iplt)
  }
    
- __rom_region_start = (0x10000000 + 0x0);
+ __rom_region_start = (0x10000000 + 0x10a000);
     rom_start :
  {
 HIDDEN(__rom_start_address = .);
@@ -114,6 +114,7 @@ KEEP(*(SORT(.__device_deps_pass2*)));
 __device_deps_end = .;
  } > FLASH
 gpio_driver_api_area : { _gpio_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._gpio_driver_api.static.*))); _gpio_driver_api_list_end = .;; } > FLASH
+mbox_driver_api_area : { _mbox_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mbox_driver_api.static.*))); _mbox_driver_api_list_end = .;; } > FLASH
 shared_irq_driver_api_area : { _shared_irq_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._shared_irq_driver_api.static.*))); _shared_irq_driver_api_list_end = .;; } > FLASH
 crypto_driver_api_area : { _crypto_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._crypto_driver_api.static.*))); _crypto_driver_api_list_end = .;; } > FLASH
 adc_driver_api_area : { _adc_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._adc_driver_api.static.*))); _adc_driver_api_list_end = .;; } > FLASH
@@ -154,7 +155,6 @@ ipm_driver_api_area : { _ipm_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._ip
 led_driver_api_area : { _led_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._led_driver_api.static.*))); _led_driver_api_list_end = .;; } > FLASH
 led_strip_driver_api_area : { _led_strip_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._led_strip_driver_api.static.*))); _led_strip_driver_api_list_end = .;; } > FLASH
 lora_driver_api_area : { _lora_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._lora_driver_api.static.*))); _lora_driver_api_list_end = .;; } > FLASH
-mbox_driver_api_area : { _mbox_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mbox_driver_api.static.*))); _mbox_driver_api_list_end = .;; } > FLASH
 mdio_driver_api_area : { _mdio_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mdio_driver_api.static.*))); _mdio_driver_api_list_end = .;; } > FLASH
 mipi_dbi_driver_api_area : { _mipi_dbi_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mipi_dbi_driver_api.static.*))); _mipi_dbi_driver_api_list_end = .;; } > FLASH
 mipi_dsi_driver_api_area : { _mipi_dsi_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mipi_dsi_driver_api.static.*))); _mipi_dsi_driver_api_list_end = .;; } > FLASH
@@ -286,7 +286,7 @@ ztest :
  *(.igot)
  }
    
- . = 0x30000000;
+ . = 0x30050000;
  . = ALIGN(_region_min_align);
  _image_ram_start = .;
 .ramfunc : ALIGN_WITH_INPUT
@@ -415,7 +415,7 @@ noinit (NOLOAD) :
         *(.noinit)
         *(".noinit.*")
 } > RAM AT > RAM
-    __kernel_ram_end = 0x30000000 + (320 * 1K);
+    __kernel_ram_end = 0x30050000 + (64 * 1K);
     __kernel_ram_size = __kernel_ram_end - __kernel_ram_start;
     .last_ram_section (NOLOAD) :
     {

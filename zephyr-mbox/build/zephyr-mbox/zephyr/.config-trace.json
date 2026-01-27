@@ -1336,7 +1336,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.conf",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/prj.conf",
       2
     ]
   ],
@@ -4849,7 +4849,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.conf",
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/prj.conf",
       1
     ]
   ],
