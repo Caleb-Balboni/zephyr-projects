@@ -1,0 +1,10 @@
+default: zephyr-mbox
+build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build
+domains:
+  - name: zephyr-mbox
+    build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox
+  - name: cpu1
+    build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1
+flash_order:
+  - zephyr-mbox
+  - cpu1

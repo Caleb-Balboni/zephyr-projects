@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/CMakeFiles/cpu1"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/CMakeFiles/cpu1.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/CMakeFiles/cpu1-complete.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-build.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-configure.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-download.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-install.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-mkdir.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-patch.rule"
+		},
+		{
+			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/cpu1-prefix/src/cpu1-stamp/cpu1-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpu1"
+		],
+		"name" : "cpu1"
+	}
+}
