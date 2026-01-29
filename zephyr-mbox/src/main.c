@@ -1,5 +1,6 @@
 #include <zephyr/drivers/mbox.h>
 #include <zephyr/kernel.h>
+#include <zephyr/devicetree.h>
 #include <stdbool.h>
 
 struct mailbox_data {
@@ -7,23 +8,29 @@ struct mailbox_data {
 	uint8_t level;
 };
 
+uint8_t* base_adr = DT_REG_ADDR(DT_NODELABEL(cpu_dma_shared));
+size_t mem_size = DT_REG_SIZE(DT_NODELABEL(cpu_dma_shared));
+
+
+const struct mbox_dt_spec mbox_transmit = MBOX_DT_SPEC_GET(DT_NODELABEL(cpu0), tx);
+const struct mbox_dt_spec mbox_recieve = MBOX_DT_SPEC_GET(DT_NODELABEL(cpu0), rx);
+
 void rx_callback_func(const struct device* dev, mbox_channel_id_t chanid,
-		      void* user_data, struct mbox_msg* msg) {
-	printk("cpu0 got pinged!\n");
+		      void* user_data, void* msg) {
+	uint8_t data = *(uint8_t*)msg;
+	struct mailbox_data temp_data = *(struct mailbox_data*)base_adr;
+	if (temp_data.level == 255) {
+		printk("recieved error: %s", temp_data.msg);
+		return;
+	}
+	printk("got --> msg: %s, level: %u\n", temp_data.msg, temp_data.level);
 }
 
 int main(void) {
 	printk("Hello from cpu0\n");
-	const struct mbox_dt_spec mbox_transmit = MBOX_DT_SPEC_GET(DT_NODELABEL(cpu0), tx);
-	const struct mbox_dt_spec mbox_recieve = MBOX_DT_SPEC_GET(DT_NODELABEL(cpu0), rx);
-	/*
-	if (mbox_is_ready_dt(&mbox_transmit) || mbox_is_ready_dt(&mbox_recieve)) {
-		printk("the mbox for transmit or recieve is not ready\n");
-		return 0;
-	}
-	*/
-	int msg_size = mbox_mtu_get_dt(&mbox_transmit);
-	printk("max msg size: %d\n", msg_size);
+	printk("base_adr: 0x%X\n", base_adr);
+	printk("size: %u\n", mem_size);
+
 	if (mbox_register_callback_dt(&mbox_recieve, rx_callback_func, NULL)) {
 		printk("failed to register callback\n");
 		return 0;
@@ -33,12 +40,9 @@ int main(void) {
 		return 0;
 	}
 
-	uint8_t usr_msg = 2;
-	const struct mbox_msg msg = { .data = &usr_msg, .size = sizeof(uint8_t) };
 	while (1) {
-		k_msleep(2000);
+		k_msleep(1000);
 		int code = mbox_send_dt(&mbox_transmit, NULL);
-		printk("cpu0\n");
 		if (code < 0) {
 			printk("cpu 0: error code: %d\n", code);
 		}

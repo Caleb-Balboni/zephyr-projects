@@ -22,7 +22,6 @@
 /home/bionet-caleb/testing/zephyr-testing/modules/lib/gui/lvgl/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/modules/lib/gui/lvgl/zephyr/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/modules/lib/picolibc/zephyr/Kconfig
-/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.constants
 /home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr
 /home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig
@@ -2419,6 +2418,7 @@
 /home/bionet-caleb/testing/zephyr-testing/zephyr/modules/trusted-firmware-m/Kconfig.tfm.partitions
 /home/bionet-caleb/testing/zephyr-testing/zephyr/modules/uoscore-uedhoc/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/zephyr/modules/zcbor/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox/Kconfig/Kconfig.dts
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox/Kconfig/Kconfig.modules
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox/Kconfig/arch/Kconfig

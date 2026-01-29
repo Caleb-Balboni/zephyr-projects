@@ -867,14 +867,14 @@
     null
   ],
   [
-    "SB_CONFIG_REMOTE_BOARD",
-    "y",
+    "SB_CONFIG_NET_CORE_BOARD",
+    "n",
     "string",
     "frdm_mcxn947/mcxn947/cpu1",
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/Kconfig.sysbuild",
-      6
+      13
     ]
   ]
 ]

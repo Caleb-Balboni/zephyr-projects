@@ -2623,11 +2623,25 @@ zephyr_udc0: &usb1 {
 };
 # 0 "<command-line>" 2
 # 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay" 1
+
+
+
 / {
  cpu0: mbox-consumer {
   compatible = "vnd,mbox-consumer";
   mboxes = <&mbox 0>, <&mbox 1>;
   mbox-names = "tx", "rx";
+ };
+
+ reserved-memory {
+  #address-cells = <1>;
+  #size-cells = <1>;
+  zephyr,memory-region = "shared_mem";
+  cpu_dma_shared: cpu_shared@20060000 {
+   reg = <0x20060000 0x80>;
+   zephyr,memory-attr = <((((1UL << (1))) << (20)) | (((1UL << (4))) << (20)))>;
+   label = "SHARED_MEM";
+  };
  };
 };
 # 0 "<command-line>" 2

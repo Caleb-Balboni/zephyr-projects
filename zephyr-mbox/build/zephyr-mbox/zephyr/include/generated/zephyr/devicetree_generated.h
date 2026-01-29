@@ -94,155 +94,157 @@
  *   83  /pinctrl/pinmux_usdhc0
  *   84  /pinctrl/pinmux_usdhc0/group0
  *   85  /pinctrl/pinmux_usdhc0/group1
- *   86  /soc/timer@e000e010
- *   87  /soc/peripheral@50000000/vref@111000
- *   88  /soc/peripheral@50000000/adc@10d000
- *   89  /soc/peripheral@50000000/adc@10e000
- *   90  /soc/peripheral@50000000/can@d4000
- *   91  /soc/peripheral@50000000/can@d8000
- *   92  /soc/peripheral@50000000/ctimer@c000
- *   93  /soc/peripheral@50000000/ctimer@d000
- *   94  /soc/peripheral@50000000/ctimer@e000
- *   95  /soc/peripheral@50000000/ctimer@f000
- *   96  /soc/peripheral@50000000/ctimer@10000
- *   97  /soc/peripheral@50000000/dac@10f000
- *   98  /soc/peripheral@50000000/dac@112000
- *   99  /soc/peripheral@50000000/dma-controller@a0000
- *   100 /soc/peripheral@50000000/erm@5c000
- *   101 /soc/peripheral@50000000/ewm@c0000
- *   102 /soc/peripheral@50000000/pinmux@42000
- *   103 /soc/peripheral@50000000/gpio@40000
- *   104 /soc/peripheral@50000000/pinmux@119000
- *   105 /soc/peripheral@50000000/gpio@9c000
- *   106 /soc/peripheral@50000000/i3c@21000
- *   107 /soc/peripheral@50000000/i3c@22000
- *   108 /soc/peripheral@50000000/lpcmp@51000
- *   109 /soc/peripheral@50000000/lpcmp@52000
- *   110 /soc/peripheral@50000000/lpcmp@53000
- *   111 /soc/peripheral@50000000/lptmr@4a000
- *   112 /soc/peripheral@50000000/lptmr@4b000
- *   113 /soc/peripheral@50000000/opamp@110000
- *   114 /soc/peripheral@50000000/opamp@113000
- *   115 /soc/peripheral@50000000/opamp@115000
- *   116 /soc/peripheral@50000000/pwm@91000
- *   117 /soc/peripheral@50000000/rtc@4c000
- *   118 /soc/peripheral@50000000/dma-controller@80000
- *   119 /soc/peripheral@50000000/sai@106000
- *   120 /soc/peripheral@50000000/sai@107000
- *   121 /soc/peripheral@50000000/system-modules@45000
- *   122 /soc/peripheral@50000000/system-modules@46000
- *   123 /soc/peripheral@50000000/system-modules@48000
- *   124 /soc/peripheral@50000000/system-modules@59000
- *   125 /soc/peripheral@50000000/syscon@0/reset
- *   126 /soc/peripheral@50000000/timers@49000
- *   127 /soc/peripheral@50000000/usbd@dd000
- *   128 /soc/peripheral@50000000/usbphy@10a000
- *   129 /soc/peripheral@50000000/usbd@10b000
- *   130 /soc/peripheral@50000000/watchdog@16000
- *   131 /soc/peripheral@50000000/crypto@54000
- *   132 /soc/peripheral@50000000/crypto@54000/rng
- *   133 /soc/peripheral@50000000/eim@5b000
- *   134 /soc/peripheral@50000000/eim@5b000/channel0
- *   135 /soc/peripheral@50000000/eim@5b000/channel1
- *   136 /soc/peripheral@50000000/eim@5b000/channel2
- *   137 /soc/peripheral@50000000/eim@5b000/channel3
- *   138 /soc/peripheral@50000000/eim@5b000/channel4
- *   139 /soc/peripheral@50000000/eim@5b000/channel5
- *   140 /soc/peripheral@50000000/eim@5b000/channel6
- *   141 /soc/peripheral@50000000/ethernet@40100000
- *   142 /soc/peripheral@50000000/ethernet@40100000/mdio
- *   143 /soc/peripheral@50000000/ethernet@40100000/mdio/ethernet-phy@0
- *   144 /soc/peripheral@50000000/ethernet@40100000/ethernet
- *   145 /soc/peripheral@50000000/flash-controller@43000
- *   146 /soc/peripheral@50000000/flash-controller@43000/uuid@1100000
- *   147 /soc/peripheral@50000000/flash-controller@43000/flash@0
- *   148 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions
- *   149 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@0
- *   150 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@14000
- *   151 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@10A000
- *   152 /soc/peripheral@50000000/flexcomm@92000
- *   153 /soc/peripheral@50000000/flexcomm@92000/lpi2c@92800
- *   154 /soc/peripheral@50000000/flexcomm@92000/lpuart@92000
- *   155 /soc/peripheral@50000000/flexcomm@92000/spi@92000
- *   156 /soc/peripheral@50000000/flexcomm@93000
- *   157 /soc/peripheral@50000000/flexcomm@93000/lpi2c@93800
- *   158 /soc/peripheral@50000000/flexcomm@93000/lpuart@93000
- *   159 /soc/peripheral@50000000/flexcomm@93000/spi@93000
- *   160 /soc/peripheral@50000000/flexcomm@94000
- *   161 /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800
- *   162 /soc/peripheral@50000000/flexcomm@94000/lpuart@94000
- *   163 /soc/peripheral@50000000/flexcomm@94000/spi@94000
- *   164 /soc/peripheral@50000000/flexcomm@95000
- *   165 /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800
- *   166 /soc/peripheral@50000000/flexcomm@95000/lpuart@95000
- *   167 /soc/peripheral@50000000/flexcomm@95000/spi@95000
- *   168 /soc/peripheral@50000000/flexcomm@b4000
- *   169 /soc/peripheral@50000000/flexcomm@b4000/lpi2c@b4800
- *   170 /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000
- *   171 /soc/peripheral@50000000/flexcomm@b4000/spi@b4000
- *   172 /soc/peripheral@50000000/flexcomm@b5000
- *   173 /soc/peripheral@50000000/flexcomm@b5000/lpi2c@b5800
- *   174 /soc/peripheral@50000000/flexcomm@b5000/lpuart@b5000
- *   175 /soc/peripheral@50000000/flexcomm@b5000/spi@b5000
- *   176 /soc/peripheral@50000000/flexcomm@b6000
- *   177 /soc/peripheral@50000000/flexcomm@b6000/lpi2c@b6800
- *   178 /soc/peripheral@50000000/flexcomm@b6000/lpuart@b6000
- *   179 /soc/peripheral@50000000/flexcomm@b6000/spi@b6000
- *   180 /soc/peripheral@50000000/flexcomm@b7000
- *   181 /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800
- *   182 /soc/peripheral@50000000/flexcomm@b7000/lpuart@b7000
- *   183 /soc/peripheral@50000000/flexcomm@b7000/spi@b7000
- *   184 /soc/peripheral@50000000/flexcomm@b8000
- *   185 /soc/peripheral@50000000/flexcomm@b8000/lpi2c@b8800
- *   186 /soc/peripheral@50000000/flexcomm@b8000/lpuart@b8000
- *   187 /soc/peripheral@50000000/flexcomm@b8000/spi@b8000
- *   188 /soc/peripheral@50000000/flexcomm@b9000
- *   189 /soc/peripheral@50000000/flexcomm@b9000/lpi2c@b9800
- *   190 /soc/peripheral@50000000/flexcomm@b9000/lpuart@b9000
- *   191 /soc/peripheral@50000000/flexcomm@b9000/spi@b9000
- *   192 /soc/peripheral@50000000/flexio@105000
- *   193 /soc/peripheral@50000000/pinmux@11a000
- *   194 /soc/peripheral@50000000/gpio@9e000
- *   195 /soc/peripheral@50000000/flexio@105000/flexio0-lcd
- *   196 /soc/peripheral@50000000/flexpwm@ce000
- *   197 /soc/peripheral@50000000/flexpwm@ce000/pwm0
- *   198 /soc/peripheral@50000000/flexpwm@ce000/pwm1
- *   199 /soc/peripheral@50000000/flexpwm@ce000/pwm2
- *   200 /soc/peripheral@50000000/flexpwm@ce000/pwm3
- *   201 /soc/peripheral@50000000/flexpwm@d0000
- *   202 /soc/peripheral@50000000/flexpwm@d0000/pwm0
- *   203 /soc/peripheral@50000000/flexpwm@d0000/pwm1
- *   204 /soc/peripheral@50000000/flexpwm@d0000/pwm2
- *   205 /soc/peripheral@50000000/flexpwm@d0000/pwm3
- *   206 /soc/peripheral@50000000/micfil@10c000
- *   207 /soc/peripheral@50000000/micfil@10c000/micfil-channel@0
- *   208 /soc/peripheral@50000000/micfil@10c000/micfil-channel@1
- *   209 /soc/peripheral@50000000/micfil@10c000/micfil-channel@2
- *   210 /soc/peripheral@50000000/micfil@10c000/micfil-channel@3
- *   211 /soc/peripheral@50000000/micfil@10c000/micfil-channel@4
- *   212 /soc/peripheral@50000000/micfil@10c000/micfil-channel@5
- *   213 /soc/peripheral@50000000/micfil@10c000/micfil-channel@6
- *   214 /soc/peripheral@50000000/micfil@10c000/micfil-channel@7
- *   215 /soc/peripheral@50000000/mrt@13000
- *   216 /soc/peripheral@50000000/mrt@13000/mrt0_channel@0
- *   217 /soc/peripheral@50000000/mrt@13000/mrt0_channel@1
- *   218 /soc/peripheral@50000000/mrt@13000/mrt0_channel@2
- *   219 /soc/peripheral@50000000/mrt@13000/mrt0_channel@3
- *   220 /soc/peripheral@50000000/smartdma@33000
- *   221 /soc/peripheral@50000000/smartdma@33000/video-sdma
- *   222 /soc/peripheral@50000000/pinmux@118000
- *   223 /soc/peripheral@50000000/gpio@9a000
- *   224 /soc/peripheral@50000000/usdhc@109000
- *   225 /soc/peripheral@50000000/usdhc@109000/sdmmc
- *   226 /soc/spi@500c8000
- *   227 /soc/spi@500c8000/w25q64jvssiq@0
- *   228 /soc/spi@500c8000/w25q64jvssiq@0/partitions
- *   229 /soc/spi@500c8000/w25q64jvssiq@0/partitions/partition@0
- *   230 /soc/sram@14000000
- *   231 /soc/sram@14000000/memory@4000000
- *   232 /soc/sram@14000000/memory@20000000
- *   233 /soc/sram@14000000/memory@20050000
- *   234 /soc/sram@14000000/memory@20060000
+ *   86  /reserved-memory
+ *   87  /reserved-memory/cpu_shared@20060000
+ *   88  /soc/timer@e000e010
+ *   89  /soc/peripheral@50000000/vref@111000
+ *   90  /soc/peripheral@50000000/adc@10d000
+ *   91  /soc/peripheral@50000000/adc@10e000
+ *   92  /soc/peripheral@50000000/can@d4000
+ *   93  /soc/peripheral@50000000/can@d8000
+ *   94  /soc/peripheral@50000000/ctimer@c000
+ *   95  /soc/peripheral@50000000/ctimer@d000
+ *   96  /soc/peripheral@50000000/ctimer@e000
+ *   97  /soc/peripheral@50000000/ctimer@f000
+ *   98  /soc/peripheral@50000000/ctimer@10000
+ *   99  /soc/peripheral@50000000/dac@10f000
+ *   100 /soc/peripheral@50000000/dac@112000
+ *   101 /soc/peripheral@50000000/dma-controller@a0000
+ *   102 /soc/peripheral@50000000/erm@5c000
+ *   103 /soc/peripheral@50000000/ewm@c0000
+ *   104 /soc/peripheral@50000000/pinmux@42000
+ *   105 /soc/peripheral@50000000/gpio@40000
+ *   106 /soc/peripheral@50000000/pinmux@119000
+ *   107 /soc/peripheral@50000000/gpio@9c000
+ *   108 /soc/peripheral@50000000/i3c@21000
+ *   109 /soc/peripheral@50000000/i3c@22000
+ *   110 /soc/peripheral@50000000/lpcmp@51000
+ *   111 /soc/peripheral@50000000/lpcmp@52000
+ *   112 /soc/peripheral@50000000/lpcmp@53000
+ *   113 /soc/peripheral@50000000/lptmr@4a000
+ *   114 /soc/peripheral@50000000/lptmr@4b000
+ *   115 /soc/peripheral@50000000/opamp@110000
+ *   116 /soc/peripheral@50000000/opamp@113000
+ *   117 /soc/peripheral@50000000/opamp@115000
+ *   118 /soc/peripheral@50000000/pwm@91000
+ *   119 /soc/peripheral@50000000/rtc@4c000
+ *   120 /soc/peripheral@50000000/dma-controller@80000
+ *   121 /soc/peripheral@50000000/sai@106000
+ *   122 /soc/peripheral@50000000/sai@107000
+ *   123 /soc/peripheral@50000000/system-modules@45000
+ *   124 /soc/peripheral@50000000/system-modules@46000
+ *   125 /soc/peripheral@50000000/system-modules@48000
+ *   126 /soc/peripheral@50000000/system-modules@59000
+ *   127 /soc/peripheral@50000000/syscon@0/reset
+ *   128 /soc/peripheral@50000000/timers@49000
+ *   129 /soc/peripheral@50000000/usbd@dd000
+ *   130 /soc/peripheral@50000000/usbphy@10a000
+ *   131 /soc/peripheral@50000000/usbd@10b000
+ *   132 /soc/peripheral@50000000/watchdog@16000
+ *   133 /soc/peripheral@50000000/crypto@54000
+ *   134 /soc/peripheral@50000000/crypto@54000/rng
+ *   135 /soc/peripheral@50000000/eim@5b000
+ *   136 /soc/peripheral@50000000/eim@5b000/channel0
+ *   137 /soc/peripheral@50000000/eim@5b000/channel1
+ *   138 /soc/peripheral@50000000/eim@5b000/channel2
+ *   139 /soc/peripheral@50000000/eim@5b000/channel3
+ *   140 /soc/peripheral@50000000/eim@5b000/channel4
+ *   141 /soc/peripheral@50000000/eim@5b000/channel5
+ *   142 /soc/peripheral@50000000/eim@5b000/channel6
+ *   143 /soc/peripheral@50000000/ethernet@40100000
+ *   144 /soc/peripheral@50000000/ethernet@40100000/mdio
+ *   145 /soc/peripheral@50000000/ethernet@40100000/mdio/ethernet-phy@0
+ *   146 /soc/peripheral@50000000/ethernet@40100000/ethernet
+ *   147 /soc/peripheral@50000000/flash-controller@43000
+ *   148 /soc/peripheral@50000000/flash-controller@43000/uuid@1100000
+ *   149 /soc/peripheral@50000000/flash-controller@43000/flash@0
+ *   150 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions
+ *   151 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@0
+ *   152 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@14000
+ *   153 /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@10A000
+ *   154 /soc/peripheral@50000000/flexcomm@92000
+ *   155 /soc/peripheral@50000000/flexcomm@92000/lpi2c@92800
+ *   156 /soc/peripheral@50000000/flexcomm@92000/lpuart@92000
+ *   157 /soc/peripheral@50000000/flexcomm@92000/spi@92000
+ *   158 /soc/peripheral@50000000/flexcomm@93000
+ *   159 /soc/peripheral@50000000/flexcomm@93000/lpi2c@93800
+ *   160 /soc/peripheral@50000000/flexcomm@93000/lpuart@93000
+ *   161 /soc/peripheral@50000000/flexcomm@93000/spi@93000
+ *   162 /soc/peripheral@50000000/flexcomm@94000
+ *   163 /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800
+ *   164 /soc/peripheral@50000000/flexcomm@94000/lpuart@94000
+ *   165 /soc/peripheral@50000000/flexcomm@94000/spi@94000
+ *   166 /soc/peripheral@50000000/flexcomm@95000
+ *   167 /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800
+ *   168 /soc/peripheral@50000000/flexcomm@95000/lpuart@95000
+ *   169 /soc/peripheral@50000000/flexcomm@95000/spi@95000
+ *   170 /soc/peripheral@50000000/flexcomm@b4000
+ *   171 /soc/peripheral@50000000/flexcomm@b4000/lpi2c@b4800
+ *   172 /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000
+ *   173 /soc/peripheral@50000000/flexcomm@b4000/spi@b4000
+ *   174 /soc/peripheral@50000000/flexcomm@b5000
+ *   175 /soc/peripheral@50000000/flexcomm@b5000/lpi2c@b5800
+ *   176 /soc/peripheral@50000000/flexcomm@b5000/lpuart@b5000
+ *   177 /soc/peripheral@50000000/flexcomm@b5000/spi@b5000
+ *   178 /soc/peripheral@50000000/flexcomm@b6000
+ *   179 /soc/peripheral@50000000/flexcomm@b6000/lpi2c@b6800
+ *   180 /soc/peripheral@50000000/flexcomm@b6000/lpuart@b6000
+ *   181 /soc/peripheral@50000000/flexcomm@b6000/spi@b6000
+ *   182 /soc/peripheral@50000000/flexcomm@b7000
+ *   183 /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800
+ *   184 /soc/peripheral@50000000/flexcomm@b7000/lpuart@b7000
+ *   185 /soc/peripheral@50000000/flexcomm@b7000/spi@b7000
+ *   186 /soc/peripheral@50000000/flexcomm@b8000
+ *   187 /soc/peripheral@50000000/flexcomm@b8000/lpi2c@b8800
+ *   188 /soc/peripheral@50000000/flexcomm@b8000/lpuart@b8000
+ *   189 /soc/peripheral@50000000/flexcomm@b8000/spi@b8000
+ *   190 /soc/peripheral@50000000/flexcomm@b9000
+ *   191 /soc/peripheral@50000000/flexcomm@b9000/lpi2c@b9800
+ *   192 /soc/peripheral@50000000/flexcomm@b9000/lpuart@b9000
+ *   193 /soc/peripheral@50000000/flexcomm@b9000/spi@b9000
+ *   194 /soc/peripheral@50000000/flexio@105000
+ *   195 /soc/peripheral@50000000/pinmux@11a000
+ *   196 /soc/peripheral@50000000/gpio@9e000
+ *   197 /soc/peripheral@50000000/flexio@105000/flexio0-lcd
+ *   198 /soc/peripheral@50000000/flexpwm@ce000
+ *   199 /soc/peripheral@50000000/flexpwm@ce000/pwm0
+ *   200 /soc/peripheral@50000000/flexpwm@ce000/pwm1
+ *   201 /soc/peripheral@50000000/flexpwm@ce000/pwm2
+ *   202 /soc/peripheral@50000000/flexpwm@ce000/pwm3
+ *   203 /soc/peripheral@50000000/flexpwm@d0000
+ *   204 /soc/peripheral@50000000/flexpwm@d0000/pwm0
+ *   205 /soc/peripheral@50000000/flexpwm@d0000/pwm1
+ *   206 /soc/peripheral@50000000/flexpwm@d0000/pwm2
+ *   207 /soc/peripheral@50000000/flexpwm@d0000/pwm3
+ *   208 /soc/peripheral@50000000/micfil@10c000
+ *   209 /soc/peripheral@50000000/micfil@10c000/micfil-channel@0
+ *   210 /soc/peripheral@50000000/micfil@10c000/micfil-channel@1
+ *   211 /soc/peripheral@50000000/micfil@10c000/micfil-channel@2
+ *   212 /soc/peripheral@50000000/micfil@10c000/micfil-channel@3
+ *   213 /soc/peripheral@50000000/micfil@10c000/micfil-channel@4
+ *   214 /soc/peripheral@50000000/micfil@10c000/micfil-channel@5
+ *   215 /soc/peripheral@50000000/micfil@10c000/micfil-channel@6
+ *   216 /soc/peripheral@50000000/micfil@10c000/micfil-channel@7
+ *   217 /soc/peripheral@50000000/mrt@13000
+ *   218 /soc/peripheral@50000000/mrt@13000/mrt0_channel@0
+ *   219 /soc/peripheral@50000000/mrt@13000/mrt0_channel@1
+ *   220 /soc/peripheral@50000000/mrt@13000/mrt0_channel@2
+ *   221 /soc/peripheral@50000000/mrt@13000/mrt0_channel@3
+ *   222 /soc/peripheral@50000000/smartdma@33000
+ *   223 /soc/peripheral@50000000/smartdma@33000/video-sdma
+ *   224 /soc/peripheral@50000000/pinmux@118000
+ *   225 /soc/peripheral@50000000/gpio@9a000
+ *   226 /soc/peripheral@50000000/usdhc@109000
+ *   227 /soc/peripheral@50000000/usdhc@109000/sdmmc
+ *   228 /soc/spi@500c8000
+ *   229 /soc/spi@500c8000/w25q64jvssiq@0
+ *   230 /soc/spi@500c8000/w25q64jvssiq@0/partitions
+ *   231 /soc/spi@500c8000/w25q64jvssiq@0/partitions/partition@0
+ *   232 /soc/sram@14000000
+ *   233 /soc/sram@14000000/memory@4000000
+ *   234 /soc/sram@14000000/memory@20000000
+ *   235 /soc/sram@14000000/memory@20050000
+ *   236 /soc/sram@14000000/memory@20060000
  *
  * Definitions derived from these nodes in dependency order are next,
  * followed by /chosen nodes.
@@ -273,16 +275,16 @@
 #define DT_N_FOREACH_ANCESTOR(fn) 
 
 /* Helper macros for child nodes of this node. */
-#define DT_N_CHILD_NUM 13
-#define DT_N_CHILD_NUM_STATUS_OKAY 13
-#define DT_N_FOREACH_CHILD(fn) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_cpus) fn(DT_N_S_power_states) fn(DT_N_S_pinctrl) fn(DT_N_S_leds) fn(DT_N_S_gpio_keys) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer)
-#define DT_N_FOREACH_CHILD_SEP(fn, sep) fn(DT_N_S_chosen) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer)
-#define DT_N_FOREACH_CHILD_VARGS(fn, ...) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__)
-#define DT_N_FOREACH_CHILD_SEP_VARGS(fn, sep, ...) fn(DT_N_S_chosen, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer, __VA_ARGS__)
-#define DT_N_FOREACH_CHILD_STATUS_OKAY(fn) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_cpus) fn(DT_N_S_power_states) fn(DT_N_S_pinctrl) fn(DT_N_S_leds) fn(DT_N_S_gpio_keys) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer)
-#define DT_N_FOREACH_CHILD_STATUS_OKAY_SEP(fn, sep) fn(DT_N_S_chosen) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer)
-#define DT_N_FOREACH_CHILD_STATUS_OKAY_VARGS(fn, ...) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__)
-#define DT_N_FOREACH_CHILD_STATUS_OKAY_SEP_VARGS(fn, sep, ...) fn(DT_N_S_chosen, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer, __VA_ARGS__)
+#define DT_N_CHILD_NUM 14
+#define DT_N_CHILD_NUM_STATUS_OKAY 14
+#define DT_N_FOREACH_CHILD(fn) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_cpus) fn(DT_N_S_power_states) fn(DT_N_S_pinctrl) fn(DT_N_S_leds) fn(DT_N_S_gpio_keys) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer) fn(DT_N_S_reserved_memory)
+#define DT_N_FOREACH_CHILD_SEP(fn, sep) fn(DT_N_S_chosen) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_reserved_memory)
+#define DT_N_FOREACH_CHILD_VARGS(fn, ...) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__) fn(DT_N_S_reserved_memory, __VA_ARGS__)
+#define DT_N_FOREACH_CHILD_SEP_VARGS(fn, sep, ...) fn(DT_N_S_chosen, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_reserved_memory, __VA_ARGS__)
+#define DT_N_FOREACH_CHILD_STATUS_OKAY(fn) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_cpus) fn(DT_N_S_power_states) fn(DT_N_S_pinctrl) fn(DT_N_S_leds) fn(DT_N_S_gpio_keys) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer) fn(DT_N_S_reserved_memory)
+#define DT_N_FOREACH_CHILD_STATUS_OKAY_SEP(fn, sep) fn(DT_N_S_chosen) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_reserved_memory)
+#define DT_N_FOREACH_CHILD_STATUS_OKAY_VARGS(fn, ...) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__) fn(DT_N_S_reserved_memory, __VA_ARGS__)
+#define DT_N_FOREACH_CHILD_STATUS_OKAY_SEP_VARGS(fn, sep, ...) fn(DT_N_S_chosen, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_aliases, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_soc, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_cpus, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_power_states, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_pinctrl, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_leds, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_gpio_keys, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mikrobus_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_arduino_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_mbox_consumer, __VA_ARGS__) DT_DEBRACKET_INTERNAL sep fn(DT_N_S_reserved_memory, __VA_ARGS__)
 
 /* Node's hash: */
 #define DT_N_HASH il7asoJjJEMhngUeSt4tHVu8Zxx4EFG_FDeJfL3_oPE
@@ -308,7 +310,8 @@
 	13, /* /power-states */ \
 	22, /* /gpio_keys */ \
 	27, /* /leds */ \
-	31, /* /pinctrl */
+	31, /* /pinctrl */ \
+	86, /* /reserved-memory */
 
 /* Existence and alternate IDs: */
 #define DT_N_EXISTS 1
@@ -942,9 +945,9 @@
 #define DT_N_S_soc_SUPPORTS_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	86, /* /soc/timer@e000e010 */ \
-	226, /* /soc/spi@500c8000 */ \
-	230, /* /soc/sram@14000000 */
+	88, /* /soc/timer@e000e010 */ \
+	228, /* /soc/spi@500c8000 */ \
+	232, /* /soc/sram@14000000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_EXISTS 1
@@ -1068,72 +1071,72 @@
 	9, /* /soc/peripheral@50000000/mbox@b2000 */ \
 	21, /* /soc/peripheral@50000000/gpio@96000 */ \
 	26, /* /soc/peripheral@50000000/gpio@98000 */ \
-	88, /* /soc/peripheral@50000000/adc@10d000 */ \
-	89, /* /soc/peripheral@50000000/adc@10e000 */ \
-	90, /* /soc/peripheral@50000000/can@d4000 */ \
-	91, /* /soc/peripheral@50000000/can@d8000 */ \
-	92, /* /soc/peripheral@50000000/ctimer@c000 */ \
-	93, /* /soc/peripheral@50000000/ctimer@d000 */ \
-	94, /* /soc/peripheral@50000000/ctimer@e000 */ \
-	95, /* /soc/peripheral@50000000/ctimer@f000 */ \
-	96, /* /soc/peripheral@50000000/ctimer@10000 */ \
-	97, /* /soc/peripheral@50000000/dac@10f000 */ \
-	98, /* /soc/peripheral@50000000/dac@112000 */ \
-	99, /* /soc/peripheral@50000000/dma-controller@a0000 */ \
-	100, /* /soc/peripheral@50000000/erm@5c000 */ \
-	101, /* /soc/peripheral@50000000/ewm@c0000 */ \
-	103, /* /soc/peripheral@50000000/gpio@40000 */ \
-	105, /* /soc/peripheral@50000000/gpio@9c000 */ \
-	106, /* /soc/peripheral@50000000/i3c@21000 */ \
-	107, /* /soc/peripheral@50000000/i3c@22000 */ \
-	108, /* /soc/peripheral@50000000/lpcmp@51000 */ \
-	109, /* /soc/peripheral@50000000/lpcmp@52000 */ \
-	110, /* /soc/peripheral@50000000/lpcmp@53000 */ \
-	111, /* /soc/peripheral@50000000/lptmr@4a000 */ \
-	112, /* /soc/peripheral@50000000/lptmr@4b000 */ \
-	116, /* /soc/peripheral@50000000/pwm@91000 */ \
-	117, /* /soc/peripheral@50000000/rtc@4c000 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	119, /* /soc/peripheral@50000000/sai@106000 */ \
-	120, /* /soc/peripheral@50000000/sai@107000 */ \
-	121, /* /soc/peripheral@50000000/system-modules@45000 */ \
-	122, /* /soc/peripheral@50000000/system-modules@46000 */ \
-	123, /* /soc/peripheral@50000000/system-modules@48000 */ \
-	124, /* /soc/peripheral@50000000/system-modules@59000 */ \
-	126, /* /soc/peripheral@50000000/timers@49000 */ \
-	127, /* /soc/peripheral@50000000/usbd@dd000 */ \
-	129, /* /soc/peripheral@50000000/usbd@10b000 */ \
-	130, /* /soc/peripheral@50000000/watchdog@16000 */ \
-	144, /* /soc/peripheral@50000000/ethernet@40100000/ethernet */ \
-	145, /* /soc/peripheral@50000000/flash-controller@43000 */ \
-	152, /* /soc/peripheral@50000000/flexcomm@92000 */ \
-	156, /* /soc/peripheral@50000000/flexcomm@93000 */ \
-	160, /* /soc/peripheral@50000000/flexcomm@94000 */ \
-	164, /* /soc/peripheral@50000000/flexcomm@95000 */ \
-	168, /* /soc/peripheral@50000000/flexcomm@b4000 */ \
-	172, /* /soc/peripheral@50000000/flexcomm@b5000 */ \
-	176, /* /soc/peripheral@50000000/flexcomm@b6000 */ \
-	180, /* /soc/peripheral@50000000/flexcomm@b7000 */ \
-	184, /* /soc/peripheral@50000000/flexcomm@b8000 */ \
-	188, /* /soc/peripheral@50000000/flexcomm@b9000 */ \
-	192, /* /soc/peripheral@50000000/flexio@105000 */ \
-	194, /* /soc/peripheral@50000000/gpio@9e000 */ \
-	196, /* /soc/peripheral@50000000/flexpwm@ce000 */ \
-	197, /* /soc/peripheral@50000000/flexpwm@ce000/pwm0 */ \
-	198, /* /soc/peripheral@50000000/flexpwm@ce000/pwm1 */ \
-	199, /* /soc/peripheral@50000000/flexpwm@ce000/pwm2 */ \
-	200, /* /soc/peripheral@50000000/flexpwm@ce000/pwm3 */ \
-	201, /* /soc/peripheral@50000000/flexpwm@d0000 */ \
-	202, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */ \
-	203, /* /soc/peripheral@50000000/flexpwm@d0000/pwm1 */ \
-	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm2 */ \
-	205, /* /soc/peripheral@50000000/flexpwm@d0000/pwm3 */ \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */ \
-	215, /* /soc/peripheral@50000000/mrt@13000 */ \
-	220, /* /soc/peripheral@50000000/smartdma@33000 */ \
-	223, /* /soc/peripheral@50000000/gpio@9a000 */ \
-	224, /* /soc/peripheral@50000000/usdhc@109000 */ \
-	226, /* /soc/spi@500c8000 */
+	90, /* /soc/peripheral@50000000/adc@10d000 */ \
+	91, /* /soc/peripheral@50000000/adc@10e000 */ \
+	92, /* /soc/peripheral@50000000/can@d4000 */ \
+	93, /* /soc/peripheral@50000000/can@d8000 */ \
+	94, /* /soc/peripheral@50000000/ctimer@c000 */ \
+	95, /* /soc/peripheral@50000000/ctimer@d000 */ \
+	96, /* /soc/peripheral@50000000/ctimer@e000 */ \
+	97, /* /soc/peripheral@50000000/ctimer@f000 */ \
+	98, /* /soc/peripheral@50000000/ctimer@10000 */ \
+	99, /* /soc/peripheral@50000000/dac@10f000 */ \
+	100, /* /soc/peripheral@50000000/dac@112000 */ \
+	101, /* /soc/peripheral@50000000/dma-controller@a0000 */ \
+	102, /* /soc/peripheral@50000000/erm@5c000 */ \
+	103, /* /soc/peripheral@50000000/ewm@c0000 */ \
+	105, /* /soc/peripheral@50000000/gpio@40000 */ \
+	107, /* /soc/peripheral@50000000/gpio@9c000 */ \
+	108, /* /soc/peripheral@50000000/i3c@21000 */ \
+	109, /* /soc/peripheral@50000000/i3c@22000 */ \
+	110, /* /soc/peripheral@50000000/lpcmp@51000 */ \
+	111, /* /soc/peripheral@50000000/lpcmp@52000 */ \
+	112, /* /soc/peripheral@50000000/lpcmp@53000 */ \
+	113, /* /soc/peripheral@50000000/lptmr@4a000 */ \
+	114, /* /soc/peripheral@50000000/lptmr@4b000 */ \
+	118, /* /soc/peripheral@50000000/pwm@91000 */ \
+	119, /* /soc/peripheral@50000000/rtc@4c000 */ \
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	121, /* /soc/peripheral@50000000/sai@106000 */ \
+	122, /* /soc/peripheral@50000000/sai@107000 */ \
+	123, /* /soc/peripheral@50000000/system-modules@45000 */ \
+	124, /* /soc/peripheral@50000000/system-modules@46000 */ \
+	125, /* /soc/peripheral@50000000/system-modules@48000 */ \
+	126, /* /soc/peripheral@50000000/system-modules@59000 */ \
+	128, /* /soc/peripheral@50000000/timers@49000 */ \
+	129, /* /soc/peripheral@50000000/usbd@dd000 */ \
+	131, /* /soc/peripheral@50000000/usbd@10b000 */ \
+	132, /* /soc/peripheral@50000000/watchdog@16000 */ \
+	146, /* /soc/peripheral@50000000/ethernet@40100000/ethernet */ \
+	147, /* /soc/peripheral@50000000/flash-controller@43000 */ \
+	154, /* /soc/peripheral@50000000/flexcomm@92000 */ \
+	158, /* /soc/peripheral@50000000/flexcomm@93000 */ \
+	162, /* /soc/peripheral@50000000/flexcomm@94000 */ \
+	166, /* /soc/peripheral@50000000/flexcomm@95000 */ \
+	170, /* /soc/peripheral@50000000/flexcomm@b4000 */ \
+	174, /* /soc/peripheral@50000000/flexcomm@b5000 */ \
+	178, /* /soc/peripheral@50000000/flexcomm@b6000 */ \
+	182, /* /soc/peripheral@50000000/flexcomm@b7000 */ \
+	186, /* /soc/peripheral@50000000/flexcomm@b8000 */ \
+	190, /* /soc/peripheral@50000000/flexcomm@b9000 */ \
+	194, /* /soc/peripheral@50000000/flexio@105000 */ \
+	196, /* /soc/peripheral@50000000/gpio@9e000 */ \
+	198, /* /soc/peripheral@50000000/flexpwm@ce000 */ \
+	199, /* /soc/peripheral@50000000/flexpwm@ce000/pwm0 */ \
+	200, /* /soc/peripheral@50000000/flexpwm@ce000/pwm1 */ \
+	201, /* /soc/peripheral@50000000/flexpwm@ce000/pwm2 */ \
+	202, /* /soc/peripheral@50000000/flexpwm@ce000/pwm3 */ \
+	203, /* /soc/peripheral@50000000/flexpwm@d0000 */ \
+	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */ \
+	205, /* /soc/peripheral@50000000/flexpwm@d0000/pwm1 */ \
+	206, /* /soc/peripheral@50000000/flexpwm@d0000/pwm2 */ \
+	207, /* /soc/peripheral@50000000/flexpwm@d0000/pwm3 */ \
+	208, /* /soc/peripheral@50000000/micfil@10c000 */ \
+	217, /* /soc/peripheral@50000000/mrt@13000 */ \
+	222, /* /soc/peripheral@50000000/smartdma@33000 */ \
+	225, /* /soc/peripheral@50000000/gpio@9a000 */ \
+	226, /* /soc/peripheral@50000000/usdhc@109000 */ \
+	228, /* /soc/spi@500c8000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_interrupt_controller_e000e100_EXISTS 1
@@ -1321,74 +1324,74 @@
 	21, /* /soc/peripheral@50000000/gpio@96000 */ \
 	25, /* /soc/peripheral@50000000/pinmux@117000 */ \
 	26, /* /soc/peripheral@50000000/gpio@98000 */ \
-	87, /* /soc/peripheral@50000000/vref@111000 */ \
-	88, /* /soc/peripheral@50000000/adc@10d000 */ \
-	89, /* /soc/peripheral@50000000/adc@10e000 */ \
-	90, /* /soc/peripheral@50000000/can@d4000 */ \
-	91, /* /soc/peripheral@50000000/can@d8000 */ \
-	92, /* /soc/peripheral@50000000/ctimer@c000 */ \
-	93, /* /soc/peripheral@50000000/ctimer@d000 */ \
-	94, /* /soc/peripheral@50000000/ctimer@e000 */ \
-	95, /* /soc/peripheral@50000000/ctimer@f000 */ \
-	96, /* /soc/peripheral@50000000/ctimer@10000 */ \
-	97, /* /soc/peripheral@50000000/dac@10f000 */ \
-	98, /* /soc/peripheral@50000000/dac@112000 */ \
-	99, /* /soc/peripheral@50000000/dma-controller@a0000 */ \
-	100, /* /soc/peripheral@50000000/erm@5c000 */ \
-	101, /* /soc/peripheral@50000000/ewm@c0000 */ \
-	102, /* /soc/peripheral@50000000/pinmux@42000 */ \
-	103, /* /soc/peripheral@50000000/gpio@40000 */ \
-	104, /* /soc/peripheral@50000000/pinmux@119000 */ \
-	105, /* /soc/peripheral@50000000/gpio@9c000 */ \
-	106, /* /soc/peripheral@50000000/i3c@21000 */ \
-	107, /* /soc/peripheral@50000000/i3c@22000 */ \
-	108, /* /soc/peripheral@50000000/lpcmp@51000 */ \
-	109, /* /soc/peripheral@50000000/lpcmp@52000 */ \
-	110, /* /soc/peripheral@50000000/lpcmp@53000 */ \
-	111, /* /soc/peripheral@50000000/lptmr@4a000 */ \
-	112, /* /soc/peripheral@50000000/lptmr@4b000 */ \
-	113, /* /soc/peripheral@50000000/opamp@110000 */ \
-	114, /* /soc/peripheral@50000000/opamp@113000 */ \
-	115, /* /soc/peripheral@50000000/opamp@115000 */ \
-	116, /* /soc/peripheral@50000000/pwm@91000 */ \
-	117, /* /soc/peripheral@50000000/rtc@4c000 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	119, /* /soc/peripheral@50000000/sai@106000 */ \
-	120, /* /soc/peripheral@50000000/sai@107000 */ \
-	121, /* /soc/peripheral@50000000/system-modules@45000 */ \
-	122, /* /soc/peripheral@50000000/system-modules@46000 */ \
-	123, /* /soc/peripheral@50000000/system-modules@48000 */ \
-	124, /* /soc/peripheral@50000000/system-modules@59000 */ \
-	126, /* /soc/peripheral@50000000/timers@49000 */ \
-	127, /* /soc/peripheral@50000000/usbd@dd000 */ \
-	128, /* /soc/peripheral@50000000/usbphy@10a000 */ \
-	129, /* /soc/peripheral@50000000/usbd@10b000 */ \
-	130, /* /soc/peripheral@50000000/watchdog@16000 */ \
-	131, /* /soc/peripheral@50000000/crypto@54000 */ \
-	133, /* /soc/peripheral@50000000/eim@5b000 */ \
-	141, /* /soc/peripheral@50000000/ethernet@40100000 */ \
-	145, /* /soc/peripheral@50000000/flash-controller@43000 */ \
-	152, /* /soc/peripheral@50000000/flexcomm@92000 */ \
-	156, /* /soc/peripheral@50000000/flexcomm@93000 */ \
-	160, /* /soc/peripheral@50000000/flexcomm@94000 */ \
-	164, /* /soc/peripheral@50000000/flexcomm@95000 */ \
-	168, /* /soc/peripheral@50000000/flexcomm@b4000 */ \
-	172, /* /soc/peripheral@50000000/flexcomm@b5000 */ \
-	176, /* /soc/peripheral@50000000/flexcomm@b6000 */ \
-	180, /* /soc/peripheral@50000000/flexcomm@b7000 */ \
-	184, /* /soc/peripheral@50000000/flexcomm@b8000 */ \
-	188, /* /soc/peripheral@50000000/flexcomm@b9000 */ \
-	192, /* /soc/peripheral@50000000/flexio@105000 */ \
-	193, /* /soc/peripheral@50000000/pinmux@11a000 */ \
-	194, /* /soc/peripheral@50000000/gpio@9e000 */ \
-	196, /* /soc/peripheral@50000000/flexpwm@ce000 */ \
-	201, /* /soc/peripheral@50000000/flexpwm@d0000 */ \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */ \
-	215, /* /soc/peripheral@50000000/mrt@13000 */ \
-	220, /* /soc/peripheral@50000000/smartdma@33000 */ \
-	222, /* /soc/peripheral@50000000/pinmux@118000 */ \
-	223, /* /soc/peripheral@50000000/gpio@9a000 */ \
-	224, /* /soc/peripheral@50000000/usdhc@109000 */
+	89, /* /soc/peripheral@50000000/vref@111000 */ \
+	90, /* /soc/peripheral@50000000/adc@10d000 */ \
+	91, /* /soc/peripheral@50000000/adc@10e000 */ \
+	92, /* /soc/peripheral@50000000/can@d4000 */ \
+	93, /* /soc/peripheral@50000000/can@d8000 */ \
+	94, /* /soc/peripheral@50000000/ctimer@c000 */ \
+	95, /* /soc/peripheral@50000000/ctimer@d000 */ \
+	96, /* /soc/peripheral@50000000/ctimer@e000 */ \
+	97, /* /soc/peripheral@50000000/ctimer@f000 */ \
+	98, /* /soc/peripheral@50000000/ctimer@10000 */ \
+	99, /* /soc/peripheral@50000000/dac@10f000 */ \
+	100, /* /soc/peripheral@50000000/dac@112000 */ \
+	101, /* /soc/peripheral@50000000/dma-controller@a0000 */ \
+	102, /* /soc/peripheral@50000000/erm@5c000 */ \
+	103, /* /soc/peripheral@50000000/ewm@c0000 */ \
+	104, /* /soc/peripheral@50000000/pinmux@42000 */ \
+	105, /* /soc/peripheral@50000000/gpio@40000 */ \
+	106, /* /soc/peripheral@50000000/pinmux@119000 */ \
+	107, /* /soc/peripheral@50000000/gpio@9c000 */ \
+	108, /* /soc/peripheral@50000000/i3c@21000 */ \
+	109, /* /soc/peripheral@50000000/i3c@22000 */ \
+	110, /* /soc/peripheral@50000000/lpcmp@51000 */ \
+	111, /* /soc/peripheral@50000000/lpcmp@52000 */ \
+	112, /* /soc/peripheral@50000000/lpcmp@53000 */ \
+	113, /* /soc/peripheral@50000000/lptmr@4a000 */ \
+	114, /* /soc/peripheral@50000000/lptmr@4b000 */ \
+	115, /* /soc/peripheral@50000000/opamp@110000 */ \
+	116, /* /soc/peripheral@50000000/opamp@113000 */ \
+	117, /* /soc/peripheral@50000000/opamp@115000 */ \
+	118, /* /soc/peripheral@50000000/pwm@91000 */ \
+	119, /* /soc/peripheral@50000000/rtc@4c000 */ \
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	121, /* /soc/peripheral@50000000/sai@106000 */ \
+	122, /* /soc/peripheral@50000000/sai@107000 */ \
+	123, /* /soc/peripheral@50000000/system-modules@45000 */ \
+	124, /* /soc/peripheral@50000000/system-modules@46000 */ \
+	125, /* /soc/peripheral@50000000/system-modules@48000 */ \
+	126, /* /soc/peripheral@50000000/system-modules@59000 */ \
+	128, /* /soc/peripheral@50000000/timers@49000 */ \
+	129, /* /soc/peripheral@50000000/usbd@dd000 */ \
+	130, /* /soc/peripheral@50000000/usbphy@10a000 */ \
+	131, /* /soc/peripheral@50000000/usbd@10b000 */ \
+	132, /* /soc/peripheral@50000000/watchdog@16000 */ \
+	133, /* /soc/peripheral@50000000/crypto@54000 */ \
+	135, /* /soc/peripheral@50000000/eim@5b000 */ \
+	143, /* /soc/peripheral@50000000/ethernet@40100000 */ \
+	147, /* /soc/peripheral@50000000/flash-controller@43000 */ \
+	154, /* /soc/peripheral@50000000/flexcomm@92000 */ \
+	158, /* /soc/peripheral@50000000/flexcomm@93000 */ \
+	162, /* /soc/peripheral@50000000/flexcomm@94000 */ \
+	166, /* /soc/peripheral@50000000/flexcomm@95000 */ \
+	170, /* /soc/peripheral@50000000/flexcomm@b4000 */ \
+	174, /* /soc/peripheral@50000000/flexcomm@b5000 */ \
+	178, /* /soc/peripheral@50000000/flexcomm@b6000 */ \
+	182, /* /soc/peripheral@50000000/flexcomm@b7000 */ \
+	186, /* /soc/peripheral@50000000/flexcomm@b8000 */ \
+	190, /* /soc/peripheral@50000000/flexcomm@b9000 */ \
+	194, /* /soc/peripheral@50000000/flexio@105000 */ \
+	195, /* /soc/peripheral@50000000/pinmux@11a000 */ \
+	196, /* /soc/peripheral@50000000/gpio@9e000 */ \
+	198, /* /soc/peripheral@50000000/flexpwm@ce000 */ \
+	203, /* /soc/peripheral@50000000/flexpwm@d0000 */ \
+	208, /* /soc/peripheral@50000000/micfil@10c000 */ \
+	217, /* /soc/peripheral@50000000/mrt@13000 */ \
+	222, /* /soc/peripheral@50000000/smartdma@33000 */ \
+	224, /* /soc/peripheral@50000000/pinmux@118000 */ \
+	225, /* /soc/peripheral@50000000/gpio@9a000 */ \
+	226, /* /soc/peripheral@50000000/usdhc@109000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_EXISTS 1
@@ -2608,73 +2611,73 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_SUPPORTS_ORDS \
 	20, /* /soc/peripheral@50000000/pinmux@116000 */ \
 	25, /* /soc/peripheral@50000000/pinmux@117000 */ \
-	88, /* /soc/peripheral@50000000/adc@10d000 */ \
-	89, /* /soc/peripheral@50000000/adc@10e000 */ \
-	90, /* /soc/peripheral@50000000/can@d4000 */ \
-	91, /* /soc/peripheral@50000000/can@d8000 */ \
-	92, /* /soc/peripheral@50000000/ctimer@c000 */ \
-	93, /* /soc/peripheral@50000000/ctimer@d000 */ \
-	94, /* /soc/peripheral@50000000/ctimer@e000 */ \
-	95, /* /soc/peripheral@50000000/ctimer@f000 */ \
-	96, /* /soc/peripheral@50000000/ctimer@10000 */ \
-	102, /* /soc/peripheral@50000000/pinmux@42000 */ \
-	104, /* /soc/peripheral@50000000/pinmux@119000 */ \
-	106, /* /soc/peripheral@50000000/i3c@21000 */ \
-	107, /* /soc/peripheral@50000000/i3c@22000 */ \
-	113, /* /soc/peripheral@50000000/opamp@110000 */ \
-	114, /* /soc/peripheral@50000000/opamp@113000 */ \
-	115, /* /soc/peripheral@50000000/opamp@115000 */ \
-	116, /* /soc/peripheral@50000000/pwm@91000 */ \
-	119, /* /soc/peripheral@50000000/sai@106000 */ \
-	120, /* /soc/peripheral@50000000/sai@107000 */ \
-	125, /* /soc/peripheral@50000000/syscon@0/reset */ \
-	131, /* /soc/peripheral@50000000/crypto@54000 */ \
-	141, /* /soc/peripheral@50000000/ethernet@40100000 */ \
-	153, /* /soc/peripheral@50000000/flexcomm@92000/lpi2c@92800 */ \
-	154, /* /soc/peripheral@50000000/flexcomm@92000/lpuart@92000 */ \
-	155, /* /soc/peripheral@50000000/flexcomm@92000/spi@92000 */ \
-	157, /* /soc/peripheral@50000000/flexcomm@93000/lpi2c@93800 */ \
-	158, /* /soc/peripheral@50000000/flexcomm@93000/lpuart@93000 */ \
-	159, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */ \
-	161, /* /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800 */ \
-	162, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */ \
-	163, /* /soc/peripheral@50000000/flexcomm@94000/spi@94000 */ \
-	165, /* /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800 */ \
-	166, /* /soc/peripheral@50000000/flexcomm@95000/lpuart@95000 */ \
-	167, /* /soc/peripheral@50000000/flexcomm@95000/spi@95000 */ \
-	169, /* /soc/peripheral@50000000/flexcomm@b4000/lpi2c@b4800 */ \
-	170, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */ \
-	171, /* /soc/peripheral@50000000/flexcomm@b4000/spi@b4000 */ \
-	173, /* /soc/peripheral@50000000/flexcomm@b5000/lpi2c@b5800 */ \
-	174, /* /soc/peripheral@50000000/flexcomm@b5000/lpuart@b5000 */ \
-	175, /* /soc/peripheral@50000000/flexcomm@b5000/spi@b5000 */ \
-	177, /* /soc/peripheral@50000000/flexcomm@b6000/lpi2c@b6800 */ \
-	178, /* /soc/peripheral@50000000/flexcomm@b6000/lpuart@b6000 */ \
-	179, /* /soc/peripheral@50000000/flexcomm@b6000/spi@b6000 */ \
-	181, /* /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800 */ \
-	182, /* /soc/peripheral@50000000/flexcomm@b7000/lpuart@b7000 */ \
-	183, /* /soc/peripheral@50000000/flexcomm@b7000/spi@b7000 */ \
-	185, /* /soc/peripheral@50000000/flexcomm@b8000/lpi2c@b8800 */ \
-	186, /* /soc/peripheral@50000000/flexcomm@b8000/lpuart@b8000 */ \
-	187, /* /soc/peripheral@50000000/flexcomm@b8000/spi@b8000 */ \
-	189, /* /soc/peripheral@50000000/flexcomm@b9000/lpi2c@b9800 */ \
-	190, /* /soc/peripheral@50000000/flexcomm@b9000/lpuart@b9000 */ \
-	191, /* /soc/peripheral@50000000/flexcomm@b9000/spi@b9000 */ \
-	192, /* /soc/peripheral@50000000/flexio@105000 */ \
-	193, /* /soc/peripheral@50000000/pinmux@11a000 */ \
-	197, /* /soc/peripheral@50000000/flexpwm@ce000/pwm0 */ \
-	198, /* /soc/peripheral@50000000/flexpwm@ce000/pwm1 */ \
-	199, /* /soc/peripheral@50000000/flexpwm@ce000/pwm2 */ \
-	200, /* /soc/peripheral@50000000/flexpwm@ce000/pwm3 */ \
-	202, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */ \
-	203, /* /soc/peripheral@50000000/flexpwm@d0000/pwm1 */ \
-	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm2 */ \
-	205, /* /soc/peripheral@50000000/flexpwm@d0000/pwm3 */ \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */ \
-	215, /* /soc/peripheral@50000000/mrt@13000 */ \
-	222, /* /soc/peripheral@50000000/pinmux@118000 */ \
-	224, /* /soc/peripheral@50000000/usdhc@109000 */ \
-	226, /* /soc/spi@500c8000 */
+	90, /* /soc/peripheral@50000000/adc@10d000 */ \
+	91, /* /soc/peripheral@50000000/adc@10e000 */ \
+	92, /* /soc/peripheral@50000000/can@d4000 */ \
+	93, /* /soc/peripheral@50000000/can@d8000 */ \
+	94, /* /soc/peripheral@50000000/ctimer@c000 */ \
+	95, /* /soc/peripheral@50000000/ctimer@d000 */ \
+	96, /* /soc/peripheral@50000000/ctimer@e000 */ \
+	97, /* /soc/peripheral@50000000/ctimer@f000 */ \
+	98, /* /soc/peripheral@50000000/ctimer@10000 */ \
+	104, /* /soc/peripheral@50000000/pinmux@42000 */ \
+	106, /* /soc/peripheral@50000000/pinmux@119000 */ \
+	108, /* /soc/peripheral@50000000/i3c@21000 */ \
+	109, /* /soc/peripheral@50000000/i3c@22000 */ \
+	115, /* /soc/peripheral@50000000/opamp@110000 */ \
+	116, /* /soc/peripheral@50000000/opamp@113000 */ \
+	117, /* /soc/peripheral@50000000/opamp@115000 */ \
+	118, /* /soc/peripheral@50000000/pwm@91000 */ \
+	121, /* /soc/peripheral@50000000/sai@106000 */ \
+	122, /* /soc/peripheral@50000000/sai@107000 */ \
+	127, /* /soc/peripheral@50000000/syscon@0/reset */ \
+	133, /* /soc/peripheral@50000000/crypto@54000 */ \
+	143, /* /soc/peripheral@50000000/ethernet@40100000 */ \
+	155, /* /soc/peripheral@50000000/flexcomm@92000/lpi2c@92800 */ \
+	156, /* /soc/peripheral@50000000/flexcomm@92000/lpuart@92000 */ \
+	157, /* /soc/peripheral@50000000/flexcomm@92000/spi@92000 */ \
+	159, /* /soc/peripheral@50000000/flexcomm@93000/lpi2c@93800 */ \
+	160, /* /soc/peripheral@50000000/flexcomm@93000/lpuart@93000 */ \
+	161, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */ \
+	163, /* /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800 */ \
+	164, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */ \
+	165, /* /soc/peripheral@50000000/flexcomm@94000/spi@94000 */ \
+	167, /* /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800 */ \
+	168, /* /soc/peripheral@50000000/flexcomm@95000/lpuart@95000 */ \
+	169, /* /soc/peripheral@50000000/flexcomm@95000/spi@95000 */ \
+	171, /* /soc/peripheral@50000000/flexcomm@b4000/lpi2c@b4800 */ \
+	172, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */ \
+	173, /* /soc/peripheral@50000000/flexcomm@b4000/spi@b4000 */ \
+	175, /* /soc/peripheral@50000000/flexcomm@b5000/lpi2c@b5800 */ \
+	176, /* /soc/peripheral@50000000/flexcomm@b5000/lpuart@b5000 */ \
+	177, /* /soc/peripheral@50000000/flexcomm@b5000/spi@b5000 */ \
+	179, /* /soc/peripheral@50000000/flexcomm@b6000/lpi2c@b6800 */ \
+	180, /* /soc/peripheral@50000000/flexcomm@b6000/lpuart@b6000 */ \
+	181, /* /soc/peripheral@50000000/flexcomm@b6000/spi@b6000 */ \
+	183, /* /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800 */ \
+	184, /* /soc/peripheral@50000000/flexcomm@b7000/lpuart@b7000 */ \
+	185, /* /soc/peripheral@50000000/flexcomm@b7000/spi@b7000 */ \
+	187, /* /soc/peripheral@50000000/flexcomm@b8000/lpi2c@b8800 */ \
+	188, /* /soc/peripheral@50000000/flexcomm@b8000/lpuart@b8000 */ \
+	189, /* /soc/peripheral@50000000/flexcomm@b8000/spi@b8000 */ \
+	191, /* /soc/peripheral@50000000/flexcomm@b9000/lpi2c@b9800 */ \
+	192, /* /soc/peripheral@50000000/flexcomm@b9000/lpuart@b9000 */ \
+	193, /* /soc/peripheral@50000000/flexcomm@b9000/spi@b9000 */ \
+	194, /* /soc/peripheral@50000000/flexio@105000 */ \
+	195, /* /soc/peripheral@50000000/pinmux@11a000 */ \
+	199, /* /soc/peripheral@50000000/flexpwm@ce000/pwm0 */ \
+	200, /* /soc/peripheral@50000000/flexpwm@ce000/pwm1 */ \
+	201, /* /soc/peripheral@50000000/flexpwm@ce000/pwm2 */ \
+	202, /* /soc/peripheral@50000000/flexpwm@ce000/pwm3 */ \
+	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */ \
+	205, /* /soc/peripheral@50000000/flexpwm@d0000/pwm1 */ \
+	206, /* /soc/peripheral@50000000/flexpwm@d0000/pwm2 */ \
+	207, /* /soc/peripheral@50000000/flexpwm@d0000/pwm3 */ \
+	208, /* /soc/peripheral@50000000/micfil@10c000 */ \
+	217, /* /soc/peripheral@50000000/mrt@13000 */ \
+	224, /* /soc/peripheral@50000000/pinmux@118000 */ \
+	226, /* /soc/peripheral@50000000/usdhc@109000 */ \
+	228, /* /soc/spi@500c8000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_EXISTS 1
@@ -2916,7 +2919,7 @@
 	27, /* /leds */ \
 	28, /* /leds/led_1 */ \
 	30, /* /leds/led_3 */ \
-	195, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
+	197, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_96000_EXISTS 1
@@ -4229,7 +4232,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_SUPPORTS_ORDS \
 	33, /* /pinctrl/pimux_flexcomm7_lpi2c/group0 */ \
-	181, /* /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800 */
+	183, /* /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_EXISTS 1
@@ -4431,7 +4434,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_dac0_SUPPORTS_ORDS \
 	35, /* /pinctrl/pinmux_dac0/group0 */ \
-	97, /* /soc/peripheral@50000000/dac@10f000 */
+	99, /* /soc/peripheral@50000000/dac@10f000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_dac0_EXISTS 1
@@ -4628,7 +4631,7 @@
 #define DT_N_S_pinctrl_S_pinmux_enet_qos_SUPPORTS_ORDS \
 	37, /* /pinctrl/pinmux_enet_qos/mac_group */ \
 	38, /* /pinctrl/pinmux_enet_qos/mdio_group */ \
-	141, /* /soc/peripheral@50000000/ethernet@40100000 */
+	143, /* /soc/peripheral@50000000/ethernet@40100000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_enet_qos_EXISTS 1
@@ -4987,7 +4990,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcan0_SUPPORTS_ORDS \
 	40, /* /pinctrl/pinmux_flexcan0/group0 */ \
-	90, /* /soc/peripheral@50000000/can@d4000 */
+	92, /* /soc/peripheral@50000000/can@d4000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcan0_EXISTS 1
@@ -5189,7 +5192,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_SUPPORTS_ORDS \
 	42, /* /pinctrl/pinmux_flexcomm1_lpspi/group0 */ \
-	159, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */
+	161, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_EXISTS 1
@@ -5403,7 +5406,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_SUPPORTS_ORDS \
 	44, /* /pinctrl/pinmux_flexcomm2_lpi2c/group0 */ \
-	161, /* /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800 */
+	163, /* /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_EXISTS 1
@@ -5605,7 +5608,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_SUPPORTS_ORDS \
 	46, /* /pinctrl/pinmux_flexcomm2_lpuart/group0 */ \
-	162, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */
+	164, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_EXISTS 1
@@ -5807,7 +5810,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_SUPPORTS_ORDS \
 	48, /* /pinctrl/pinmux_flexcomm3_lpi2c/group0 */ \
-	165, /* /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800 */
+	167, /* /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_EXISTS 1
@@ -6009,7 +6012,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_SUPPORTS_ORDS \
 	50, /* /pinctrl/pinmux_flexcomm4_lpuart/group0 */ \
-	170, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */
+	172, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_EXISTS 1
@@ -6211,7 +6214,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_SUPPORTS_ORDS \
 	52, /* /pinctrl/pinmux_flexcomm6_lpspi/group0 */ \
-	179, /* /soc/peripheral@50000000/flexcomm@b6000/spi@b6000 */
+	181, /* /soc/peripheral@50000000/flexcomm@b6000/spi@b6000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_EXISTS 1
@@ -6427,7 +6430,7 @@
 	54, /* /pinctrl/pinmux_flexio_lcd/group0 */ \
 	55, /* /pinctrl/pinmux_flexio_lcd/group1 */ \
 	56, /* /pinctrl/pinmux_flexio_lcd/group2 */ \
-	195, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
+	197, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexio_lcd_EXISTS 1
@@ -6973,7 +6976,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_SUPPORTS_ORDS \
 	58, /* /pinctrl/pinmux_flexpwm1_pwm0/group0 */ \
-	202, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */
+	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_EXISTS 1
@@ -7578,7 +7581,7 @@
 #define DT_N_S_pinctrl_S_pinmux_flexspi_SUPPORTS_ORDS \
 	64, /* /pinctrl/pinmux_flexspi/group0 */ \
 	65, /* /pinctrl/pinmux_flexspi/group1 */ \
-	226, /* /soc/spi@500c8000 */
+	228, /* /soc/spi@500c8000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_flexspi_EXISTS 1
@@ -7926,7 +7929,7 @@
 #define DT_N_S_pinctrl_S_pinmux_i3c1_SUPPORTS_ORDS \
 	67, /* /pinctrl/pinmux_i3c1/group0 */ \
 	68, /* /pinctrl/pinmux_i3c1/group1 */ \
-	107, /* /soc/peripheral@50000000/i3c@22000 */
+	109, /* /soc/peripheral@50000000/i3c@22000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_i3c1_EXISTS 1
@@ -8249,7 +8252,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_lpadc0_SUPPORTS_ORDS \
 	70, /* /pinctrl/pinmux_lpadc0/group0 */ \
-	88, /* /soc/peripheral@50000000/adc@10d000 */
+	90, /* /soc/peripheral@50000000/adc@10d000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_lpadc0_EXISTS 1
@@ -8652,7 +8655,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_opamp0_SUPPORTS_ORDS \
 	74, /* /pinctrl/pinmux_opamp0/group0 */ \
-	113, /* /soc/peripheral@50000000/opamp@110000 */
+	115, /* /soc/peripheral@50000000/opamp@110000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_opamp0_EXISTS 1
@@ -8854,7 +8857,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_sai0_SUPPORTS_ORDS \
 	76, /* /pinctrl/pinmux_sai0/group0 */ \
-	119, /* /soc/peripheral@50000000/sai@106000 */
+	121, /* /soc/peripheral@50000000/sai@106000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_sai0_EXISTS 1
@@ -9062,7 +9065,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_sai1_SUPPORTS_ORDS \
 	78, /* /pinctrl/pinmux_sai1/group0 */ \
-	120, /* /soc/peripheral@50000000/sai@107000 */
+	122, /* /soc/peripheral@50000000/sai@107000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_sai1_EXISTS 1
@@ -9288,7 +9291,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_sctimer_SUPPORTS_ORDS \
 	80, /* /pinctrl/pinmux_sctimer/group0 */ \
-	116, /* /soc/peripheral@50000000/pwm@91000 */
+	118, /* /soc/peripheral@50000000/pwm@91000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_sctimer_EXISTS 1
@@ -9484,7 +9487,7 @@
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_pinctrl_S_pinmux_smartdma_camera_SUPPORTS_ORDS \
 	82, /* /pinctrl/pinmux_smartdma_camera/group0 */ \
-	221, /* /soc/peripheral@50000000/smartdma@33000/video-sdma */
+	223, /* /soc/peripheral@50000000/smartdma@33000/video-sdma */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_smartdma_camera_EXISTS 1
@@ -9753,7 +9756,7 @@
 #define DT_N_S_pinctrl_S_pinmux_usdhc0_SUPPORTS_ORDS \
 	84, /* /pinctrl/pinmux_usdhc0/group0 */ \
 	85, /* /pinctrl/pinmux_usdhc0/group1 */ \
-	224, /* /soc/peripheral@50000000/usdhc@109000 */
+	226, /* /soc/peripheral@50000000/usdhc@109000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_pinctrl_S_pinmux_usdhc0_EXISTS 1
@@ -10039,6 +10042,168 @@
 #define DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1_P_input_enable_EXISTS 1
 
 /*
+ * Devicetree node: /reserved-memory
+ *
+ * Node identifier: DT_N_S_reserved_memory
+ */
+
+/* Node's full path: */
+#define DT_N_S_reserved_memory_PATH "/reserved-memory"
+
+/* Node's name with unit-address: */
+#define DT_N_S_reserved_memory_FULL_NAME "reserved-memory"
+#define DT_N_S_reserved_memory_FULL_NAME_UNQUOTED reserved-memory
+#define DT_N_S_reserved_memory_FULL_NAME_TOKEN reserved_memory
+#define DT_N_S_reserved_memory_FULL_NAME_UPPER_TOKEN RESERVED_MEMORY
+
+/* Node parent (/) identifier: */
+#define DT_N_S_reserved_memory_PARENT DT_N
+
+/* Node's index in its parent's list of children: */
+#define DT_N_S_reserved_memory_CHILD_IDX 13
+
+/* Helpers for dealing with node labels: */
+#define DT_N_S_reserved_memory_NODELABEL_NUM 0
+#define DT_N_S_reserved_memory_FOREACH_NODELABEL(fn) 
+#define DT_N_S_reserved_memory_FOREACH_NODELABEL_VARGS(fn, ...) 
+#define DT_N_S_reserved_memory_FOREACH_ANCESTOR(fn) fn(DT_N)
+
+/* Helper macros for child nodes of this node. */
+#define DT_N_S_reserved_memory_CHILD_NUM 1
+#define DT_N_S_reserved_memory_CHILD_NUM_STATUS_OKAY 1
+#define DT_N_S_reserved_memory_CHILD_UNIT_ADDR_INT_537264128 DT_N_S_reserved_memory_S_cpu_shared_20060000
+#define DT_N_S_reserved_memory_FOREACH_CHILD(fn) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_SEP(fn, sep) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_VARGS(fn, ...) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, __VA_ARGS__)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_SEP_VARGS(fn, sep, ...) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, __VA_ARGS__)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_STATUS_OKAY(fn) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_STATUS_OKAY_SEP(fn, sep) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_STATUS_OKAY_VARGS(fn, ...) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, __VA_ARGS__)
+#define DT_N_S_reserved_memory_FOREACH_CHILD_STATUS_OKAY_SEP_VARGS(fn, sep, ...) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, __VA_ARGS__)
+
+/* Node's hash: */
+#define DT_N_S_reserved_memory_HASH _4O_Cz0v63FrWZ0QRbIHWGjyasFighV7F_3EBd4HJFI
+
+/* Node's dependency ordinal: */
+#define DT_N_S_reserved_memory_ORD 86
+#define DT_N_S_reserved_memory_ORD_STR_SORTABLE 00086
+
+/* Ordinals for what this node depends on directly: */
+#define DT_N_S_reserved_memory_REQUIRES_ORDS \
+	0, /* / */
+
+/* Ordinals for what depends directly on this node: */
+#define DT_N_S_reserved_memory_SUPPORTS_ORDS \
+	87, /* /reserved-memory/cpu_shared@20060000 */
+
+/* Existence and alternate IDs: */
+#define DT_N_S_reserved_memory_EXISTS 1
+
+/* Macros for properties that are special in the specification: */
+#define DT_N_S_reserved_memory_REG_NUM 0
+#define DT_N_S_reserved_memory_RANGES_NUM 0
+#define DT_N_S_reserved_memory_FOREACH_RANGE(fn) 
+#define DT_N_S_reserved_memory_IRQ_NUM 0
+#define DT_N_S_reserved_memory_IRQ_LEVEL 0
+#define DT_N_S_reserved_memory_STATUS_okay 1
+
+/* Pin control (pinctrl-<i>, pinctrl-names) properties: */
+#define DT_N_S_reserved_memory_PINCTRL_NUM 0
+
+/* (No generic property macros) */
+
+/*
+ * Devicetree node: /reserved-memory/cpu_shared@20060000
+ *
+ * Node identifier: DT_N_S_reserved_memory_S_cpu_shared_20060000
+ */
+
+/* Node's full path: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_PATH "/reserved-memory/cpu_shared@20060000"
+
+/* Node's name with unit-address: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FULL_NAME "cpu_shared@20060000"
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FULL_NAME_UNQUOTED cpu_shared@20060000
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FULL_NAME_TOKEN cpu_shared_20060000
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FULL_NAME_UPPER_TOKEN CPU_SHARED_20060000
+
+/* Node parent (/reserved-memory) identifier: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_PARENT DT_N_S_reserved_memory
+
+/* Node's index in its parent's list of children: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_CHILD_IDX 0
+
+/* Helpers for dealing with node labels: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_NODELABEL_NUM 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_NODELABEL(fn) fn(cpu_dma_shared)
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_NODELABEL_VARGS(fn, ...) fn(cpu_dma_shared, __VA_ARGS__)
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_ANCESTOR(fn) fn(DT_N_S_reserved_memory) fn(DT_N)
+
+/* Helper macros for child nodes of this node. */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_CHILD_NUM 0
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_CHILD_NUM_STATUS_OKAY 0
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD(fn) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_SEP(fn, sep) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_VARGS(fn, ...) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_SEP_VARGS(fn, sep, ...) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_STATUS_OKAY(fn) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_STATUS_OKAY_SEP(fn, sep) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_STATUS_OKAY_VARGS(fn, ...) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_CHILD_STATUS_OKAY_SEP_VARGS(fn, sep, ...) 
+
+/* Node's hash: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_HASH Iyoivm35uBJZ4k1trsnbYpxT_7_ru2XNulv8CwcEkMM
+
+/* Node's dependency ordinal: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_ORD 87
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_ORD_STR_SORTABLE 00087
+
+/* Ordinals for what this node depends on directly: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_REQUIRES_ORDS \
+	86, /* /reserved-memory */
+
+/* Ordinals for what depends directly on this node: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_SUPPORTS_ORDS /* nothing */
+
+/* Existence and alternate IDs: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_EXISTS 1
+#define DT_N_NODELABEL_cpu_dma_shared DT_N_S_reserved_memory_S_cpu_shared_20060000
+
+/* Macros for properties that are special in the specification: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_REG_NUM 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_REG_IDX_0_EXISTS 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_REG_IDX_0_VAL_ADDRESS 537264128 /* 0x20060000 */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_REG_IDX_0_VAL_SIZE 128 /* 0x80 */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_RANGES_NUM 0
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_FOREACH_RANGE(fn) 
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_IRQ_NUM 0
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_IRQ_LEVEL 0
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_STATUS_okay 1
+
+/* Pin control (pinctrl-<i>, pinctrl-names) properties: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_PINCTRL_NUM 0
+
+/* Generic property macros: */
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_reg {537264128 /* 0x20060000 */, 128 /* 0x80 */}
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_reg_IDX_0_EXISTS 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_reg_IDX_0 537264128
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_reg_IDX_1_EXISTS 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_reg_IDX_1 128
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_reg_EXISTS 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label "SHARED_MEM"
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_STRING_UNQUOTED SHARED_MEM
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_STRING_TOKEN SHARED_MEM
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_STRING_UPPER_TOKEN SHARED_MEM
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_IDX_0 "SHARED_MEM"
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_IDX_0_EXISTS 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_FOREACH_PROP_ELEM(fn) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, label, 0)
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, label, 0)
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, label, 0, __VA_ARGS__)
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, label, 0, __VA_ARGS__)
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_LEN 1
+#define DT_N_S_reserved_memory_S_cpu_shared_20060000_P_label_EXISTS 1
+
+/*
  * Devicetree node: /soc/timer@e000e010
  *
  * Node identifier: DT_N_S_soc_S_timer_e000e010
@@ -10087,8 +10252,8 @@
 #define DT_N_S_soc_S_timer_e000e010_HASH aZrzPLAIRgEwRZJIvTCzJONA6gPgc4QlhkiU5oWGArA
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_timer_e000e010_ORD 86
-#define DT_N_S_soc_S_timer_e000e010_ORD_STR_SORTABLE 00086
+#define DT_N_S_soc_S_timer_e000e010_ORD 88
+#define DT_N_S_soc_S_timer_e000e010_ORD_STR_SORTABLE 00088
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_timer_e000e010_REQUIRES_ORDS \
@@ -10211,8 +10376,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_HASH aIjdFeDg1crh2IiwLh8wlpKcCh0CQ5LDd5d5VpLQLEY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_ORD 87
-#define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_ORD_STR_SORTABLE 00087
+#define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_ORD 89
+#define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_ORD_STR_SORTABLE 00089
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_REQUIRES_ORDS \
@@ -10220,7 +10385,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_SUPPORTS_ORDS \
-	88, /* /soc/peripheral@50000000/adc@10d000 */
+	90, /* /soc/peripheral@50000000/adc@10d000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_vref_111000_EXISTS 1
@@ -10362,8 +10527,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_HASH t_eYUNd_r6t25XqMZFtnY_QHMfR_KTten08iKuyc8wg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_ORD 88
-#define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_ORD_STR_SORTABLE 00088
+#define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_ORD 90
+#define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_ORD_STR_SORTABLE 00090
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_REQUIRES_ORDS \
@@ -10371,7 +10536,7 @@
 	8, /* /soc/peripheral@50000000 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	69, /* /pinctrl/pinmux_lpadc0 */ \
-	87, /* /soc/peripheral@50000000/vref@111000 */
+	89, /* /soc/peripheral@50000000/vref@111000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_adc_10d000_SUPPORTS_ORDS /* nothing */
@@ -10580,8 +10745,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_adc_10e000_HASH KEWkk8GQSj1yt8BHANnIgbmgZCdx43LEYxnOXSSBqy4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_adc_10e000_ORD 89
-#define DT_N_S_soc_S_peripheral_50000000_S_adc_10e000_ORD_STR_SORTABLE 00089
+#define DT_N_S_soc_S_peripheral_50000000_S_adc_10e000_ORD 91
+#define DT_N_S_soc_S_peripheral_50000000_S_adc_10e000_ORD_STR_SORTABLE 00091
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_adc_10e000_REQUIRES_ORDS \
@@ -10756,8 +10921,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_can_d4000_HASH 980pQm5FsnkAu_43nXH6yxhWbv0eplU419RnOUrsGT4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_can_d4000_ORD 90
-#define DT_N_S_soc_S_peripheral_50000000_S_can_d4000_ORD_STR_SORTABLE 00090
+#define DT_N_S_soc_S_peripheral_50000000_S_can_d4000_ORD 92
+#define DT_N_S_soc_S_peripheral_50000000_S_can_d4000_ORD_STR_SORTABLE 00092
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_can_d4000_REQUIRES_ORDS \
@@ -10974,8 +11139,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_can_d8000_HASH ec5ilmJf9XZ1maJ9cHOuSRw8gFYvwsnw1oqF9aPP_0Q
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_can_d8000_ORD 91
-#define DT_N_S_soc_S_peripheral_50000000_S_can_d8000_ORD_STR_SORTABLE 00091
+#define DT_N_S_soc_S_peripheral_50000000_S_can_d8000_ORD 93
+#define DT_N_S_soc_S_peripheral_50000000_S_can_d8000_ORD_STR_SORTABLE 00093
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_can_d8000_REQUIRES_ORDS \
@@ -11164,8 +11329,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000_HASH 4XKecRrrMPnLxqZSjSbqvxNs44d4Q_wIemtkEMmA5Zg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000_ORD 92
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000_ORD_STR_SORTABLE 00092
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000_ORD 94
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000_ORD_STR_SORTABLE 00094
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000_REQUIRES_ORDS \
@@ -11324,8 +11489,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000_HASH uE4ynlQ6OmJTtA_nOCobCGdwVyTNTcWL7fCNtFBZAz0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000_ORD 93
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000_ORD_STR_SORTABLE 00093
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000_ORD 95
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000_ORD_STR_SORTABLE 00095
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000_REQUIRES_ORDS \
@@ -11484,8 +11649,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000_HASH BE27XDHCc23AQYYFxcicKlkVbshvgEpoutj_mLvPn_0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000_ORD 94
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000_ORD_STR_SORTABLE 00094
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000_ORD 96
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000_ORD_STR_SORTABLE 00096
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000_REQUIRES_ORDS \
@@ -11644,8 +11809,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000_HASH 8hFgqlMin6PP8a8eveitoFj7zgOKc70NtTHSjIsWw6w
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000_ORD 95
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000_ORD_STR_SORTABLE 00095
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000_ORD 97
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000_ORD_STR_SORTABLE 00097
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000_REQUIRES_ORDS \
@@ -11804,8 +11969,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000_HASH lObv0wrC9YhHpW9f2po2g7PggIdpi7ZymxsbCL9IMaI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000_ORD 96
-#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000_ORD_STR_SORTABLE 00096
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000_ORD 98
+#define DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000_ORD_STR_SORTABLE 00098
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000_REQUIRES_ORDS \
@@ -11964,8 +12129,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_dac_10f000_HASH 32Ko3wfMVsWZ_vOsoWq5Wms_eCKkOMHfbeI0qfkRPT0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_dac_10f000_ORD 97
-#define DT_N_S_soc_S_peripheral_50000000_S_dac_10f000_ORD_STR_SORTABLE 00097
+#define DT_N_S_soc_S_peripheral_50000000_S_dac_10f000_ORD 99
+#define DT_N_S_soc_S_peripheral_50000000_S_dac_10f000_ORD_STR_SORTABLE 00099
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_dac_10f000_REQUIRES_ORDS \
@@ -12134,8 +12299,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_dac_112000_HASH 04G_hWCqQ_g3aeUh1LxC74h2IkQ2EHNNhCll1ewMvsI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_dac_112000_ORD 98
-#define DT_N_S_soc_S_peripheral_50000000_S_dac_112000_ORD_STR_SORTABLE 00098
+#define DT_N_S_soc_S_peripheral_50000000_S_dac_112000_ORD 100
+#define DT_N_S_soc_S_peripheral_50000000_S_dac_112000_ORD_STR_SORTABLE 00100
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_dac_112000_REQUIRES_ORDS \
@@ -12276,8 +12441,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000_HASH VvrWI6okILQbnwIAjFQ7Cqkj1yWn6WXaYo1Pf7vv6JM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000_ORD 99
-#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000_ORD_STR_SORTABLE 00099
+#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000_ORD 101
+#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000_ORD_STR_SORTABLE 00101
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000_REQUIRES_ORDS \
@@ -12599,8 +12764,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_erm_5c000_HASH f_YfIZL_WISnMcAktpj66uLVtoxh95LD3Qg74XrA6XE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_erm_5c000_ORD 100
-#define DT_N_S_soc_S_peripheral_50000000_S_erm_5c000_ORD_STR_SORTABLE 00100
+#define DT_N_S_soc_S_peripheral_50000000_S_erm_5c000_ORD 102
+#define DT_N_S_soc_S_peripheral_50000000_S_erm_5c000_ORD_STR_SORTABLE 00102
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_erm_5c000_REQUIRES_ORDS \
@@ -12811,8 +12976,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000_HASH mNWQrddCbX4F_PmPSe00inVw8JAGW1umRj4u_ckhiTI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000_ORD 101
-#define DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000_ORD_STR_SORTABLE 00101
+#define DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000_ORD 103
+#define DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000_ORD_STR_SORTABLE 00103
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000_REQUIRES_ORDS \
@@ -12955,8 +13120,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_HASH lfbLgk5qdYce775rr9SRxBmsLH_83hK8hc2f4YVNQrw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_ORD 102
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_ORD_STR_SORTABLE 00102
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_ORD 104
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_ORD_STR_SORTABLE 00104
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_REQUIRES_ORDS \
@@ -12965,7 +13130,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_SUPPORTS_ORDS \
-	103, /* /soc/peripheral@50000000/gpio@40000 */
+	105, /* /soc/peripheral@50000000/gpio@40000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000_EXISTS 1
@@ -13079,14 +13244,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_HASH ojZyVetrQS18yeZm7qvk4MEggPRERmEqz9eJ7lQWlto
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_ORD 103
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_ORD_STR_SORTABLE 00103
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_ORD 105
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_ORD_STR_SORTABLE 00105
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	102, /* /soc/peripheral@50000000/pinmux@42000 */
+	104, /* /soc/peripheral@50000000/pinmux@42000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_40000_SUPPORTS_ORDS /* nothing */
@@ -13243,8 +13408,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_HASH F9GwFF2GveI1i528eCuDXtsve9DaCwiJHshdEsvfCt4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_ORD 104
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_ORD_STR_SORTABLE 00104
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_ORD 106
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_ORD_STR_SORTABLE 00106
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_REQUIRES_ORDS \
@@ -13253,7 +13418,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_SUPPORTS_ORDS \
-	105, /* /soc/peripheral@50000000/gpio@9c000 */
+	107, /* /soc/peripheral@50000000/gpio@9c000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000_EXISTS 1
@@ -13367,14 +13532,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_HASH cii3RZgVoL_zF8WUrq2wPdTtSzxr_AKtO87Vq6tbfEI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_ORD 105
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_ORD_STR_SORTABLE 00105
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_ORD 107
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_ORD_STR_SORTABLE 00107
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	104, /* /soc/peripheral@50000000/pinmux@119000 */
+	106, /* /soc/peripheral@50000000/pinmux@119000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000_SUPPORTS_ORDS /* nothing */
@@ -13531,8 +13696,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_i3c_21000_HASH FzVgrZ5_FTDvqKFqQ3oIEhKm1a61AA513UJ_L9nkl_Q
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_i3c_21000_ORD 106
-#define DT_N_S_soc_S_peripheral_50000000_S_i3c_21000_ORD_STR_SORTABLE 00106
+#define DT_N_S_soc_S_peripheral_50000000_S_i3c_21000_ORD 108
+#define DT_N_S_soc_S_peripheral_50000000_S_i3c_21000_ORD_STR_SORTABLE 00108
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_i3c_21000_REQUIRES_ORDS \
@@ -13695,8 +13860,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_i3c_22000_HASH YO1A5kXLsltUV7DK_6UtOIpK4_6XozYYbRHgITzWoBw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_i3c_22000_ORD 107
-#define DT_N_S_soc_S_peripheral_50000000_S_i3c_22000_ORD_STR_SORTABLE 00107
+#define DT_N_S_soc_S_peripheral_50000000_S_i3c_22000_ORD 109
+#define DT_N_S_soc_S_peripheral_50000000_S_i3c_22000_ORD_STR_SORTABLE 00109
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_i3c_22000_REQUIRES_ORDS \
@@ -13887,8 +14052,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000_HASH udqJn5XC9Tdz9g4EnRX_mEVEtQ3xzsnb0tmfskbN_YQ
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000_ORD 108
-#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000_ORD_STR_SORTABLE 00108
+#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000_ORD 110
+#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000_ORD_STR_SORTABLE 00110
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000_REQUIRES_ORDS \
@@ -14073,8 +14238,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000_HASH 1pmDsyZqXA8LbcCymWT1nn4WJfwt_pBFaQPYWHCrK6w
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000_ORD 109
-#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000_ORD_STR_SORTABLE 00109
+#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000_ORD 111
+#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000_ORD_STR_SORTABLE 00111
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000_REQUIRES_ORDS \
@@ -14259,8 +14424,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000_HASH ZLJznVxIgaeNoYfQCs_1gEly26qph_k8WP7BJvdDUiw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000_ORD 110
-#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000_ORD_STR_SORTABLE 00110
+#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000_ORD 112
+#define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000_ORD_STR_SORTABLE 00112
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000_REQUIRES_ORDS \
@@ -14445,8 +14610,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000_HASH sNgU_ZpSm97WASmMWGYoL_dOfUoutRBSJDmDmgELn6w
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000_ORD 111
-#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000_ORD_STR_SORTABLE 00111
+#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000_ORD 113
+#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000_ORD_STR_SORTABLE 00113
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000_REQUIRES_ORDS \
@@ -14609,8 +14774,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000_HASH XooCZ9CM52YDJsv38ZVMu49AJvbez5vRRpjPntm3dvc
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000_ORD 112
-#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000_ORD_STR_SORTABLE 00112
+#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000_ORD 114
+#define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000_ORD_STR_SORTABLE 00114
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000_REQUIRES_ORDS \
@@ -14758,8 +14923,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_opamp_110000_HASH IN6OX4lbRX3EvvEse_SF48FPfN35UrxZQ5016vR_S7k
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_opamp_110000_ORD 113
-#define DT_N_S_soc_S_peripheral_50000000_S_opamp_110000_ORD_STR_SORTABLE 00113
+#define DT_N_S_soc_S_peripheral_50000000_S_opamp_110000_ORD 115
+#define DT_N_S_soc_S_peripheral_50000000_S_opamp_110000_ORD_STR_SORTABLE 00115
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_opamp_110000_REQUIRES_ORDS \
@@ -14958,8 +15123,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_opamp_113000_HASH N59oWkkQ7KlTQxb7mERqF4REO1Xr5l_zjvn4x_tLwUE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_opamp_113000_ORD 114
-#define DT_N_S_soc_S_peripheral_50000000_S_opamp_113000_ORD_STR_SORTABLE 00114
+#define DT_N_S_soc_S_peripheral_50000000_S_opamp_113000_ORD 116
+#define DT_N_S_soc_S_peripheral_50000000_S_opamp_113000_ORD_STR_SORTABLE 00116
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_opamp_113000_REQUIRES_ORDS \
@@ -15130,8 +15295,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_opamp_115000_HASH oxWzh5dbvfGtOLEO8RCJcSny7Ck0owm1Hx_PG40p7hU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_opamp_115000_ORD 115
-#define DT_N_S_soc_S_peripheral_50000000_S_opamp_115000_ORD_STR_SORTABLE 00115
+#define DT_N_S_soc_S_peripheral_50000000_S_opamp_115000_ORD 117
+#define DT_N_S_soc_S_peripheral_50000000_S_opamp_115000_ORD_STR_SORTABLE 00117
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_opamp_115000_REQUIRES_ORDS \
@@ -15302,8 +15467,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_pwm_91000_HASH pE7TYnqcJjDoZ3vCfzJLChA6_TD3Si08m3BV4eQi04w
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_pwm_91000_ORD 116
-#define DT_N_S_soc_S_peripheral_50000000_S_pwm_91000_ORD_STR_SORTABLE 00116
+#define DT_N_S_soc_S_peripheral_50000000_S_pwm_91000_ORD 118
+#define DT_N_S_soc_S_peripheral_50000000_S_pwm_91000_ORD_STR_SORTABLE 00118
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pwm_91000_REQUIRES_ORDS \
@@ -15489,8 +15654,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000_HASH 4NGWTSDIcMOs3e67QtyC_YkbRoMpvnst1DREdmWXu5I
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000_ORD 117
-#define DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000_ORD_STR_SORTABLE 00117
+#define DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000_ORD 119
+#define DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000_ORD_STR_SORTABLE 00119
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000_REQUIRES_ORDS \
@@ -15648,8 +15813,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_HASH GuzH7D0M8neMoLeiEVNyH3aMsGetN__ObpDVeUngveM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_ORD 118
-#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_ORD_STR_SORTABLE 00118
+#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_ORD 120
+#define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_ORD_STR_SORTABLE 00120
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_REQUIRES_ORDS \
@@ -15658,15 +15823,15 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_SUPPORTS_ORDS \
-	119, /* /soc/peripheral@50000000/sai@106000 */ \
-	120, /* /soc/peripheral@50000000/sai@107000 */ \
-	158, /* /soc/peripheral@50000000/flexcomm@93000/lpuart@93000 */ \
-	159, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */ \
-	162, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */ \
-	163, /* /soc/peripheral@50000000/flexcomm@94000/spi@94000 */ \
-	170, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */ \
-	171, /* /soc/peripheral@50000000/flexcomm@b4000/spi@b4000 */ \
-	195, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
+	121, /* /soc/peripheral@50000000/sai@106000 */ \
+	122, /* /soc/peripheral@50000000/sai@107000 */ \
+	160, /* /soc/peripheral@50000000/flexcomm@93000/lpuart@93000 */ \
+	161, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */ \
+	164, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */ \
+	165, /* /soc/peripheral@50000000/flexcomm@94000/spi@94000 */ \
+	172, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */ \
+	173, /* /soc/peripheral@50000000/flexcomm@b4000/spi@b4000 */ \
+	197, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000_EXISTS 1
@@ -15980,8 +16145,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_HASH tvOBK4pCr13RmAK_NcRBCkkU8gSeb_rC7maLvlinqEY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_ORD 119
-#define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_ORD_STR_SORTABLE 00119
+#define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_ORD 121
+#define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_ORD_STR_SORTABLE 00121
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_REQUIRES_ORDS \
@@ -15989,8 +16154,8 @@
 	8, /* /soc/peripheral@50000000 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	75, /* /pinctrl/pinmux_sai0 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	119, /* /soc/peripheral@50000000/sai@106000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	121, /* /soc/peripheral@50000000/sai@106000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_sai_106000_SUPPORTS_ORDS /* nothing */
@@ -16270,8 +16435,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_HASH 1ZfOS4d3Z0wSxHXmepaq7PyqbXEdcri3IfuAizC1Eok
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_ORD 120
-#define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_ORD_STR_SORTABLE 00120
+#define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_ORD 122
+#define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_ORD_STR_SORTABLE 00122
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_REQUIRES_ORDS \
@@ -16279,8 +16444,8 @@
 	8, /* /soc/peripheral@50000000 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	77, /* /pinctrl/pinmux_sai1 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	120, /* /soc/peripheral@50000000/sai@107000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	122, /* /soc/peripheral@50000000/sai@107000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_sai_107000_SUPPORTS_ORDS /* nothing */
@@ -16560,8 +16725,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000_HASH OE2X1gMGn5wlOkCdO9f8Du2OsoX3iMGzrv__zTIo6lI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000_ORD 121
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000_ORD_STR_SORTABLE 00121
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000_ORD 123
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000_ORD_STR_SORTABLE 00123
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000_REQUIRES_ORDS \
@@ -16685,8 +16850,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000_HASH r4DPSxVdaxj4jlFq2ZT72S07PSlmCnMpmXrnIR_2xG0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000_ORD 122
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000_ORD_STR_SORTABLE 00122
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000_ORD 124
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000_ORD_STR_SORTABLE 00124
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000_REQUIRES_ORDS \
@@ -16808,8 +16973,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000_HASH F_aS68q3TqEMQ_wlMfMT1vgq9Ns9yMq8_58y10buaE4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000_ORD 123
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000_ORD_STR_SORTABLE 00123
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000_ORD 125
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000_ORD_STR_SORTABLE 00125
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000_REQUIRES_ORDS \
@@ -16931,8 +17096,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000_HASH 8Yq37__Nv0iOVulXuGiuI6k61AbvEtKdnLwbAs1nw0g
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000_ORD 124
-#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000_ORD_STR_SORTABLE 00124
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000_ORD 126
+#define DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000_ORD_STR_SORTABLE 00126
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000_REQUIRES_ORDS \
@@ -17054,8 +17219,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_HASH TEb2Tg9oeWI4buFGgATgTbUm4JxnUda5jQ6xIDVfezU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_ORD 125
-#define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_ORD_STR_SORTABLE 00125
+#define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_ORD 127
+#define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_ORD_STR_SORTABLE 00127
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_REQUIRES_ORDS \
@@ -17063,9 +17228,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_SUPPORTS_ORDS \
-	126, /* /soc/peripheral@50000000/timers@49000 */ \
-	133, /* /soc/peripheral@50000000/eim@5b000 */ \
-	215, /* /soc/peripheral@50000000/mrt@13000 */
+	128, /* /soc/peripheral@50000000/timers@49000 */ \
+	135, /* /soc/peripheral@50000000/eim@5b000 */ \
+	217, /* /soc/peripheral@50000000/mrt@13000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset_EXISTS 1
@@ -17139,14 +17304,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_HASH fezPQp3y1R79_o6yJunjHJ1Ght62qsPRTXjsZUw8h8g
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_ORD 126
-#define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_ORD_STR_SORTABLE 00126
+#define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_ORD 128
+#define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_ORD_STR_SORTABLE 00128
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	125, /* /soc/peripheral@50000000/syscon@0/reset */
+	127, /* /soc/peripheral@50000000/syscon@0/reset */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_timers_49000_SUPPORTS_ORDS /* nothing */
@@ -17291,8 +17456,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000_HASH vajOsa1ufj05_bnGJI_eXWYfN5wZ5F8X989EMRl9S6k
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000_ORD 127
-#define DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000_ORD_STR_SORTABLE 00127
+#define DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000_ORD 129
+#define DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000_ORD_STR_SORTABLE 00129
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000_REQUIRES_ORDS \
@@ -17450,8 +17615,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_HASH khncLQwVvJ57GauLnyirOzJTguRV4CPslcwjlWBEcvU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_ORD 128
-#define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_ORD_STR_SORTABLE 00128
+#define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_ORD 130
+#define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_ORD_STR_SORTABLE 00130
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_REQUIRES_ORDS \
@@ -17459,7 +17624,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_SUPPORTS_ORDS \
-	129, /* /soc/peripheral@50000000/usbd@10b000 */
+	131, /* /soc/peripheral@50000000/usbd@10b000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000_EXISTS 1
@@ -17581,14 +17746,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_HASH xcqK65l5r9Id97tYOf5tqRsWLkTp9zLZKoFhEUnyLvE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_ORD 129
-#define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_ORD_STR_SORTABLE 00129
+#define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_ORD 131
+#define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_ORD_STR_SORTABLE 00131
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	128, /* /soc/peripheral@50000000/usbphy@10a000 */
+	130, /* /soc/peripheral@50000000/usbphy@10a000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000_SUPPORTS_ORDS /* nothing */
@@ -17750,8 +17915,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000_HASH i_pFC4mtL4YB0j1hg8KTc_FDo9FDbV4zj1_YjrW67pU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000_ORD 130
-#define DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000_ORD_STR_SORTABLE 00130
+#define DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000_ORD 132
+#define DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000_ORD_STR_SORTABLE 00132
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000_REQUIRES_ORDS \
@@ -17891,8 +18056,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_HASH TmMXW2PUDoElK8BFW0P0XvoDcSOSHXhnGBzc1lH0uWw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_ORD 131
-#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_ORD_STR_SORTABLE 00131
+#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_ORD 133
+#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_ORD_STR_SORTABLE 00133
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_REQUIRES_ORDS \
@@ -17901,7 +18066,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_SUPPORTS_ORDS \
-	132, /* /soc/peripheral@50000000/crypto@54000/rng */
+	134, /* /soc/peripheral@50000000/crypto@54000/rng */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_EXISTS 1
@@ -18014,12 +18179,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_HASH H1r6kq2_0ObJaVYL_CVz0fbBZOF6mlXAewrkXdM2heM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_ORD 132
-#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_ORD_STR_SORTABLE 00132
+#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_ORD 134
+#define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_ORD_STR_SORTABLE 00134
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_REQUIRES_ORDS \
-	131, /* /soc/peripheral@50000000/crypto@54000 */
+	133, /* /soc/peripheral@50000000/crypto@54000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng_SUPPORTS_ORDS /* nothing */
@@ -18108,23 +18273,23 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_HASH uxXyOdIjK04HyMpwD82FX_uWt6utEWdVSRNXbOdZL48
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_ORD 133
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_ORD_STR_SORTABLE 00133
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_ORD 135
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_ORD_STR_SORTABLE 00135
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_REQUIRES_ORDS \
 	8, /* /soc/peripheral@50000000 */ \
-	125, /* /soc/peripheral@50000000/syscon@0/reset */
+	127, /* /soc/peripheral@50000000/syscon@0/reset */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_SUPPORTS_ORDS \
-	134, /* /soc/peripheral@50000000/eim@5b000/channel0 */ \
-	135, /* /soc/peripheral@50000000/eim@5b000/channel1 */ \
-	136, /* /soc/peripheral@50000000/eim@5b000/channel2 */ \
-	137, /* /soc/peripheral@50000000/eim@5b000/channel3 */ \
-	138, /* /soc/peripheral@50000000/eim@5b000/channel4 */ \
-	139, /* /soc/peripheral@50000000/eim@5b000/channel5 */ \
-	140, /* /soc/peripheral@50000000/eim@5b000/channel6 */
+	136, /* /soc/peripheral@50000000/eim@5b000/channel0 */ \
+	137, /* /soc/peripheral@50000000/eim@5b000/channel1 */ \
+	138, /* /soc/peripheral@50000000/eim@5b000/channel2 */ \
+	139, /* /soc/peripheral@50000000/eim@5b000/channel3 */ \
+	140, /* /soc/peripheral@50000000/eim@5b000/channel4 */ \
+	141, /* /soc/peripheral@50000000/eim@5b000/channel5 */ \
+	142, /* /soc/peripheral@50000000/eim@5b000/channel6 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_EXISTS 1
@@ -18247,12 +18412,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_HASH YFEZyi0OJ21aj7UnmSxkyPZLbUK_S_1ZZPEDi3_jKaI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_ORD 134
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_ORD_STR_SORTABLE 00134
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_ORD 136
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_ORD_STR_SORTABLE 00136
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0_SUPPORTS_ORDS /* nothing */
@@ -18327,12 +18492,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_HASH C2zqG0bdyre095n_GTpk3z05RuHady35wlf23VnXaZQ
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_ORD 135
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_ORD_STR_SORTABLE 00135
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_ORD 137
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_ORD_STR_SORTABLE 00137
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1_SUPPORTS_ORDS /* nothing */
@@ -18407,12 +18572,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_HASH OGfxPzx7EpghmcBeYXzwSJQl7zZ_1JAfAnZl3gncWGM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_ORD 136
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_ORD_STR_SORTABLE 00136
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_ORD 138
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_ORD_STR_SORTABLE 00138
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2_SUPPORTS_ORDS /* nothing */
@@ -18487,12 +18652,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_HASH tkR3I3JAwBrp6PLqvKkALc1XD5pHzSwCQzVEjMShLkw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_ORD 137
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_ORD_STR_SORTABLE 00137
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_ORD 139
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_ORD_STR_SORTABLE 00139
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3_SUPPORTS_ORDS /* nothing */
@@ -18567,12 +18732,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_HASH _N6it3_HnuOvcYUsZz_NJFWYZjgPfP0GyGtZKFm7xKY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_ORD 138
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_ORD_STR_SORTABLE 00138
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_ORD 140
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_ORD_STR_SORTABLE 00140
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4_SUPPORTS_ORDS /* nothing */
@@ -18647,12 +18812,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_HASH cQQKfZviHOM5vG4kOqHDV0oWLwKclm8CtWE8tuCklwA
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_ORD 139
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_ORD_STR_SORTABLE 00139
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_ORD 141
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_ORD_STR_SORTABLE 00141
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5_SUPPORTS_ORDS /* nothing */
@@ -18727,12 +18892,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_HASH HmIS4bfq9igCsc90MdQKJBJ7j8uFOmKKrpraM9iEFJU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_ORD 140
-#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_ORD_STR_SORTABLE 00140
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_ORD 142
+#define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_ORD_STR_SORTABLE 00142
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_REQUIRES_ORDS \
-	133, /* /soc/peripheral@50000000/eim@5b000 */
+	135, /* /soc/peripheral@50000000/eim@5b000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6_SUPPORTS_ORDS /* nothing */
@@ -18813,8 +18978,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_HASH JutexHGp9vUcuERAdYjHMyBj5bFxp1qjmLjTRJ8ulTk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_ORD 141
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_ORD_STR_SORTABLE 00141
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_ORD 143
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_ORD_STR_SORTABLE 00143
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_REQUIRES_ORDS \
@@ -18824,8 +18989,8 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_SUPPORTS_ORDS \
-	142, /* /soc/peripheral@50000000/ethernet@40100000/mdio */ \
-	144, /* /soc/peripheral@50000000/ethernet@40100000/ethernet */
+	144, /* /soc/peripheral@50000000/ethernet@40100000/mdio */ \
+	146, /* /soc/peripheral@50000000/ethernet@40100000/ethernet */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_EXISTS 1
@@ -18982,16 +19147,16 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_HASH 3be6EEtQMqHZD4Dxf_J5ZtSI5K9EMb8zRz9vY3R_AKU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_ORD 142
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_ORD_STR_SORTABLE 00142
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_ORD 144
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_ORD_STR_SORTABLE 00144
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_REQUIRES_ORDS \
-	141, /* /soc/peripheral@50000000/ethernet@40100000 */
+	143, /* /soc/peripheral@50000000/ethernet@40100000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_SUPPORTS_ORDS \
-	143, /* /soc/peripheral@50000000/ethernet@40100000/mdio/ethernet-phy@0 */
+	145, /* /soc/peripheral@50000000/ethernet@40100000/mdio/ethernet-phy@0 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_EXISTS 1
@@ -19102,16 +19267,16 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_HASH Id_8ooujB246sSSFdbwI8a9SshGobPL0gvIavx6xiFA
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_ORD 143
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_ORD_STR_SORTABLE 00143
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_ORD 145
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_ORD_STR_SORTABLE 00145
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_REQUIRES_ORDS \
-	142, /* /soc/peripheral@50000000/ethernet@40100000/mdio */
+	144, /* /soc/peripheral@50000000/ethernet@40100000/mdio */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_SUPPORTS_ORDS \
-	144, /* /soc/peripheral@50000000/ethernet@40100000/ethernet */
+	146, /* /soc/peripheral@50000000/ethernet@40100000/ethernet */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0_EXISTS 1
@@ -19301,14 +19466,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_HASH mf5g1mO7SXvU0OgAG_3DevSeflWi9v002cMcfy2znc8
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_ORD 144
-#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_ORD_STR_SORTABLE 00144
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_ORD 146
+#define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_ORD_STR_SORTABLE 00146
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
-	141, /* /soc/peripheral@50000000/ethernet@40100000 */ \
-	143, /* /soc/peripheral@50000000/ethernet@40100000/mdio/ethernet-phy@0 */
+	143, /* /soc/peripheral@50000000/ethernet@40100000 */ \
+	145, /* /soc/peripheral@50000000/ethernet@40100000/mdio/ethernet-phy@0 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet_SUPPORTS_ORDS /* nothing */
@@ -19529,8 +19694,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_HASH dpxdrxUMw7dYP8SAaEEcL_txAqLgYl9oU_pxpHhv1TM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_ORD 145
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_ORD_STR_SORTABLE 00145
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_ORD 147
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_ORD_STR_SORTABLE 00147
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_REQUIRES_ORDS \
@@ -19539,8 +19704,8 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_SUPPORTS_ORDS \
-	146, /* /soc/peripheral@50000000/flash-controller@43000/uuid@1100000 */ \
-	147, /* /soc/peripheral@50000000/flash-controller@43000/flash@0 */
+	148, /* /soc/peripheral@50000000/flash-controller@43000/uuid@1100000 */ \
+	149, /* /soc/peripheral@50000000/flash-controller@43000/flash@0 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_EXISTS 1
@@ -19674,12 +19839,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_HASH GTVzlvO3rPPYJP0q0voUMoQRg_yXx_xU7DXFHCpEmrk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_ORD 146
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_ORD_STR_SORTABLE 00146
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_ORD 148
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_ORD_STR_SORTABLE 00148
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_REQUIRES_ORDS \
-	145, /* /soc/peripheral@50000000/flash-controller@43000 */
+	147, /* /soc/peripheral@50000000/flash-controller@43000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000_SUPPORTS_ORDS /* nothing */
@@ -19783,16 +19948,16 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_HASH d2FetdxmJHjZvBQn9Hf_qZKa_qbssZXsV8jgaxXHpIc
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_ORD 147
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_ORD_STR_SORTABLE 00147
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_ORD 149
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_ORD_STR_SORTABLE 00149
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_REQUIRES_ORDS \
-	145, /* /soc/peripheral@50000000/flash-controller@43000 */
+	147, /* /soc/peripheral@50000000/flash-controller@43000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_SUPPORTS_ORDS \
-	148, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
+	150, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_EXISTS 1
@@ -19896,18 +20061,18 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_HASH p6H5Rx_cNdL3QwgVheOiG4FXG0ZhP5khEJDDVwoGHgg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_ORD 148
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_ORD_STR_SORTABLE 00148
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_ORD 150
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_ORD_STR_SORTABLE 00150
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_REQUIRES_ORDS \
-	147, /* /soc/peripheral@50000000/flash-controller@43000/flash@0 */
+	149, /* /soc/peripheral@50000000/flash-controller@43000/flash@0 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_SUPPORTS_ORDS \
-	149, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@0 */ \
-	150, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@14000 */ \
-	151, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@10A000 */
+	151, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@0 */ \
+	152, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@14000 */ \
+	153, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions/partition@10A000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_EXISTS 1
@@ -19973,12 +20138,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_HASH VK2JC_7OZZkRYLEbABCIVhQogfasfzQg3D8r8ZUnaHk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_ORD 149
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_ORD_STR_SORTABLE 00149
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_ORD 151
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_ORD_STR_SORTABLE 00151
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_REQUIRES_ORDS \
-	148, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
+	150, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0_SUPPORTS_ORDS /* nothing */
@@ -20072,12 +20237,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_HASH 9_LMNFva62um_Z2o_EFZOovcZgpJB7s_K_f1Yv31y4Q
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_ORD 150
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_ORD_STR_SORTABLE 00150
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_ORD 152
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_ORD_STR_SORTABLE 00152
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_REQUIRES_ORDS \
-	148, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
+	150, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000_SUPPORTS_ORDS /* nothing */
@@ -20171,12 +20336,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_HASH C9IyeMkPsSDXoVMr7_Tahi6x4tymxq_CzyCwSKZJWcM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_ORD 151
-#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_ORD_STR_SORTABLE 00151
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_ORD 153
+#define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_ORD_STR_SORTABLE 00153
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_REQUIRES_ORDS \
-	148, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
+	150, /* /soc/peripheral@50000000/flash-controller@43000/flash@0/partitions */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000_SUPPORTS_ORDS /* nothing */
@@ -20274,8 +20439,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_HASH ZEa9LpTNwr9HjUCYSb1UtFd1H0vFopHHuDMiOhwLDrk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_ORD 152
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_ORD_STR_SORTABLE 00152
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_ORD 154
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_ORD_STR_SORTABLE 00154
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_REQUIRES_ORDS \
@@ -20284,9 +20449,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_SUPPORTS_ORDS \
-	153, /* /soc/peripheral@50000000/flexcomm@92000/lpi2c@92800 */ \
-	154, /* /soc/peripheral@50000000/flexcomm@92000/lpuart@92000 */ \
-	155, /* /soc/peripheral@50000000/flexcomm@92000/spi@92000 */
+	155, /* /soc/peripheral@50000000/flexcomm@92000/lpi2c@92800 */ \
+	156, /* /soc/peripheral@50000000/flexcomm@92000/lpuart@92000 */ \
+	157, /* /soc/peripheral@50000000/flexcomm@92000/spi@92000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_EXISTS 1
@@ -20415,13 +20580,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_HASH 2RAcmY4931zJmeYJadsJEurWec3ivY73Xl73PTsJRjw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_ORD 153
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_ORD_STR_SORTABLE 00153
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_ORD 155
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_ORD_STR_SORTABLE 00155
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	152, /* /soc/peripheral@50000000/flexcomm@92000 */
+	154, /* /soc/peripheral@50000000/flexcomm@92000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800_SUPPORTS_ORDS /* nothing */
@@ -20557,13 +20722,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_HASH wVuN_0vEc3AXKI_FDzgrNHOQ9weEgYjUTMDZrExJ_mw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_ORD 154
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_ORD_STR_SORTABLE 00154
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_ORD 156
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_ORD_STR_SORTABLE 00156
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	152, /* /soc/peripheral@50000000/flexcomm@92000 */
+	154, /* /soc/peripheral@50000000/flexcomm@92000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000_SUPPORTS_ORDS /* nothing */
@@ -20724,13 +20889,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_HASH TP3abRkbdGVKT9oFsCe6bc_09GZ6LtXAcB1ZpjrXNb8
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_ORD 155
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_ORD_STR_SORTABLE 00155
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_ORD 157
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_ORD_STR_SORTABLE 00157
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	152, /* /soc/peripheral@50000000/flexcomm@92000 */
+	154, /* /soc/peripheral@50000000/flexcomm@92000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000_SUPPORTS_ORDS /* nothing */
@@ -20884,8 +21049,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_HASH vwl84zkDSEWifL5eCxDNT90CEmUlUPKuE_3kPE3c9ZM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_ORD 156
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_ORD_STR_SORTABLE 00156
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_ORD 158
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_ORD_STR_SORTABLE 00158
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_REQUIRES_ORDS \
@@ -20894,9 +21059,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_SUPPORTS_ORDS \
-	157, /* /soc/peripheral@50000000/flexcomm@93000/lpi2c@93800 */ \
-	158, /* /soc/peripheral@50000000/flexcomm@93000/lpuart@93000 */ \
-	159, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */
+	159, /* /soc/peripheral@50000000/flexcomm@93000/lpi2c@93800 */ \
+	160, /* /soc/peripheral@50000000/flexcomm@93000/lpuart@93000 */ \
+	161, /* /soc/peripheral@50000000/flexcomm@93000/spi@93000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_EXISTS 1
@@ -21025,13 +21190,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_HASH Yx2bUyJacROClJOtslF7aniGQa0BqZbU6PTix3PhZHQ
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_ORD 157
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_ORD_STR_SORTABLE 00157
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_ORD 159
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_ORD_STR_SORTABLE 00159
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	156, /* /soc/peripheral@50000000/flexcomm@93000 */
+	158, /* /soc/peripheral@50000000/flexcomm@93000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800_SUPPORTS_ORDS /* nothing */
@@ -21167,14 +21332,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_HASH ykq35prYVHYM_cw1xGmWpGMDNQ416K1JJTKoT31I9pk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_ORD 158
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_ORD_STR_SORTABLE 00158
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_ORD 160
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_ORD_STR_SORTABLE 00160
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	156, /* /soc/peripheral@50000000/flexcomm@93000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	158, /* /soc/peripheral@50000000/flexcomm@93000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000_SUPPORTS_ORDS /* nothing */
@@ -21414,15 +21579,15 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_HASH oIh1Un1r952qspyPZ9WOWgNAiKfDwyIqMJoTgWwegN0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_ORD 159
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_ORD_STR_SORTABLE 00159
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_ORD 161
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_ORD_STR_SORTABLE 00161
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	41, /* /pinctrl/pinmux_flexcomm1_lpspi */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	156, /* /soc/peripheral@50000000/flexcomm@93000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	158, /* /soc/peripheral@50000000/flexcomm@93000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_SUPPORTS_ORDS /* nothing */
@@ -21683,8 +21848,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_HASH tTpjt60YegJHB4JFxxSm022Af8U7Isv9h9H9CO1DlwA
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_ORD 160
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_ORD_STR_SORTABLE 00160
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_ORD 162
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_ORD_STR_SORTABLE 00162
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_REQUIRES_ORDS \
@@ -21693,9 +21858,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_SUPPORTS_ORDS \
-	161, /* /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800 */ \
-	162, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */ \
-	163, /* /soc/peripheral@50000000/flexcomm@94000/spi@94000 */
+	163, /* /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800 */ \
+	164, /* /soc/peripheral@50000000/flexcomm@94000/lpuart@94000 */ \
+	165, /* /soc/peripheral@50000000/flexcomm@94000/spi@94000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_EXISTS 1
@@ -21824,14 +21989,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_HASH xP8h_4lUY2E3a2wcvljyqIesnu0d7lC39bj_DJXMpVU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_ORD 161
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_ORD_STR_SORTABLE 00161
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_ORD 163
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_ORD_STR_SORTABLE 00163
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	43, /* /pinctrl/pinmux_flexcomm2_lpi2c */ \
-	160, /* /soc/peripheral@50000000/flexcomm@94000 */
+	162, /* /soc/peripheral@50000000/flexcomm@94000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_SUPPORTS_ORDS /* nothing */
@@ -21998,15 +22163,15 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_HASH v1FuLYRx2cs9gbYEcCnlt_FZrdoTyIuyoWHMHAap_s0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_ORD 162
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_ORD_STR_SORTABLE 00162
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_ORD 164
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_ORD_STR_SORTABLE 00164
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	45, /* /pinctrl/pinmux_flexcomm2_lpuart */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	160, /* /soc/peripheral@50000000/flexcomm@94000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	162, /* /soc/peripheral@50000000/flexcomm@94000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000_SUPPORTS_ORDS /* nothing */
@@ -22276,14 +22441,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_HASH t4_owv1aoFeTFAMMQt6_4f8qM2blEy_44cO5bBLzP9E
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_ORD 163
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_ORD_STR_SORTABLE 00163
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_ORD 165
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_ORD_STR_SORTABLE 00165
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	160, /* /soc/peripheral@50000000/flexcomm@94000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	162, /* /soc/peripheral@50000000/flexcomm@94000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000_SUPPORTS_ORDS /* nothing */
@@ -22516,8 +22681,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_HASH Hhw_KiTUbFJzlLQReS8Vl3xEkn_MIYrivCWToZ6NGvc
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_ORD 164
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_ORD_STR_SORTABLE 00164
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_ORD 166
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_ORD_STR_SORTABLE 00166
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_REQUIRES_ORDS \
@@ -22526,9 +22691,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_SUPPORTS_ORDS \
-	165, /* /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800 */ \
-	166, /* /soc/peripheral@50000000/flexcomm@95000/lpuart@95000 */ \
-	167, /* /soc/peripheral@50000000/flexcomm@95000/spi@95000 */
+	167, /* /soc/peripheral@50000000/flexcomm@95000/lpi2c@95800 */ \
+	168, /* /soc/peripheral@50000000/flexcomm@95000/lpuart@95000 */ \
+	169, /* /soc/peripheral@50000000/flexcomm@95000/spi@95000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_EXISTS 1
@@ -22657,14 +22822,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_HASH hQ3oF0Sz2LNZzeaodf2oQPIBlnsGGOMiinukzzaM0Yg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_ORD 165
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_ORD_STR_SORTABLE 00165
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_ORD 167
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_ORD_STR_SORTABLE 00167
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	47, /* /pinctrl/pinmux_flexcomm3_lpi2c */ \
-	164, /* /soc/peripheral@50000000/flexcomm@95000 */
+	166, /* /soc/peripheral@50000000/flexcomm@95000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800_SUPPORTS_ORDS /* nothing */
@@ -22830,13 +22995,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_HASH M1s_HUrBxba7dDtZLYD1IIKyrKUI0W2oDGsVjn2mj9A
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_ORD 166
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_ORD_STR_SORTABLE 00166
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_ORD 168
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_ORD_STR_SORTABLE 00168
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	164, /* /soc/peripheral@50000000/flexcomm@95000 */
+	166, /* /soc/peripheral@50000000/flexcomm@95000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000_SUPPORTS_ORDS /* nothing */
@@ -22997,13 +23162,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_HASH h6xcB58bOyaylgbjKFMsdYgYMK3ceobOBGkKw_xctV0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_ORD 167
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_ORD_STR_SORTABLE 00167
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_ORD 169
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_ORD_STR_SORTABLE 00169
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	164, /* /soc/peripheral@50000000/flexcomm@95000 */
+	166, /* /soc/peripheral@50000000/flexcomm@95000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000_SUPPORTS_ORDS /* nothing */
@@ -23157,8 +23322,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_HASH sliPmF5c_KzKxtUna_M9OiLr9J_4ErzCnFrEFD_WkVg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_ORD 168
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_ORD_STR_SORTABLE 00168
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_ORD 170
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_ORD_STR_SORTABLE 00170
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_REQUIRES_ORDS \
@@ -23167,9 +23332,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_SUPPORTS_ORDS \
-	169, /* /soc/peripheral@50000000/flexcomm@b4000/lpi2c@b4800 */ \
-	170, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */ \
-	171, /* /soc/peripheral@50000000/flexcomm@b4000/spi@b4000 */
+	171, /* /soc/peripheral@50000000/flexcomm@b4000/lpi2c@b4800 */ \
+	172, /* /soc/peripheral@50000000/flexcomm@b4000/lpuart@b4000 */ \
+	173, /* /soc/peripheral@50000000/flexcomm@b4000/spi@b4000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_EXISTS 1
@@ -23298,13 +23463,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_HASH DM09s_K2jEVhJYTCRqZlUjCGPo_xZ9GATdNSyzMv4v0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_ORD 169
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_ORD_STR_SORTABLE 00169
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_ORD 171
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_ORD_STR_SORTABLE 00171
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	168, /* /soc/peripheral@50000000/flexcomm@b4000 */
+	170, /* /soc/peripheral@50000000/flexcomm@b4000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800_SUPPORTS_ORDS /* nothing */
@@ -23440,15 +23605,15 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_HASH km5bT2J4CvK0tGCPFbsIluZ5BLzayQiW4XiFTpHjDIU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_ORD 170
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_ORD_STR_SORTABLE 00170
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_ORD 172
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_ORD_STR_SORTABLE 00172
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	49, /* /pinctrl/pinmux_flexcomm4_lpuart */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	168, /* /soc/peripheral@50000000/flexcomm@b4000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	170, /* /soc/peripheral@50000000/flexcomm@b4000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000_SUPPORTS_ORDS /* nothing */
@@ -23717,14 +23882,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_HASH cgFRyvu3AZLg7xQtOcZrKQyL1YgB1d8z8dln7_CsxrI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_ORD 171
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_ORD_STR_SORTABLE 00171
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_ORD 173
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_ORD_STR_SORTABLE 00173
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	168, /* /soc/peripheral@50000000/flexcomm@b4000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	170, /* /soc/peripheral@50000000/flexcomm@b4000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000_SUPPORTS_ORDS /* nothing */
@@ -23957,8 +24122,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_HASH laC7Utdfiu73yKtQine0WkKoVYK0Xy0Bh8dJ2evdR1k
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_ORD 172
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_ORD_STR_SORTABLE 00172
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_ORD 174
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_ORD_STR_SORTABLE 00174
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_REQUIRES_ORDS \
@@ -23967,9 +24132,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_SUPPORTS_ORDS \
-	173, /* /soc/peripheral@50000000/flexcomm@b5000/lpi2c@b5800 */ \
-	174, /* /soc/peripheral@50000000/flexcomm@b5000/lpuart@b5000 */ \
-	175, /* /soc/peripheral@50000000/flexcomm@b5000/spi@b5000 */
+	175, /* /soc/peripheral@50000000/flexcomm@b5000/lpi2c@b5800 */ \
+	176, /* /soc/peripheral@50000000/flexcomm@b5000/lpuart@b5000 */ \
+	177, /* /soc/peripheral@50000000/flexcomm@b5000/spi@b5000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_EXISTS 1
@@ -24098,13 +24263,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_HASH _gtHDyLeTlwaRqD9kcMmW9_84V0YHkrw2EcG0mCYoNk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_ORD 173
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_ORD_STR_SORTABLE 00173
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_ORD 175
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_ORD_STR_SORTABLE 00175
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	172, /* /soc/peripheral@50000000/flexcomm@b5000 */
+	174, /* /soc/peripheral@50000000/flexcomm@b5000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800_SUPPORTS_ORDS /* nothing */
@@ -24240,13 +24405,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_HASH lxNM1eenSiJ_9aSIBhL0tQD3R8JwrvBZ8Xzb_j2HSdg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_ORD 174
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_ORD_STR_SORTABLE 00174
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_ORD 176
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_ORD_STR_SORTABLE 00176
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	172, /* /soc/peripheral@50000000/flexcomm@b5000 */
+	174, /* /soc/peripheral@50000000/flexcomm@b5000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000_SUPPORTS_ORDS /* nothing */
@@ -24407,13 +24572,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_HASH ymP3Hl6S1S9tV9A_MnI_UV_mrZgVnuGQLfCglYkSLpU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_ORD 175
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_ORD_STR_SORTABLE 00175
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_ORD 177
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_ORD_STR_SORTABLE 00177
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	172, /* /soc/peripheral@50000000/flexcomm@b5000 */
+	174, /* /soc/peripheral@50000000/flexcomm@b5000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000_SUPPORTS_ORDS /* nothing */
@@ -24567,8 +24732,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_HASH GomngNJjVdnAi3RkHnY_c_VbiuO0R0w3wtMaMepvexk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_ORD 176
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_ORD_STR_SORTABLE 00176
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_ORD 178
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_ORD_STR_SORTABLE 00178
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_REQUIRES_ORDS \
@@ -24577,9 +24742,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_SUPPORTS_ORDS \
-	177, /* /soc/peripheral@50000000/flexcomm@b6000/lpi2c@b6800 */ \
-	178, /* /soc/peripheral@50000000/flexcomm@b6000/lpuart@b6000 */ \
-	179, /* /soc/peripheral@50000000/flexcomm@b6000/spi@b6000 */
+	179, /* /soc/peripheral@50000000/flexcomm@b6000/lpi2c@b6800 */ \
+	180, /* /soc/peripheral@50000000/flexcomm@b6000/lpuart@b6000 */ \
+	181, /* /soc/peripheral@50000000/flexcomm@b6000/spi@b6000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_EXISTS 1
@@ -24708,13 +24873,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_HASH ffi_boaIht6DNL6P_QJx3IdQUcy8XSrfDNBibMTS3N4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_ORD 177
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_ORD_STR_SORTABLE 00177
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_ORD 179
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_ORD_STR_SORTABLE 00179
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	176, /* /soc/peripheral@50000000/flexcomm@b6000 */
+	178, /* /soc/peripheral@50000000/flexcomm@b6000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800_SUPPORTS_ORDS /* nothing */
@@ -24850,13 +25015,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_HASH s0Sn9MOxt_pd_cWSKP96CBXTLyxvq1LbXJ27_D_ejSY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_ORD 178
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_ORD_STR_SORTABLE 00178
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_ORD 180
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_ORD_STR_SORTABLE 00180
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	176, /* /soc/peripheral@50000000/flexcomm@b6000 */
+	178, /* /soc/peripheral@50000000/flexcomm@b6000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000_SUPPORTS_ORDS /* nothing */
@@ -25017,14 +25182,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_HASH l71OTs6flM9H8X2U0UJGx3WIUmXFSwF7uMT_Rb8wwZs
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_ORD 179
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_ORD_STR_SORTABLE 00179
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_ORD 181
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_ORD_STR_SORTABLE 00181
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	51, /* /pinctrl/pinmux_flexcomm6_lpspi */ \
-	176, /* /soc/peripheral@50000000/flexcomm@b6000 */
+	178, /* /soc/peripheral@50000000/flexcomm@b6000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000_SUPPORTS_ORDS /* nothing */
@@ -25206,8 +25371,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_HASH OllYwcDAIgzLo652iCJvXdHohqkzb48DuN490CXMaJk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_ORD 180
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_ORD_STR_SORTABLE 00180
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_ORD 182
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_ORD_STR_SORTABLE 00182
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_REQUIRES_ORDS \
@@ -25216,9 +25381,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_SUPPORTS_ORDS \
-	181, /* /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800 */ \
-	182, /* /soc/peripheral@50000000/flexcomm@b7000/lpuart@b7000 */ \
-	183, /* /soc/peripheral@50000000/flexcomm@b7000/spi@b7000 */
+	183, /* /soc/peripheral@50000000/flexcomm@b7000/lpi2c@b7800 */ \
+	184, /* /soc/peripheral@50000000/flexcomm@b7000/lpuart@b7000 */ \
+	185, /* /soc/peripheral@50000000/flexcomm@b7000/spi@b7000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_EXISTS 1
@@ -25347,14 +25512,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_HASH sDYj4XwUrlpoHdXBKwqegtnAgh2SyVhcbVOtEo_vlX8
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_ORD 181
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_ORD_STR_SORTABLE 00181
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_ORD 183
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_ORD_STR_SORTABLE 00183
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	32, /* /pinctrl/pimux_flexcomm7_lpi2c */ \
-	180, /* /soc/peripheral@50000000/flexcomm@b7000 */
+	182, /* /soc/peripheral@50000000/flexcomm@b7000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800_SUPPORTS_ORDS /* nothing */
@@ -25520,13 +25685,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_HASH CA3lDCGh17VcM1NDzewH7f8hhOtlO5EC7C2Kv6myVAw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_ORD 182
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_ORD_STR_SORTABLE 00182
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_ORD 184
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_ORD_STR_SORTABLE 00184
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	180, /* /soc/peripheral@50000000/flexcomm@b7000 */
+	182, /* /soc/peripheral@50000000/flexcomm@b7000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000_SUPPORTS_ORDS /* nothing */
@@ -25687,13 +25852,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_HASH 3x8flWIrTaG9VE8ypl38R1wS6843CFu9YwNpnUERzFk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_ORD 183
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_ORD_STR_SORTABLE 00183
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_ORD 185
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_ORD_STR_SORTABLE 00185
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	180, /* /soc/peripheral@50000000/flexcomm@b7000 */
+	182, /* /soc/peripheral@50000000/flexcomm@b7000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000_SUPPORTS_ORDS /* nothing */
@@ -25847,8 +26012,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_HASH N9f_262YopmRo3FQ5hM0vVledrA0LPaEb2aYMO2NgXk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_ORD 184
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_ORD_STR_SORTABLE 00184
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_ORD 186
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_ORD_STR_SORTABLE 00186
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_REQUIRES_ORDS \
@@ -25857,9 +26022,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_SUPPORTS_ORDS \
-	185, /* /soc/peripheral@50000000/flexcomm@b8000/lpi2c@b8800 */ \
-	186, /* /soc/peripheral@50000000/flexcomm@b8000/lpuart@b8000 */ \
-	187, /* /soc/peripheral@50000000/flexcomm@b8000/spi@b8000 */
+	187, /* /soc/peripheral@50000000/flexcomm@b8000/lpi2c@b8800 */ \
+	188, /* /soc/peripheral@50000000/flexcomm@b8000/lpuart@b8000 */ \
+	189, /* /soc/peripheral@50000000/flexcomm@b8000/spi@b8000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_EXISTS 1
@@ -25988,13 +26153,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_HASH d09o5VJZRcg8lJVCc_QGBUMO6i0HC1uEXmPjZ4czReo
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_ORD 185
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_ORD_STR_SORTABLE 00185
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_ORD 187
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_ORD_STR_SORTABLE 00187
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	184, /* /soc/peripheral@50000000/flexcomm@b8000 */
+	186, /* /soc/peripheral@50000000/flexcomm@b8000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800_SUPPORTS_ORDS /* nothing */
@@ -26130,13 +26295,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_HASH DekMLLO0QWxdfSBzuXUJJ6psP3y702LEDUpknooAvwY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_ORD 186
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_ORD_STR_SORTABLE 00186
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_ORD 188
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_ORD_STR_SORTABLE 00188
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	184, /* /soc/peripheral@50000000/flexcomm@b8000 */
+	186, /* /soc/peripheral@50000000/flexcomm@b8000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000_SUPPORTS_ORDS /* nothing */
@@ -26297,13 +26462,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_HASH 92_SR8FvPXSOH_wc8UCPDvxiig1GiwJ8gQ1OMPY5_io
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_ORD 187
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_ORD_STR_SORTABLE 00187
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_ORD 189
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_ORD_STR_SORTABLE 00189
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	184, /* /soc/peripheral@50000000/flexcomm@b8000 */
+	186, /* /soc/peripheral@50000000/flexcomm@b8000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000_SUPPORTS_ORDS /* nothing */
@@ -26457,8 +26622,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_HASH dfGqABDaFQhuBM24k_kVcayrGuHqwLwSMORsE_ZoM2U
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_ORD 188
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_ORD_STR_SORTABLE 00188
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_ORD 190
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_ORD_STR_SORTABLE 00190
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_REQUIRES_ORDS \
@@ -26467,9 +26632,9 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_SUPPORTS_ORDS \
-	189, /* /soc/peripheral@50000000/flexcomm@b9000/lpi2c@b9800 */ \
-	190, /* /soc/peripheral@50000000/flexcomm@b9000/lpuart@b9000 */ \
-	191, /* /soc/peripheral@50000000/flexcomm@b9000/spi@b9000 */
+	191, /* /soc/peripheral@50000000/flexcomm@b9000/lpi2c@b9800 */ \
+	192, /* /soc/peripheral@50000000/flexcomm@b9000/lpuart@b9000 */ \
+	193, /* /soc/peripheral@50000000/flexcomm@b9000/spi@b9000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_EXISTS 1
@@ -26598,13 +26763,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_HASH LmlBB241jUyxOoEDpN8GoF0z_NOy9S_JSp4IljYXs_s
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_ORD 189
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_ORD_STR_SORTABLE 00189
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_ORD 191
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_ORD_STR_SORTABLE 00191
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	188, /* /soc/peripheral@50000000/flexcomm@b9000 */
+	190, /* /soc/peripheral@50000000/flexcomm@b9000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800_SUPPORTS_ORDS /* nothing */
@@ -26740,13 +26905,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_HASH rl0jcjjh_QvCGh23k_XVfdm1dZQYVxHVCP0flfZsMl4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_ORD 190
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_ORD_STR_SORTABLE 00190
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_ORD 192
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_ORD_STR_SORTABLE 00192
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	188, /* /soc/peripheral@50000000/flexcomm@b9000 */
+	190, /* /soc/peripheral@50000000/flexcomm@b9000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000_SUPPORTS_ORDS /* nothing */
@@ -26907,13 +27072,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_HASH QYcqb0kw39Jbn_p7PlvR6D_maEzZqQIVzRAMmaINT3M
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_ORD 191
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_ORD_STR_SORTABLE 00191
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_ORD 193
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_ORD_STR_SORTABLE 00193
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_REQUIRES_ORDS \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	188, /* /soc/peripheral@50000000/flexcomm@b9000 */
+	190, /* /soc/peripheral@50000000/flexcomm@b9000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000_SUPPORTS_ORDS /* nothing */
@@ -27066,8 +27231,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_HASH eH38zVNiJy6OPE2P66oOt_EORjORHZLPsd5xLyr6V0w
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_ORD 192
-#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_ORD_STR_SORTABLE 00192
+#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_ORD 194
+#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_ORD_STR_SORTABLE 00194
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_REQUIRES_ORDS \
@@ -27077,7 +27242,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_SUPPORTS_ORDS \
-	195, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
+	197, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_EXISTS 1
@@ -27219,8 +27384,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_HASH GWRjyB9k7aXKhAi5PWPQGnZ_ye4l3APAS7cajAViA84
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_ORD 193
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_ORD_STR_SORTABLE 00193
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_ORD 195
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_ORD_STR_SORTABLE 00195
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_REQUIRES_ORDS \
@@ -27229,7 +27394,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_SUPPORTS_ORDS \
-	194, /* /soc/peripheral@50000000/gpio@9e000 */
+	196, /* /soc/peripheral@50000000/gpio@9e000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000_EXISTS 1
@@ -27343,18 +27508,18 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_HASH oJxeAGZ2sGYuiCQ9zXas5BUNtaPeiOFikpthPRbIcbM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_ORD 194
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_ORD_STR_SORTABLE 00194
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_ORD 196
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_ORD_STR_SORTABLE 00196
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	193, /* /soc/peripheral@50000000/pinmux@11a000 */
+	195, /* /soc/peripheral@50000000/pinmux@11a000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_SUPPORTS_ORDS \
-	195, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
+	197, /* /soc/peripheral@50000000/flexio@105000/flexio0-lcd */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000_EXISTS 1
@@ -27508,16 +27673,16 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_HASH O5K3kpVgVuCL00q6al0jef3a9yNh4ZPCGZB7X3qhUOY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_ORD 195
-#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_ORD_STR_SORTABLE 00195
+#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_ORD 197
+#define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_ORD_STR_SORTABLE 00197
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_REQUIRES_ORDS \
 	21, /* /soc/peripheral@50000000/gpio@96000 */ \
 	53, /* /pinctrl/pinmux_flexio_lcd */ \
-	118, /* /soc/peripheral@50000000/dma-controller@80000 */ \
-	192, /* /soc/peripheral@50000000/flexio@105000 */ \
-	194, /* /soc/peripheral@50000000/gpio@9e000 */
+	120, /* /soc/peripheral@50000000/dma-controller@80000 */ \
+	194, /* /soc/peripheral@50000000/flexio@105000 */ \
+	196, /* /soc/peripheral@50000000/gpio@9e000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd_SUPPORTS_ORDS /* nothing */
@@ -27758,8 +27923,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_HASH Ge44E5s4OzgMz_UC7saspMqnnAnONkt_4E_Ag8EY0QM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_ORD 196
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_ORD_STR_SORTABLE 00196
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_ORD 198
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_ORD_STR_SORTABLE 00198
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_REQUIRES_ORDS \
@@ -27768,10 +27933,10 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_SUPPORTS_ORDS \
-	197, /* /soc/peripheral@50000000/flexpwm@ce000/pwm0 */ \
-	198, /* /soc/peripheral@50000000/flexpwm@ce000/pwm1 */ \
-	199, /* /soc/peripheral@50000000/flexpwm@ce000/pwm2 */ \
-	200, /* /soc/peripheral@50000000/flexpwm@ce000/pwm3 */
+	199, /* /soc/peripheral@50000000/flexpwm@ce000/pwm0 */ \
+	200, /* /soc/peripheral@50000000/flexpwm@ce000/pwm1 */ \
+	201, /* /soc/peripheral@50000000/flexpwm@ce000/pwm2 */ \
+	202, /* /soc/peripheral@50000000/flexpwm@ce000/pwm3 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_EXISTS 1
@@ -27927,14 +28092,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_HASH 7IVd8XYkPxq_RumARHPECtHFdlxOsAlrWoSm3Fro_tQ
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_ORD 197
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_ORD_STR_SORTABLE 00197
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_ORD 199
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_ORD_STR_SORTABLE 00199
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	196, /* /soc/peripheral@50000000/flexpwm@ce000 */
+	198, /* /soc/peripheral@50000000/flexpwm@ce000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0_SUPPORTS_ORDS /* nothing */
@@ -28082,14 +28247,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_HASH xbovxPiE66ODhnSekXZWsssR7NZsE7fwmIz5NQkNuB4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_ORD 198
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_ORD_STR_SORTABLE 00198
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_ORD 200
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_ORD_STR_SORTABLE 00200
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	196, /* /soc/peripheral@50000000/flexpwm@ce000 */
+	198, /* /soc/peripheral@50000000/flexpwm@ce000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1_SUPPORTS_ORDS /* nothing */
@@ -28237,14 +28402,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_HASH Izaoimn0vKZkSh7twKgvXoGNaGcRlUxESa4z3qO8gUY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_ORD 199
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_ORD_STR_SORTABLE 00199
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_ORD 201
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_ORD_STR_SORTABLE 00201
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	196, /* /soc/peripheral@50000000/flexpwm@ce000 */
+	198, /* /soc/peripheral@50000000/flexpwm@ce000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2_SUPPORTS_ORDS /* nothing */
@@ -28392,14 +28557,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_HASH yjhgQuVmnc6LtPT4uHHcettwWWePvgrTKu_PVlbHUI8
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_ORD 200
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_ORD_STR_SORTABLE 00200
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_ORD 202
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_ORD_STR_SORTABLE 00202
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	196, /* /soc/peripheral@50000000/flexpwm@ce000 */
+	198, /* /soc/peripheral@50000000/flexpwm@ce000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3_SUPPORTS_ORDS /* nothing */
@@ -28547,8 +28712,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_HASH 8U8mxSZwj19FhXDkuD5L3SACickpCfNs7WCaAU75gSE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_ORD 201
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_ORD_STR_SORTABLE 00201
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_ORD 203
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_ORD_STR_SORTABLE 00203
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_REQUIRES_ORDS \
@@ -28557,10 +28722,10 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_SUPPORTS_ORDS \
-	202, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */ \
-	203, /* /soc/peripheral@50000000/flexpwm@d0000/pwm1 */ \
-	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm2 */ \
-	205, /* /soc/peripheral@50000000/flexpwm@d0000/pwm3 */
+	204, /* /soc/peripheral@50000000/flexpwm@d0000/pwm0 */ \
+	205, /* /soc/peripheral@50000000/flexpwm@d0000/pwm1 */ \
+	206, /* /soc/peripheral@50000000/flexpwm@d0000/pwm2 */ \
+	207, /* /soc/peripheral@50000000/flexpwm@d0000/pwm3 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_EXISTS 1
@@ -28716,15 +28881,15 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_HASH 6RUn3_zXVoy2DMoZRaXyOa8oJTVgW7mzw3_fNNkG4Lk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_ORD 202
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_ORD_STR_SORTABLE 00202
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_ORD 204
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_ORD_STR_SORTABLE 00204
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	57, /* /pinctrl/pinmux_flexpwm1_pwm0 */ \
-	201, /* /soc/peripheral@50000000/flexpwm@d0000 */
+	203, /* /soc/peripheral@50000000/flexpwm@d0000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0_SUPPORTS_ORDS /* nothing */
@@ -28900,14 +29065,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_HASH _YExfc0l2sbxNx_v79SjixZAcL6sgd0crZr_lZCP7lw
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_ORD 203
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_ORD_STR_SORTABLE 00203
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_ORD 205
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_ORD_STR_SORTABLE 00205
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	201, /* /soc/peripheral@50000000/flexpwm@d0000 */
+	203, /* /soc/peripheral@50000000/flexpwm@d0000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1_SUPPORTS_ORDS /* nothing */
@@ -29055,14 +29220,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_HASH faxmK46exO8pAjwcf071uh6SujzJyEIipB0eOaz_NAE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_ORD 204
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_ORD_STR_SORTABLE 00204
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_ORD 206
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_ORD_STR_SORTABLE 00206
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	201, /* /soc/peripheral@50000000/flexpwm@d0000 */
+	203, /* /soc/peripheral@50000000/flexpwm@d0000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2_SUPPORTS_ORDS /* nothing */
@@ -29210,14 +29375,14 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_HASH AkZFPsNM2z3UZ6HFDDovkwk9ay_fT2SrDhk8DgaCgC8
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_ORD 205
-#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_ORD_STR_SORTABLE 00205
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_ORD 207
+#define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_ORD_STR_SORTABLE 00207
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	201, /* /soc/peripheral@50000000/flexpwm@d0000 */
+	203, /* /soc/peripheral@50000000/flexpwm@d0000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3_SUPPORTS_ORDS /* nothing */
@@ -29373,8 +29538,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_HASH QlQdwuQeIurtKE3Oqj_6swcJjWCBFpek8OQy_3qNLYM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_ORD 206
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_ORD_STR_SORTABLE 00206
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_ORD 208
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_ORD_STR_SORTABLE 00208
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_REQUIRES_ORDS \
@@ -29384,14 +29549,14 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_SUPPORTS_ORDS \
-	207, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@0 */ \
-	208, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@1 */ \
-	209, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@2 */ \
-	210, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@3 */ \
-	211, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@4 */ \
-	212, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@5 */ \
-	213, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@6 */ \
-	214, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@7 */
+	209, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@0 */ \
+	210, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@1 */ \
+	211, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@2 */ \
+	212, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@3 */ \
+	213, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@4 */ \
+	214, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@5 */ \
+	215, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@6 */ \
+	216, /* /soc/peripheral@50000000/micfil@10c000/micfil-channel@7 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_EXISTS 1
@@ -29546,12 +29711,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_HASH mnAaCLzUPccYzxoBpoeL076Snc6LDe9yWbhy8i2y6_c
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_ORD 207
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_ORD_STR_SORTABLE 00207
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_ORD 209
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_ORD_STR_SORTABLE 00209
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0_SUPPORTS_ORDS /* nothing */
@@ -29633,12 +29798,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_HASH oariGopFRYDhIIZfIa2tKYsSopsxyDdBNP_BUAuf1xY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_ORD 208
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_ORD_STR_SORTABLE 00208
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_ORD 210
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_ORD_STR_SORTABLE 00210
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1_SUPPORTS_ORDS /* nothing */
@@ -29720,12 +29885,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_HASH P40vDCIjU9H5V0sr1SMeRz8yyHSg3Bjn0v6QXXktGeE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_ORD 209
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_ORD_STR_SORTABLE 00209
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_ORD 211
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_ORD_STR_SORTABLE 00211
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2_SUPPORTS_ORDS /* nothing */
@@ -29807,12 +29972,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_HASH acHUJG4mdDoUC4_RK6gySf0IFmAzsJ_cPOkmYoYIY_c
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_ORD 210
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_ORD_STR_SORTABLE 00210
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_ORD 212
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_ORD_STR_SORTABLE 00212
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3_SUPPORTS_ORDS /* nothing */
@@ -29894,12 +30059,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_HASH 1GK8f1fdiCkxLA8LlSWkcE_9EzAHUCSLJcAA_7o2GpE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_ORD 211
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_ORD_STR_SORTABLE 00211
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_ORD 213
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_ORD_STR_SORTABLE 00213
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4_SUPPORTS_ORDS /* nothing */
@@ -29981,12 +30146,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_HASH _Ze0GotOQvXOyGPhpKVtkohppFQ60tZQyo_TOk_SrDY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_ORD 212
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_ORD_STR_SORTABLE 00212
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_ORD 214
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_ORD_STR_SORTABLE 00214
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5_SUPPORTS_ORDS /* nothing */
@@ -30068,12 +30233,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_HASH nYi6cvE3ggBeufSfD8EC3QkANce5rwid1DAJBGe8Ijk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_ORD 213
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_ORD_STR_SORTABLE 00213
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_ORD 215
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_ORD_STR_SORTABLE 00215
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6_SUPPORTS_ORDS /* nothing */
@@ -30155,12 +30320,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_HASH PK777toVLOXBOXKU1dYDZPSQdOhPgjQ6LbB7qLT_NDk
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_ORD 214
-#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_ORD_STR_SORTABLE 00214
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_ORD 216
+#define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_ORD_STR_SORTABLE 00216
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_REQUIRES_ORDS \
-	206, /* /soc/peripheral@50000000/micfil@10c000 */
+	208, /* /soc/peripheral@50000000/micfil@10c000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7_SUPPORTS_ORDS /* nothing */
@@ -30249,22 +30414,22 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_HASH _F8EjDvW3UNPyW3iQP5ldQu529v4gThwC63hedc0TX8
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_ORD 215
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_ORD_STR_SORTABLE 00215
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_ORD 217
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_ORD_STR_SORTABLE 00217
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
-	125, /* /soc/peripheral@50000000/syscon@0/reset */
+	127, /* /soc/peripheral@50000000/syscon@0/reset */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_SUPPORTS_ORDS \
-	216, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@0 */ \
-	217, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@1 */ \
-	218, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@2 */ \
-	219, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@3 */
+	218, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@0 */ \
+	219, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@1 */ \
+	220, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@2 */ \
+	221, /* /soc/peripheral@50000000/mrt@13000/mrt0_channel@3 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_EXISTS 1
@@ -30408,12 +30573,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_HASH N_mKiPgs9i5ZzFCcNwdJzSyNqk_G1il5pCheN4zCKdo
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_ORD 216
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_ORD_STR_SORTABLE 00216
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_ORD 218
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_ORD_STR_SORTABLE 00218
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_REQUIRES_ORDS \
-	215, /* /soc/peripheral@50000000/mrt@13000 */
+	217, /* /soc/peripheral@50000000/mrt@13000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0_SUPPORTS_ORDS /* nothing */
@@ -30529,12 +30694,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_HASH jah6LLjHXu_NBug2isiRJPZeRg9A_wHiiQMjy1d_c_U
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_ORD 217
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_ORD_STR_SORTABLE 00217
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_ORD 219
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_ORD_STR_SORTABLE 00219
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_REQUIRES_ORDS \
-	215, /* /soc/peripheral@50000000/mrt@13000 */
+	217, /* /soc/peripheral@50000000/mrt@13000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1_SUPPORTS_ORDS /* nothing */
@@ -30650,12 +30815,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_HASH gFHoL_6eZ2ZDlRtzRy5vi0j23UiyihSQiYUMUGrnFDY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_ORD 218
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_ORD_STR_SORTABLE 00218
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_ORD 220
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_ORD_STR_SORTABLE 00220
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_REQUIRES_ORDS \
-	215, /* /soc/peripheral@50000000/mrt@13000 */
+	217, /* /soc/peripheral@50000000/mrt@13000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2_SUPPORTS_ORDS /* nothing */
@@ -30771,12 +30936,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_HASH KSZ6tm_5DuZcM8Fs8BISrqQXOOsKy9qzwNH1l4S3ZV0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_ORD 219
-#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_ORD_STR_SORTABLE 00219
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_ORD 221
+#define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_ORD_STR_SORTABLE 00221
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_REQUIRES_ORDS \
-	215, /* /soc/peripheral@50000000/mrt@13000 */
+	217, /* /soc/peripheral@50000000/mrt@13000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3_SUPPORTS_ORDS /* nothing */
@@ -30892,8 +31057,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_HASH RdyWAHl9x4k3o6wfrbDoihqmm3uKx1hWq_Ib_HKssd4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_ORD 220
-#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_ORD_STR_SORTABLE 00220
+#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_ORD 222
+#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_ORD_STR_SORTABLE 00222
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_REQUIRES_ORDS \
@@ -30902,7 +31067,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_SUPPORTS_ORDS \
-	221, /* /soc/peripheral@50000000/smartdma@33000/video-sdma */
+	223, /* /soc/peripheral@50000000/smartdma@33000/video-sdma */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_EXISTS 1
@@ -31033,13 +31198,13 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_HASH x_zaUVQWI99Y5HbIl4tD35MEYTu63Rcxem_wFBr3YnQ
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_ORD 221
-#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_ORD_STR_SORTABLE 00221
+#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_ORD 223
+#define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_ORD_STR_SORTABLE 00223
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_REQUIRES_ORDS \
 	81, /* /pinctrl/pinmux_smartdma_camera */ \
-	220, /* /soc/peripheral@50000000/smartdma@33000 */
+	222, /* /soc/peripheral@50000000/smartdma@33000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma_SUPPORTS_ORDS /* nothing */
@@ -31187,8 +31352,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_HASH Z_MVyhaVC7_nF9oJkfyddKDkuzlrvOcjDR37lf7xvuY
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_ORD 222
-#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_ORD_STR_SORTABLE 00222
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_ORD 224
+#define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_ORD_STR_SORTABLE 00224
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_REQUIRES_ORDS \
@@ -31197,7 +31362,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_SUPPORTS_ORDS \
-	223, /* /soc/peripheral@50000000/gpio@9a000 */
+	225, /* /soc/peripheral@50000000/gpio@9a000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000_EXISTS 1
@@ -31311,18 +31476,18 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_HASH sO89uqYMPUBKoE2aLDKxzdm9u8NuFA2Rhl1Eub_yHy0
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_ORD 223
-#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_ORD_STR_SORTABLE 00223
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_ORD 225
+#define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_ORD_STR_SORTABLE 00225
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_REQUIRES_ORDS \
 	7, /* /soc/interrupt-controller@e000e100 */ \
 	8, /* /soc/peripheral@50000000 */ \
-	222, /* /soc/peripheral@50000000/pinmux@118000 */
+	224, /* /soc/peripheral@50000000/pinmux@118000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_SUPPORTS_ORDS \
-	224, /* /soc/peripheral@50000000/usdhc@109000 */
+	226, /* /soc/peripheral@50000000/usdhc@109000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000_EXISTS 1
@@ -31476,8 +31641,8 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_HASH VAPFJNMqpYRuUgEzuF_wtyobFS0V0TFTxGHHhJvC7wM
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_ORD 224
-#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_ORD_STR_SORTABLE 00224
+#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_ORD 226
+#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_ORD_STR_SORTABLE 00226
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_REQUIRES_ORDS \
@@ -31485,11 +31650,11 @@
 	8, /* /soc/peripheral@50000000 */ \
 	19, /* /soc/peripheral@50000000/syscon@0 */ \
 	83, /* /pinctrl/pinmux_usdhc0 */ \
-	223, /* /soc/peripheral@50000000/gpio@9a000 */
+	225, /* /soc/peripheral@50000000/gpio@9a000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_SUPPORTS_ORDS \
-	225, /* /soc/peripheral@50000000/usdhc@109000/sdmmc */
+	227, /* /soc/peripheral@50000000/usdhc@109000/sdmmc */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_EXISTS 1
@@ -31752,12 +31917,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_HASH z_PIPVqXWbPbCDu_ZqsWBDy7_Ids4wLHum53f4ZBYIQ
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_ORD 225
-#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_ORD_STR_SORTABLE 00225
+#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_ORD 227
+#define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_ORD_STR_SORTABLE 00227
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_REQUIRES_ORDS \
-	224, /* /soc/peripheral@50000000/usdhc@109000 */
+	226, /* /soc/peripheral@50000000/usdhc@109000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc_SUPPORTS_ORDS /* nothing */
@@ -31883,8 +32048,8 @@
 #define DT_N_S_soc_S_spi_500c8000_HASH RFFrIuZ3Fd1pYEMAP7ACgM8cFPi017RgBxl8t5bcvBI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_spi_500c8000_ORD 226
-#define DT_N_S_soc_S_spi_500c8000_ORD_STR_SORTABLE 00226
+#define DT_N_S_soc_S_spi_500c8000_ORD 228
+#define DT_N_S_soc_S_spi_500c8000_ORD_STR_SORTABLE 00228
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_spi_500c8000_REQUIRES_ORDS \
@@ -31895,7 +32060,7 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_spi_500c8000_SUPPORTS_ORDS \
-	227, /* /soc/spi@500c8000/w25q64jvssiq@0 */
+	229, /* /soc/spi@500c8000/w25q64jvssiq@0 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_spi_500c8000_EXISTS 1
@@ -32110,16 +32275,16 @@
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_HASH hym819VpKDJr89K1S_CJsARldRxYH8C29E40LGk40Rs
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_ORD 227
-#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_ORD_STR_SORTABLE 00227
+#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_ORD 229
+#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_ORD_STR_SORTABLE 00229
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_REQUIRES_ORDS \
-	226, /* /soc/spi@500c8000 */
+	228, /* /soc/spi@500c8000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_SUPPORTS_ORDS \
-	228, /* /soc/spi@500c8000/w25q64jvssiq@0/partitions */
+	230, /* /soc/spi@500c8000/w25q64jvssiq@0/partitions */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_EXISTS 1
@@ -32316,16 +32481,16 @@
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_HASH mw6QEy9EVRVd5UPWCanZQFTaOhqxcBOLr_N2URotkbU
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_ORD 228
-#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_ORD_STR_SORTABLE 00228
+#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_ORD 230
+#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_ORD_STR_SORTABLE 00230
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_REQUIRES_ORDS \
-	227, /* /soc/spi@500c8000/w25q64jvssiq@0 */
+	229, /* /soc/spi@500c8000/w25q64jvssiq@0 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_SUPPORTS_ORDS \
-	229, /* /soc/spi@500c8000/w25q64jvssiq@0/partitions/partition@0 */
+	231, /* /soc/spi@500c8000/w25q64jvssiq@0/partitions/partition@0 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_EXISTS 1
@@ -32391,12 +32556,12 @@
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_HASH VX_Et8llfko_GtQxLeEllmmupAwt3qFzZpvebkQw9kg
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_ORD 229
-#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_ORD_STR_SORTABLE 00229
+#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_ORD 231
+#define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_ORD_STR_SORTABLE 00231
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_REQUIRES_ORDS \
-	228, /* /soc/spi@500c8000/w25q64jvssiq@0/partitions */
+	230, /* /soc/spi@500c8000/w25q64jvssiq@0/partitions */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0_SUPPORTS_ORDS /* nothing */
@@ -32491,8 +32656,8 @@
 #define DT_N_S_soc_S_sram_14000000_HASH fTWKxOnuUOgQSWbHx0n60GBEJD87RM6biYsflKjomA4
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_sram_14000000_ORD 230
-#define DT_N_S_soc_S_sram_14000000_ORD_STR_SORTABLE 00230
+#define DT_N_S_soc_S_sram_14000000_ORD 232
+#define DT_N_S_soc_S_sram_14000000_ORD_STR_SORTABLE 00232
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_sram_14000000_REQUIRES_ORDS \
@@ -32500,10 +32665,10 @@
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_sram_14000000_SUPPORTS_ORDS \
-	231, /* /soc/sram@14000000/memory@4000000 */ \
-	232, /* /soc/sram@14000000/memory@20000000 */ \
-	233, /* /soc/sram@14000000/memory@20050000 */ \
-	234, /* /soc/sram@14000000/memory@20060000 */
+	233, /* /soc/sram@14000000/memory@4000000 */ \
+	234, /* /soc/sram@14000000/memory@20000000 */ \
+	235, /* /soc/sram@14000000/memory@20050000 */ \
+	236, /* /soc/sram@14000000/memory@20060000 */
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_sram_14000000_EXISTS 1
@@ -32576,12 +32741,12 @@
 #define DT_N_S_soc_S_sram_14000000_S_memory_4000000_HASH UauvQltW2HKmAYwh9VktDXqMd3hqJe06UpgIi47kT1U
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_sram_14000000_S_memory_4000000_ORD 231
-#define DT_N_S_soc_S_sram_14000000_S_memory_4000000_ORD_STR_SORTABLE 00231
+#define DT_N_S_soc_S_sram_14000000_S_memory_4000000_ORD 233
+#define DT_N_S_soc_S_sram_14000000_S_memory_4000000_ORD_STR_SORTABLE 00233
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_4000000_REQUIRES_ORDS \
-	230, /* /soc/sram@14000000 */
+	232, /* /soc/sram@14000000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_4000000_SUPPORTS_ORDS /* nothing */
@@ -32710,12 +32875,12 @@
 #define DT_N_S_soc_S_sram_14000000_S_memory_20000000_HASH rZf8QSj1D6VyNaJg0BXScyVuBtuEEYk01rH2lHYaYYI
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_sram_14000000_S_memory_20000000_ORD 232
-#define DT_N_S_soc_S_sram_14000000_S_memory_20000000_ORD_STR_SORTABLE 00232
+#define DT_N_S_soc_S_sram_14000000_S_memory_20000000_ORD 234
+#define DT_N_S_soc_S_sram_14000000_S_memory_20000000_ORD_STR_SORTABLE 00234
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_20000000_REQUIRES_ORDS \
-	230, /* /soc/sram@14000000 */
+	232, /* /soc/sram@14000000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_20000000_SUPPORTS_ORDS /* nothing */
@@ -32815,12 +32980,12 @@
 #define DT_N_S_soc_S_sram_14000000_S_memory_20050000_HASH qXTmunEGpw0zzHLWptTaL_0PxrGYaXV_wI9aWpOl7so
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_sram_14000000_S_memory_20050000_ORD 233
-#define DT_N_S_soc_S_sram_14000000_S_memory_20050000_ORD_STR_SORTABLE 00233
+#define DT_N_S_soc_S_sram_14000000_S_memory_20050000_ORD 235
+#define DT_N_S_soc_S_sram_14000000_S_memory_20050000_ORD_STR_SORTABLE 00235
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_20050000_REQUIRES_ORDS \
-	230, /* /soc/sram@14000000 */
+	232, /* /soc/sram@14000000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_20050000_SUPPORTS_ORDS /* nothing */
@@ -32920,12 +33085,12 @@
 #define DT_N_S_soc_S_sram_14000000_S_memory_20060000_HASH x5eLEQSQxjblo8yi3SW7xQX8uNrYg2SJjVDmH9RfuNE
 
 /* Node's dependency ordinal: */
-#define DT_N_S_soc_S_sram_14000000_S_memory_20060000_ORD 234
-#define DT_N_S_soc_S_sram_14000000_S_memory_20060000_ORD_STR_SORTABLE 00234
+#define DT_N_S_soc_S_sram_14000000_S_memory_20060000_ORD 236
+#define DT_N_S_soc_S_sram_14000000_S_memory_20060000_ORD_STR_SORTABLE 00236
 
 /* Ordinals for what this node depends on directly: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_20060000_REQUIRES_ORDS \
-	230, /* /soc/sram@14000000 */
+	232, /* /soc/sram@14000000 */
 
 /* Ordinals for what depends directly on this node: */
 #define DT_N_S_soc_S_sram_14000000_S_memory_20060000_SUPPORTS_ORDS /* nothing */
@@ -33003,10 +33168,10 @@
 #define DT_CHOSEN_zephyr_code_cpu1_partition_EXISTS 1
 
 /* Macros for iterating over all nodes and enabled nodes */
-#define DT_FOREACH_HELPER(fn) fn(DT_N) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_soc_S_interrupt_controller_e000e100) fn(DT_N_S_soc_S_timer_e000e010) fn(DT_N_S_soc_S_sram_14000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000) fn(DT_N_S_soc_S_peripheral_50000000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000) fn(DT_N_S_soc_S_peripheral_50000000_S_timers_49000) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000) fn(DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10e000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_21000) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_112000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_113000) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_115000) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d8000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng) fn(DT_N_S_soc_S_spi_500c8000) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0) fn(DT_N_S_cpus) fn(DT_N_S_cpus_S_cpu_0) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90) fn(DT_N_S_power_states) fn(DT_N_S_power_states_S_sleep) fn(DT_N_S_power_states_S_deepsleep) fn(DT_N_S_power_states_S_powerdown) fn(DT_N_S_pinctrl) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1) fn(DT_N_S_pinctrl_S_pinmux_dac0) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai1) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai0) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_enet_qos) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1) fn(DT_N_S_pinctrl_S_pinmux_lpadc0) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_opamp0) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1) fn(DT_N_S_pinctrl_S_pinmux_sctimer) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2) fn(DT_N_S_leds) fn(DT_N_S_leds_S_led_1) fn(DT_N_S_leds_S_led_2) fn(DT_N_S_leds_S_led_3) fn(DT_N_S_gpio_keys) fn(DT_N_S_gpio_keys_S_button_0) fn(DT_N_S_gpio_keys_S_button_1) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer)
-#define DT_FOREACH_OKAY_HELPER(fn) fn(DT_N) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_soc_S_interrupt_controller_e000e100) fn(DT_N_S_soc_S_timer_e000e010) fn(DT_N_S_soc_S_sram_14000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000) fn(DT_N_S_soc_S_peripheral_50000000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng) fn(DT_N_S_soc_S_spi_500c8000) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0) fn(DT_N_S_cpus) fn(DT_N_S_cpus_S_cpu_0) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90) fn(DT_N_S_power_states) fn(DT_N_S_power_states_S_sleep) fn(DT_N_S_power_states_S_deepsleep) fn(DT_N_S_power_states_S_powerdown) fn(DT_N_S_pinctrl) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1) fn(DT_N_S_pinctrl_S_pinmux_dac0) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai1) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai0) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_enet_qos) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1) fn(DT_N_S_pinctrl_S_pinmux_lpadc0) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_opamp0) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1) fn(DT_N_S_pinctrl_S_pinmux_sctimer) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2) fn(DT_N_S_leds) fn(DT_N_S_leds_S_led_1) fn(DT_N_S_leds_S_led_3) fn(DT_N_S_gpio_keys) fn(DT_N_S_gpio_keys_S_button_0) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer)
-#define DT_FOREACH_VARGS_HELPER(fn, ...) fn(DT_N, __VA_ARGS__) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_soc_S_interrupt_controller_e000e100, __VA_ARGS__) fn(DT_N_S_soc_S_timer_e000e010, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_timers_49000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_21000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_112000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_113000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_115000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_power_states_S_sleep, __VA_ARGS__) fn(DT_N_S_power_states_S_deepsleep, __VA_ARGS__) fn(DT_N_S_power_states_S_powerdown, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_leds_S_led_1, __VA_ARGS__) fn(DT_N_S_leds_S_led_2, __VA_ARGS__) fn(DT_N_S_leds_S_led_3, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_gpio_keys_S_button_0, __VA_ARGS__) fn(DT_N_S_gpio_keys_S_button_1, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__)
-#define DT_FOREACH_OKAY_VARGS_HELPER(fn, ...) fn(DT_N, __VA_ARGS__) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_soc_S_interrupt_controller_e000e100, __VA_ARGS__) fn(DT_N_S_soc_S_timer_e000e010, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_power_states_S_sleep, __VA_ARGS__) fn(DT_N_S_power_states_S_deepsleep, __VA_ARGS__) fn(DT_N_S_power_states_S_powerdown, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_leds_S_led_1, __VA_ARGS__) fn(DT_N_S_leds_S_led_3, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_gpio_keys_S_button_0, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__)
+#define DT_FOREACH_HELPER(fn) fn(DT_N) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_soc_S_interrupt_controller_e000e100) fn(DT_N_S_soc_S_timer_e000e010) fn(DT_N_S_soc_S_sram_14000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000) fn(DT_N_S_soc_S_peripheral_50000000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000) fn(DT_N_S_soc_S_peripheral_50000000_S_timers_49000) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000) fn(DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10e000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_21000) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_112000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_113000) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_115000) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d8000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng) fn(DT_N_S_soc_S_spi_500c8000) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0) fn(DT_N_S_cpus) fn(DT_N_S_cpus_S_cpu_0) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90) fn(DT_N_S_power_states) fn(DT_N_S_power_states_S_sleep) fn(DT_N_S_power_states_S_deepsleep) fn(DT_N_S_power_states_S_powerdown) fn(DT_N_S_pinctrl) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1) fn(DT_N_S_pinctrl_S_pinmux_dac0) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai1) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai0) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_enet_qos) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1) fn(DT_N_S_pinctrl_S_pinmux_lpadc0) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_opamp0) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1) fn(DT_N_S_pinctrl_S_pinmux_sctimer) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2) fn(DT_N_S_leds) fn(DT_N_S_leds_S_led_1) fn(DT_N_S_leds_S_led_2) fn(DT_N_S_leds_S_led_3) fn(DT_N_S_gpio_keys) fn(DT_N_S_gpio_keys_S_button_0) fn(DT_N_S_gpio_keys_S_button_1) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer) fn(DT_N_S_reserved_memory) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000)
+#define DT_FOREACH_OKAY_HELPER(fn) fn(DT_N) fn(DT_N_S_chosen) fn(DT_N_S_aliases) fn(DT_N_S_soc) fn(DT_N_S_soc_S_interrupt_controller_e000e100) fn(DT_N_S_soc_S_timer_e000e010) fn(DT_N_S_soc_S_sram_14000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000) fn(DT_N_S_soc_S_peripheral_50000000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng) fn(DT_N_S_soc_S_spi_500c8000) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0) fn(DT_N_S_cpus) fn(DT_N_S_cpus_S_cpu_0) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90) fn(DT_N_S_power_states) fn(DT_N_S_power_states_S_sleep) fn(DT_N_S_power_states_S_deepsleep) fn(DT_N_S_power_states_S_powerdown) fn(DT_N_S_pinctrl) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1) fn(DT_N_S_pinctrl_S_pinmux_dac0) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai1) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_sai0) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_enet_qos) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1) fn(DT_N_S_pinctrl_S_pinmux_lpadc0) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_opamp0) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1) fn(DT_N_S_pinctrl_S_pinmux_sctimer) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2) fn(DT_N_S_leds) fn(DT_N_S_leds_S_led_1) fn(DT_N_S_leds_S_led_3) fn(DT_N_S_gpio_keys) fn(DT_N_S_gpio_keys_S_button_0) fn(DT_N_S_mikrobus_connector) fn(DT_N_S_arduino_connector) fn(DT_N_S_lcd_8080_connector) fn(DT_N_S_dvp_20pin_connector) fn(DT_N_S_mbox_consumer) fn(DT_N_S_reserved_memory) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000)
+#define DT_FOREACH_VARGS_HELPER(fn, ...) fn(DT_N, __VA_ARGS__) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_soc_S_interrupt_controller_e000e100, __VA_ARGS__) fn(DT_N_S_soc_S_timer_e000e010, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpuart_92000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_spi_92000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_92000_S_lpi2c_92800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpuart_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_lpi2c_93800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_spi_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpuart_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_spi_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_spi_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpi2c_b4800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpuart_b5000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_spi_b5000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b5000_S_lpi2c_b5800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpuart_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_spi_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000_S_lpi2c_b6800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpuart_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_spi_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpuart_b8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_spi_b8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b8000_S_lpi2c_b8800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpuart_b9000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_spi_b9000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b9000_S_lpi2c_b9800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_a0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_timers_49000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_4, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_5, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_6, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_micfil_10c000_S_micfil_channel_7, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ewm_c0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000_S_pwm3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_d000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_f000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_10000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000_S_video_sdma, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_dd000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_51000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_52000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_21000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000_S_flexio0_lcd, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_112000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm1, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lpcmp_53000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_113000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_115000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d8000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_power_states_S_sleep, __VA_ARGS__) fn(DT_N_S_power_states_S_deepsleep, __VA_ARGS__) fn(DT_N_S_power_states_S_powerdown, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_leds_S_led_1, __VA_ARGS__) fn(DT_N_S_leds_S_led_2, __VA_ARGS__) fn(DT_N_S_leds_S_led_3, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_gpio_keys_S_button_0, __VA_ARGS__) fn(DT_N_S_gpio_keys_S_button_1, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__) fn(DT_N_S_reserved_memory, __VA_ARGS__) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, __VA_ARGS__)
+#define DT_FOREACH_OKAY_VARGS_HELPER(fn, ...) fn(DT_N, __VA_ARGS__) fn(DT_N_S_chosen, __VA_ARGS__) fn(DT_N_S_aliases, __VA_ARGS__) fn(DT_N_S_soc, __VA_ARGS__) fn(DT_N_S_soc_S_interrupt_controller_e000e100, __VA_ARGS__) fn(DT_N_S_soc_S_timer_e000e010, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_4000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20000000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20050000, __VA_ARGS__) fn(DT_N_S_soc_S_sram_14000000_S_memory_20060000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_uuid_1100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_syscon_0_S_reset, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_116000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_117000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_118000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_119000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_11a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pinmux_42000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_96000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_98000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_9e000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_gpio_40000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel2, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel3, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel4, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel5, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_eim_5b000_S_channel6, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_erm_5c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpuart_94000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b4000_S_lpuart_b4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b6000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dma_controller_80000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_dac_10f000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_ethernet, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ethernet_40100000_S_mdio_S_ethernet_phy_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_watchdog_16000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_ce000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_ctimer_c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_pwm_91000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_smartdma_33000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usdhc_109000_S_sdmmc, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_vref_111000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_adc_10d000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbd_10b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_usbphy_10a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_can_d4000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4a000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_lptmr_4b000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_i3c_22000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexio_105000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_mrt_13000_S_mrt0_channel_0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_rtc_4c000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_106000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_sai_107000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_45000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_46000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_48000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_system_modules_59000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexpwm_d0000_S_pwm0, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_opamp_110000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_crypto_54000_S_rng, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions, __VA_ARGS__) fn(DT_N_S_soc_S_spi_500c8000_S_w25q64jvssiq_0_S_partitions_S_partition_0, __VA_ARGS__) fn(DT_N_S_cpus, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0, __VA_ARGS__) fn(DT_N_S_cpus_S_cpu_0_S_mpu_e000ed90, __VA_ARGS__) fn(DT_N_S_power_states, __VA_ARGS__) fn(DT_N_S_power_states_S_sleep, __VA_ARGS__) fn(DT_N_S_power_states_S_deepsleep, __VA_ARGS__) fn(DT_N_S_power_states_S_powerdown, __VA_ARGS__) fn(DT_N_S_pinctrl, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm1_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm6_lpspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm3_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pimux_flexcomm7_lpi2c_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm2_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcomm4_lpuart_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexspi_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_dac0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sai0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mdio_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_enet_qos_S_mac_group, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexpwm1_pwm2_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_smartdma_camera_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_usdhc0_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpadc0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_lpcmp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_opamp0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexcan0_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_i3c1_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_sctimer_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group0, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group1, __VA_ARGS__) fn(DT_N_S_pinctrl_S_pinmux_flexio_lcd_S_group2, __VA_ARGS__) fn(DT_N_S_leds, __VA_ARGS__) fn(DT_N_S_leds_S_led_1, __VA_ARGS__) fn(DT_N_S_leds_S_led_3, __VA_ARGS__) fn(DT_N_S_gpio_keys, __VA_ARGS__) fn(DT_N_S_gpio_keys_S_button_0, __VA_ARGS__) fn(DT_N_S_mikrobus_connector, __VA_ARGS__) fn(DT_N_S_arduino_connector, __VA_ARGS__) fn(DT_N_S_lcd_8080_connector, __VA_ARGS__) fn(DT_N_S_dvp_20pin_connector, __VA_ARGS__) fn(DT_N_S_mbox_consumer, __VA_ARGS__) fn(DT_N_S_reserved_memory, __VA_ARGS__) fn(DT_N_S_reserved_memory_S_cpu_shared_20060000, __VA_ARGS__)
 #define DT_COMPAT_fixed_partitions_LABEL_mcuboot DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_0
 #define DT_COMPAT_fixed_partitions_LABEL_mcuboot_EXISTS 1
 #define DT_COMPAT_fixed_partitions_LABEL_image_0 DT_N_S_soc_S_peripheral_50000000_S_flash_controller_43000_S_flash_0_S_partitions_S_partition_14000

@@ -1336,8 +1336,8 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/prj.conf",
-      2
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.conf",
+      1
     ]
   ],
   [
@@ -6583,10 +6583,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/mem_mgmt/Kconfig",
-      6
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/prj.conf",
+      3
     ]
   ],
   [
@@ -7609,5 +7609,13 @@
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
       1126
     ]
+  ],
+  [
+    "CONFIG_INCLUDE_REMOTE_DIR",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
   ]
 ]

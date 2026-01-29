@@ -226,7 +226,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=mbox
+CMAKE_PROJECT_NAME:STATIC=ipc_service
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=4.3.99
@@ -430,13 +430,13 @@ device:STRING=MCXN947
 device_root:STRING=devices
 
 //Value Computed by CMake
-mbox_BINARY_DIR:STATIC=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox
+ipc_service_BINARY_DIR:STATIC=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox
 
 //Value Computed by CMake
-mbox_IS_TOP_LEVEL:STATIC=ON
+ipc_service_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-mbox_SOURCE_DIR:STATIC=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox
+ipc_service_SOURCE_DIR:STATIC=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox
 
 //The variable multicore_foldername: cm33_core0
 multicore_foldername:STRING=cm33_core0

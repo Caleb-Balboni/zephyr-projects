@@ -846,7 +846,7 @@
 				rx-channels = < 0x4 >;           /* in zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi:694 */
 				#mbox-cells = < 0x1 >;           /* in zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi:695 */
 				status = "okay";                 /* in zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi:56 */
-				phandle = < 0x2e >;              /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:4 */
+				phandle = < 0x2e >;              /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:7 */
 			};
 
 			/* node '/soc/peripheral@50000000/dma-controller@80000' defined in zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi:699 */
@@ -2369,12 +2369,26 @@
 		           < 0x12 0x0 &gpio1 0x12 0x0 >;    /* in zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi:132 */
 	};
 
-	/* node '/mbox-consumer' defined in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:2 */
+	/* node '/mbox-consumer' defined in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:5 */
 	cpu0: mbox-consumer {
-		compatible = "vnd,mbox-consumer"; /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:3 */
+		compatible = "vnd,mbox-consumer"; /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:6 */
 		mboxes = < &mbox 0x0 >,
-		         < &mbox 0x1 >;           /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:4 */
+		         < &mbox 0x1 >;           /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:7 */
 		mbox-names = "tx",
-		             "rx";                /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:5 */
+		             "rx";                /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:8 */
+	};
+
+	/* node '/reserved-memory' defined in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:11 */
+	reserved-memory {
+		#address-cells = < 0x1 >;            /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:12 */
+		#size-cells = < 0x1 >;               /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:13 */
+		zephyr,memory-region = "shared_mem"; /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:14 */
+
+		/* node '/reserved-memory/cpu_shared@20060000' defined in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:15 */
+		cpu_dma_shared: cpu_shared@20060000 {
+			reg = < 0x20060000 0x80 >;          /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:16 */
+			zephyr,memory-attr = < 0x1200000 >; /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:17 */
+			label = "SHARED_MEM";               /* in zephyr/my-projects/zephyr-mbox/boards/frdm_mcxn947_mcxn947_cpu0.overlay:18 */
+		};
 	};
 };

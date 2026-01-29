@@ -9,7 +9,7 @@ cmake:
    - name: 'zephyr-mbox'
      source-dir: '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox'
      type: 'MAIN'
-   - name: 'cpu1'
+   - name: 'remote'
      source-dir: ''
   kconfig:
     files:
@@ -19,6 +19,6 @@ cmake:
      - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/_sysbuild/empty.conf'
 version: '0.1.0'
 west:
-  command: '/home/bionet-caleb/testing/zephyr-testing/myvenv/bin/west build -p always -b frdm_mcxn947/mcxn947/cpu0 . --sysbuild'
+  command: '/home/bionet-caleb/testing/zephyr-testing/myvenv/bin/west build -p always -b frdm_mcxn947/mcxn947/cpu0 --sysbuild .'
   topdir: '/home/bionet-caleb/testing/zephyr-testing'
   version: '1.5.0'

@@ -3,8 +3,8 @@ build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-m
 domains:
   - name: zephyr-mbox
     build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/zephyr-mbox
-  - name: cpu1
-    build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/cpu1
+  - name: remote
+    build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-mbox/build/remote
 flash_order:
   - zephyr-mbox
-  - cpu1
+  - remote

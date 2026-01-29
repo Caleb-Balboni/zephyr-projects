@@ -1,0 +1,19 @@
+#include <zephyr/dt-bindings/memory-attr/memory-attr.h>
+/ {
+	cpu1: mbox-consumer {
+		compatible = "vnd,mbox-consumer";
+		mboxes = <&mbox 1>, <&mbox 0>;
+		mbox-names = "tx", "rx";
+	};
+
+	reserved-memory {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		zephyr,memory-region = "shared_mem";
+		cpu_dma_shared: cpu_shared@20060000 {
+			reg = <0x20060000 0x80>;
+			zephyr,memory-attr = <(DT_MEM_ARM(ATTR_MPU_RAM_NOCACHE) | DT_MEM_ARM(ATTR_MPU_IO))>;
+			label = "SHARED_MEM";
+		};
+	};
+};
