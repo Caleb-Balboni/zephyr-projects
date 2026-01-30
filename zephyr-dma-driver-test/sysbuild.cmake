@@ -1,0 +1,7 @@
+set(REMOTE_APP remote)
+
+ExternalZephyrProject_Add(
+  APPLICATION ${REMOTE_APP}
+  SOURCE_DIR  ${APP_DIR}/${REMOTE_APP}
+  BOARD       ${SB_CONFIG_NET_CORE_BOARD}
+)

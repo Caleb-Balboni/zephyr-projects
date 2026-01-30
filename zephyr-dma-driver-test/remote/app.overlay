@@ -1,0 +1,24 @@
+#include <zephyr/dt-bindings/memory-attr/memory-attr.h>
+#include <zephyr/dt-bindings/memory-attr/memory-attr-arm.h>
+/ {
+	reserved-memory {
+		#address-cells = <1>;
+		#size-cells = <1>;
+		ranges;
+
+		shared_mem: memory@20060000 {
+			reg = <0x20060000 0x80>;
+			zephyr,memory-attr =
+				<(DT_MEM_ARM(ATTR_MPU_RAM_NOCACHE) | DT_MEM_ARM(ATTR_MPU_IO))>;
+			label = "SHARED_MEM";
+		};
+	};
+
+	coredma1: coredma {
+		compatible = "hn,coredma";
+		mboxes = <&mbox 0>, <&mbox 1>;
+		mbox-names = "tx", "rx";
+		memory-region = <&shared_mem>;
+	};
+};
+
