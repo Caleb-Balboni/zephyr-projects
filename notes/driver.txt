@@ -1,5 +1,99 @@
 DRIVERS
 
-ROUGH OVERVIEW
+OVERVIEW
 
- -
+Zephyr drivers exist to allow an easy setup between the devices in the device tree.
+For example: 
+&flexcomm2_lpi2c2 {
+	status = "okay";
+	clock-frequency = <I2C_BITRATE_FAST>;
+
+	tsys01: tsys01@77 {
+		compatible = "tsys01,sensor"; <-- Telling zephyr this device is compatible with our driver
+		reg = <0x77>;
+		status = "okay";
+	};
+};
+
+By using the 'compatible' key-word we are essentially telling zephyr that this device is directly compatible
+with the driver, and connecting our driver api to the device. Using the DEVICE_DT_GET we can grab the device
+from the device tree. In this case we grab it by alias because I specfically defined
+an alias within the device tree. You could also use a nodelabel like this DT_NODELABEL
+example:
+static const struct device* dev = DEVICE_DT_GET(DT_ALIAS(temp_sensor));
+
+We can than directly call the drivers functions using the device.
+example:
+tsys_get_calibration_data(dev, cal_data); <-- where the 'dev' is the device we grabbed earlier
+
+It is also important to note that drivers can have multiple implementations, depending on the type of device 
+zephyr will automatically set the correct driver api to the device.
+
+DRIVER SETUP
+
+1. create the driver api
+
+First we must describe what the generic version of the driver will look like:
+
+create a generic device driver struct (just a struct of functions)
+
+example:
+
+typedef void (*foo_t)(const struct device* dev, ...) <-- api functions must directly take a device unless you setup the init function to take in device once and store it
+typedef int (*bar_t)(const struct device* dev, ...)
+
+struct example_api {
+  foo_t foo; 
+  bar_t bar;
+};
+
+This will create a generic base for the driver api, which can than be implemented
+
+2. implement the driver api
+
+In order for zephyr to attach the api to the device we need to define a compatible keyword for the device tree to find.
+This can be done with the DT_DRV_COMPACT def
+example:
+
+#define DT_DRV_COMPACT foo_bar <-- defining it like this underscore correlate to ',' so from the device tree you would grab it like this compatible = "foo,bar";
+
+after defining the actual function, we must create an instance of the api and setup the config
+to setup the the instance of the api we simple create a new instance of the previously defined driver api struct
+example:
+
+const static struct example_api example_api_impl = {
+  .foo = foo_impl,
+  .bar = bar_impl
+};
+
+we must also setup the config for the driver api. This config will contain info custom to this api and is simple just a struct holding info. In particular
+this struct can be used to hold particular info grabbed from the device tree about that particular device (if the implementor wants the user to be able to customize driver behaviour)
+example:
+
+struct example_config = {
+  int foo; <-- varibales that specifically pertain to this driver device
+  int bar;
+};
+
+than we 
+
+other info from the device tree that will be needed for the particular device.
+example:
+#define EXAMPLE_DEFINE(inst)                                                \
+    static const struct example_config temp_sensor_config_##inst = {        \
+        .foo = DT_INST_PROP(inst, foo),                                     \
+        .bar = DT_INST_PROP(inst, bar),                                     \
+    };                                                                      \
+    DEVICE_DT_INST_DEFINE(inst,                                             \
+        NULL, NULL,                                                         \
+        NULL,                                                               \
+        &example_config_##inst,                                             \
+        POST_KERNEL, CONFIG_KERNEL_INIT_PRIORITY_DEVICE,                    \
+        &example_api_impl);					                                        \
+
+DT_INST_FOREACH_STATUS_OKAY(EXAMPLE_DEFINE)
+
+In this example we are grabbing the variables foo and bar from the device tree using the DT_INST_PROP macro which will init this particular 'inst' of this device with that config.
+The inst property is simply the particular instance of this particular driver (which there can be multiple of if multiple devices use the same driver)
+
+Thats it.

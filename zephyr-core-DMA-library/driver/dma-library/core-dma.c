@@ -83,21 +83,19 @@ static int init_core_dma_engine(const struct device* dev) {
 		memcpy(cfg->smem_base_adr, &core_lock, sizeof(atomic_t));
 		dma_data->core_lock = (atomic_t*)cfg->smem_base_adr;
 
-		// INTEAD OF THIS PING SENDS AND USE A CALLBACK TO REGISTER WHEN THE SLAVE RECEIVES
-		if ((code = send_impl(dev, &master_ready_code, sizeof(master_ready_code)))) {
-			return code;
-		}
-
 		uint8_t receive_byte;
-		// implicit wait for the slave to respond
-		if ((code = sync_receive_impl(dev, &receive_byte, sizeof(receive_byte), K_FOREVER))) {
-			return code;
-		}
-
-		if (receive_byte == slave_ready_code) {
-			memset(dma_data->smem_data_adr, 0, cfg->smem_size - sizeof(atomic_t));
-			return 0;
-		}
+    for (;;) {
+      if ((code = send_impl(dev, &master_ready_code, sizeof(master_ready_code))) {
+        return code;
+      }
+      if (!(code = sync_receive_impl(dev, &recieve_byte, sizeof(receive_byte), K_MSEC(50)))) {
+        if (recieve_byte == slave_ready_code) {
+			    memset(dma_data->smem_data_adr, 0, cfg->smem_size - sizeof(atomic_t));
+			    return 0;
+        }
+        return -1;
+      }
+    }
 	} else {
 		dma_data->core_lock = (atomic_t*)cfg->smem_base_adr;
 		uint8_t receive_byte;
@@ -174,8 +172,8 @@ static int async_receive_impl(const struct device* dev, void (*callback_func)(vo
 static void sync_receive_callback(const struct device *dev, mbox_channel_id_t channel_id,
 		     void *user_data, struct mbox_msg *data) {
 
-	uint8_t* received_flag = (uint8_t*)user_data;
-	*received_flag = 1;
+	struct k_sem* rx_sem = (struct k_sem*)user_data;
+  k_sem_give(rx_sem);
 }
 
 // recieves data and blocks the current thread until data has been received
@@ -186,7 +184,7 @@ static void sync_receive_callback(const struct device *dev, mbox_channel_id_t ch
 // standard zephyr time macros eg: K_FOREVER, K_MINUTES, K_MSEC ...
 // @return - 0 if execution is successfull or a standard zephyr error code upon failure
 static int sync_receive_impl(const struct device* dev, void* data, size_t data_size, k_timeout_t timeout) {
-
+  int code = 0;
 	struct dma_engine_cfg* cfg = (struct dma_engine_cfg*)dev->config;
 	struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
 	if (data_size > cfg->smem_size - sizeof(atomic_t)) {
@@ -194,46 +192,22 @@ static int sync_receive_impl(const struct device* dev, void* data, size_t data_s
 	}
 	k_mutex_lock(dma_data->rw_lock, K_FOREVER);
 
-	int64_t timeout_ms = k_ticks_to_ms_floor64(timeout.ticks);
-	int64_t deadline = k_uptime_get() + timeout_ms;
+  struct k_sem rx_sem;
+  k_sem_init(&rx_sem, 0, 1);
 
-	int code = 0;
+  if (code = (mbox_register_callback_dt(&cfg->rx, sync_receive_callback, (void*)&rx_sem))) {
+    goto exit_receive;
+  }
+  
+  if (code = (k_sem_take(&rx_sem, timeout))) {
+    goto exit_receive;
+  }
 
-	uint8_t received_flag = 0;
-	// register our wrapper callback
-	if ((code = mbox_register_callback_dt(&cfg->rx, sync_receive_callback, (void*)&received_flag))) {
-		goto exit_code;
-	}
-	// set interrupts to be enabled
-	if ((code = mbox_set_enabled_dt(&cfg->rx, true))) {
-		goto exit_code;
-	}
+  memcpy(data, dma_data->smem_data_adr, data_size);
 
-	if (!K_TIMEOUT_EQ(timeout, K_FOREVER)) {
-		for (;;) {
-			if (received_flag) {
-				memcpy(data, dma_data->smem_data_adr, data_size);
-				code = 0;
-				goto exit_code;
-			}
-		}
-	}
-	for (;;) {
-		uint32_t cur_time = k_uptime_ticks();
-		if (received_flag) {
-			memcpy(data, dma_data->smem_data_adr, data_size);
-			code = 0;
-			goto exit_code;
-		}
-		if (cur_time >= deadline) {
-			code = -ETIMEDOUT;
-			goto exit_code;
-		}
-	}
-
-	exit_code:
-	k_mutex_unlock(dma_data->rw_lock);
-	mbox_set_enabled_dt(&cfg->rx, false);
+  exit_receive:
+  mbox_set_enabled_dt(&cfg->rx, false);
+  k_mutex_unlock(dma_data->rw_lock);
 	return code;
 }
 

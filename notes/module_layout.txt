@@ -1,0 +1,28 @@
+module_example/
+  zephyr/
+    module.yml
+  drivers/
+    sensor/
+      my_tmp/
+        CMakeLists.txt
+        Kconfig
+        my_tmp.c
+    CMakeLists.txt
+    Kconfig
+  dts/
+    bindings/
+      input/
+        example,module.yaml
+
+module_example/zephyr/module.yaml - this file is required (in this exact format) and specifies to zephyr exactly where to find each file
+template:
+
+name: example-driver
+build:
+  cmake: .
+  kconfig: Kconfig
+  settings:
+    dts_root: .
+
+module_example/dts/bindings/input/example,module.yaml - this file defines the device tree behaviour of the driver, in here you can specifiy which params in the device tree are needed
+

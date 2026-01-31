@@ -1,0 +1,32 @@
+empty_file.o: \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/misc/empty_file.c \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dts \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu0.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/mem.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/armv8-m.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/skeleton.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x_common.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/freq.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/clock/mcux_lpc_syscon_clock.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/reset/nxp_syscon_reset_common.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_macro.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_loops.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_listify.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_is_eq.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_util_inc.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_util_dec.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_util_x2.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947-pinctrl.dtsi \
+ /home/calebb/Projects/work-projects/zephyr/modules/hal/nxp/dts/nxp/mcx/MCXN947VDF-pinctrl.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/gpio/arduino-header-r3.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/gpio/dvp-20pin-connector.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
+ /home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-driver/app/app.overlay

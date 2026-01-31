@@ -1,0 +1,5 @@
+west:
+  command: /home/calebb/Projects/work-projects/myvenv/bin/west build -p always -b
+    frdm_mcxn947/mcxn947/cpu0 .
+  topdir: /home/calebb/Projects/work-projects/zephyr
+  version: 1.5.0
