@@ -92,6 +92,8 @@ list(APPEND sections "{NAME\;mspi_driver_api_area\;GROUP\;RODATA_REGION\;SUBALIG
 list(APPEND section_settings "{SECTION\;mspi_driver_api_area\;SORT\;NAME\;KEEP\;TRUE\;INPUT\;._mspi_driver_api.static.*\;SYMBOLS\;_mspi_driver_api_list_start\;_mspi_driver_api_list_end}")
 list(APPEND sections "{NAME\;opamp_driver_api_area\;GROUP\;RODATA_REGION\;SUBALIGN\;4\;NOINPUT\;TRUE}")
 list(APPEND section_settings "{SECTION\;opamp_driver_api_area\;SORT\;NAME\;KEEP\;TRUE\;INPUT\;._opamp_driver_api.static.*\;SYMBOLS\;_opamp_driver_api_list_start\;_opamp_driver_api_list_end}")
+list(APPEND sections "{NAME\;otp_driver_api_area\;GROUP\;RODATA_REGION\;SUBALIGN\;4\;NOINPUT\;TRUE}")
+list(APPEND section_settings "{SECTION\;otp_driver_api_area\;SORT\;NAME\;KEEP\;TRUE\;INPUT\;._otp_driver_api.static.*\;SYMBOLS\;_otp_driver_api_list_start\;_otp_driver_api_list_end}")
 list(APPEND sections "{NAME\;peci_driver_api_area\;GROUP\;RODATA_REGION\;SUBALIGN\;4\;NOINPUT\;TRUE}")
 list(APPEND section_settings "{SECTION\;peci_driver_api_area\;SORT\;NAME\;KEEP\;TRUE\;INPUT\;._peci_driver_api.static.*\;SYMBOLS\;_peci_driver_api_list_start\;_peci_driver_api_list_end}")
 list(APPEND sections "{NAME\;ps2_driver_api_area\;GROUP\;RODATA_REGION\;SUBALIGN\;4\;NOINPUT\;TRUE}")

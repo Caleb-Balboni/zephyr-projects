@@ -1,2 +1,2 @@
 # Load Zephyr board Kconfig descriptions.
-osource "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/Kconfig"
+osource "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/Kconfig"

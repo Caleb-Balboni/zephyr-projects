@@ -12,15 +12,15 @@ debug-runner: linkserver
 
 # Common runner configuration values.
 config:
-  board_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947
+  board_dir: /home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947
   # Build outputs:
   elf_file: zephyr.elf
   bin_file: zephyr.bin
   # Host tools:
-  gdb: /home/bionet-caleb/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
-  openocd: /home/bionet-caleb/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+  gdb: /home/calebb/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
+  openocd: /home/calebb/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
   openocd_search:
-    - /home/bionet-caleb/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
+    - /home/calebb/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
 
 # Runner specific arguments
 args:

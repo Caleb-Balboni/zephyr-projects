@@ -1,7 +1,7 @@
-# 0 "/home/bionet-caleb/testing/zephyr-testing/zephyr/misc/empty_file.c"
+# 0 "/home/calebb/Projects/work-projects/zephyr/zephyr/misc/empty_file.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 1
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 1
 
 
 
@@ -10,20 +10,20 @@
 
 /dts-v1/;
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 1 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 1 3 4
 
 
 
 
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/mem.h" 1 3 4
-# 8 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/armv8-m.dtsi" 1 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/mem.h" 1 3 4
+# 8 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/armv8-m.dtsi" 1 3 4
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/skeleton.dtsi" 1 3 4
-# 9 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/skeleton.dtsi" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/skeleton.dtsi" 1 3 4
+# 9 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/skeleton.dtsi" 3 4
 / {
  #address-cells = <1>;
  #size-cells = <1>;
@@ -32,7 +32,7 @@
 
  aliases {};
 };
-# 4 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/armv8-m.dtsi" 2 3 4
+# 4 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/armv8-m.dtsi" 2 3 4
 
 / {
  soc {
@@ -56,7 +56,7 @@
   };
  };
 };
-# 9 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 2 3 4
+# 9 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 2 3 4
 
 / {
  soc {
@@ -78,14 +78,14 @@
  };
 };
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x_common.dtsi" 1 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x_common.dtsi" 1 3 4
 
 
 
 
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 1 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 1 3 4
 
 
 
@@ -93,19 +93,19 @@
 
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/freq.h" 1 3 4
-# 9 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/clock/mcux_lpc_syscon_clock.h" 1 3 4
-# 10 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/reset/nxp_syscon_reset_common.h" 1 3 4
-# 11 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/gpio/gpio.h" 1 3 4
-# 12 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/armv8-m.dtsi" 1 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/freq.h" 1 3 4
+# 9 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/clock/mcux_lpc_syscon_clock.h" 1 3 4
+# 10 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/reset/nxp_syscon_reset_common.h" 1 3 4
+# 11 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/gpio/gpio.h" 1 3 4
+# 12 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/armv8-m.dtsi" 1 3 4
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/skeleton.dtsi" 1 3 4
-# 9 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/common/skeleton.dtsi" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/skeleton.dtsi" 1 3 4
+# 9 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/common/skeleton.dtsi" 3 4
 / {
  #address-cells = <1>;
  #size-cells = <1>;
@@ -114,7 +114,7 @@
 
  aliases {};
 };
-# 4 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/armv8-m.dtsi" 2 3 4
+# 4 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/armv8-m.dtsi" 2 3 4
 
 / {
  soc {
@@ -138,37 +138,37 @@
   };
  };
 };
-# 13 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 1 3 4
-# 10 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_macro.h" 1 3 4
-# 34 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_macro.h" 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 1 3 4
-# 18 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_loops.h" 1 3 4
-# 1083 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_loops.h" 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_listify.h" 1 3 4
-# 1084 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_loops.h" 2 3 4
-# 19 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
-# 203 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal_is_eq.h" 1 3 4
-# 204 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
-# 234 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal_util_inc.h" 1 3 4
-# 235 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 13 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 1 3 4
+# 10 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_macro.h" 1 3 4
+# 34 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_macro.h" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 1 3 4
+# 18 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_loops.h" 1 3 4
+# 1083 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_loops.h" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_listify.h" 1 3 4
+# 1084 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_loops.h" 2 3 4
+# 19 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 203 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_is_eq.h" 1 3 4
+# 204 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 234 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_util_inc.h" 1 3 4
+# 235 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal_util_dec.h" 1 3 4
-# 238 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_util_dec.h" 1 3 4
+# 238 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal_util_x2.h" 1 3 4
-# 241 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
-# 35 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/sys/util_macro.h" 2 3 4
-# 11 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 2 3 4
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr.h" 1 3 4
-# 12 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 2 3 4
-# 14 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal_util_x2.h" 1 3 4
+# 241 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 35 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/sys/util_macro.h" 2 3 4
+# 11 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 2 3 4
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr.h" 1 3 4
+# 12 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/memory-attr/memory-attr-arm.h" 2 3 4
+# 14 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 2 3 4
 
 / {
  cpus: cpus {
@@ -242,7 +242,7 @@
   zephyr,memory-region = "SRAMX";
   zephyr,memory-attr = <(((1UL << (0))) << (20))>;
  };
-# 96 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 3 4
+# 96 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxnx4x_common.dtsi" 3 4
  sram0: memory@20000000 {
   compatible = "mmio-sram";
   reg = <0x20000000 ((416) * 1024)>;
@@ -1255,7 +1255,6 @@
   interrupts = <62 0>;
   interrupt-names = "common";
   clocks = <&syscon ((0x10 << 8) | (0x00))>;
-  clk-source = <0>;
   number-of-mb = <32>;
   number-of-mb-fd = <7>;
   status = "disabled";
@@ -1447,7 +1446,7 @@
 &nvic {
  arm,num-irq-priority-bits = <3>;
 };
-# 8 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x_common.dtsi" 2 3 4
+# 8 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x_common.dtsi" 2 3 4
 
 / {
  chosen {
@@ -1538,7 +1537,7 @@
 
  opamp1: opamp@113000 {
   compatible = "nxp,opamp";
-  reg = <0x40113000 0x1000>;
+  reg = <0x113000 0x1000>;
   status = "disabled";
   operation-mode = "low_noise";
   functional-mode = "follower";
@@ -1560,7 +1559,6 @@
   interrupts = <63 0>;
   interrupt-names = "common";
   clocks = <&syscon ((0x10 << 8) | (0x01))>;
-  clk-source = <0>;
   number-of-mb = <32>;
   number-of-mb-fd = <7>;
   status = "disabled";
@@ -1576,7 +1574,7 @@
   };
  };
 };
-# 31 "/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 2 3 4
+# 31 "/home/calebb/Projects/work-projects/zephyr/zephyr/dts/arm/nxp/nxp_mcxn94x.dtsi" 2 3 4
 
 
 
@@ -1585,22 +1583,22 @@
 &fmu {
  status = "okay";
 };
-# 10 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 1
+# 10 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 2
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 1
 
 
 
 
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947-pinctrl.dtsi" 1
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947-pinctrl.dtsi" 1
 
 
 
 
 
-# 1 "/home/bionet-caleb/testing/zephyr-testing/modules/hal/nxp/dts/nxp/mcx/MCXN947VDF-pinctrl.h" 1 3 4
-# 7 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947-pinctrl.dtsi" 2
+# 1 "/home/calebb/Projects/work-projects/zephyr/modules/hal/nxp/dts/nxp/mcx/MCXN947VDF-pinctrl.h" 1 3 4
+# 7 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947-pinctrl.dtsi" 2
 
 &pinctrl {
  pinmux_flexcomm1_lpspi: pinmux_flexcomm1_lpspi {
@@ -1944,15 +1942,15 @@
   };
  };
 };
-# 8 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/i2c/i2c.h" 1 3 4
-# 9 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/gpio/arduino-header-r3.h" 1 3 4
-# 10 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/gpio/dvp-20pin-connector.h" 1 3 4
-# 11 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
-# 12 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
+# 8 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/i2c/i2c.h" 1 3 4
+# 9 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/gpio/arduino-header-r3.h" 1 3 4
+# 10 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/gpio/dvp-20pin-connector.h" 1 3 4
+# 11 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
+# 12 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947.dtsi" 2
 
 / {
  aliases {
@@ -2351,7 +2349,7 @@ zephyr_mipi_dbi_parallel: &flexio0_lcd {
 dvp_20pin_i2c: &flexcomm7_lpi2c7 {};
 
 dvp_20pin_interface: &video_sdma {};
-# 11 "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 2
+# 11 "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1.dts" 2
 
 / {
  model = "NXP FRDM_N94 board";
@@ -2415,7 +2413,8 @@ dvp_20pin_interface: &video_sdma {};
  status = "okay";
 };
 # 0 "<command-line>" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote/app.overlay" 1
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote/app.overlay" 1
+
 
 
 / {
@@ -2425,7 +2424,7 @@ dvp_20pin_interface: &video_sdma {};
   ranges;
 
   shared_mem: memory@20060000 {
-   reg = <0x20060000 0x80>;
+   reg = <0x20060000 0x400>;
    zephyr,memory-attr =
     <((((1UL << (1))) << (20)) | (((1UL << (4))) << (20)))>;
    label = "SHARED_MEM";
@@ -2434,10 +2433,10 @@ dvp_20pin_interface: &video_sdma {};
 
  coredma1: coredma {
   compatible = "hn,coredma";
-  mboxes = <&mbox 0>, <&mbox 1>;
-  mbox-names = "tx", "rx";
   memory-region = <&shared_mem>;
+    chan-amt = <1>;
+    chan-size = <256>;
  };
 };
 # 0 "<command-line>" 2
-# 1 "/home/bionet-caleb/testing/zephyr-testing/zephyr/misc/empty_file.c"
+# 1 "/home/calebb/Projects/work-projects/zephyr/zephyr/misc/empty_file.c"

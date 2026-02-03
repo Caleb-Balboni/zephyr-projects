@@ -1,1 +1,1 @@
-"mcuboot":"/home/bionet-caleb/testing/zephyr-testing/bootloader/mcuboot":"/home/bionet-caleb/testing/zephyr-testing/bootloader/mcuboot/boot/zephyr/sysbuild"
+"mcuboot":"/home/calebb/Projects/work-projects/zephyr/bootloader/mcuboot":"/home/calebb/Projects/work-projects/zephyr/bootloader/mcuboot/boot/zephyr/sysbuild"

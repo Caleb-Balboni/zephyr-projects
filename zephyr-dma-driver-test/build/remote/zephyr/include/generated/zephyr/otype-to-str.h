@@ -93,6 +93,7 @@ case K_OBJ_DRIVER_MIPI_DBI: ret = "mipi_dbi driver"; break;
 case K_OBJ_DRIVER_MIPI_DSI: ret = "mipi_dsi driver"; break;
 case K_OBJ_DRIVER_MSPI: ret = "mspi driver"; break;
 case K_OBJ_DRIVER_OPAMP: ret = "opamp driver"; break;
+case K_OBJ_DRIVER_OTP: ret = "otp driver"; break;
 case K_OBJ_DRIVER_PECI: ret = "peci driver"; break;
 case K_OBJ_DRIVER_PS2: ret = "ps2 driver"; break;
 case K_OBJ_DRIVER_PTP_CLOCK: ret = "ptp_clock driver"; break;

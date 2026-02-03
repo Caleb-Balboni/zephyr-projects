@@ -9,130 +9,137 @@
 #include <stdbool.h>
 #include <core-dma.h>
 
-static uint8_t master_ready_code = 0x4D;
-static uint8_t slave_ready_code = 0x53;
+#define CHAN_TABLE_STATE_UNINIT 0
+#define CHAN_TABLE_STATE_INPROGRESS 1
+#define CHAN_TABLE_STATE_FINISHED 2
+
+#define ALIGN_UP(x, y) (((x) + ((y) - 1)) & ~((y) - 1))
 
 static int send_impl(const struct device* dev, void* data, size_t data_size);
-static int async_receive_impl(const struct device* dev, void (*callback_func)(void*, void*), size_t data_size, void* user_data);
+static int async_receive_impl(const struct device* dev, void (*callback_func)(void*, void*, size_t), void* user_data);
 static int sync_receive_impl(const struct device* dev, void* data, size_t data_size, k_timeout_t timeout);
 
-// our configuration containing the info about the device
-struct dma_engine_cfg {
-	uint8_t* smem_base_adr; // the base address of the shared memory pool
-	size_t smem_size; // the amount of allocated space in the shared memory pool
-
-	const struct mbox_dt_spec tx; // the mbox tranceive endpoint
-	const struct mbox_dt_spec rx; // the mbox receive endpoint
-	bool m_core; // if this is the master core
-};
-
-struct dma_engine_data {
-	struct k_mutex* rw_lock;
-	volatile atomic_t* core_lock;
-	uint8_t* smem_data_adr;
-};
-
-// data wrapper for our async callback wrapper
-struct callback_data_wrapper {
-	struct dma_engine_cfg* cfg;
-	struct dma_engine_data* dma_data;
-	size_t data_size;
-	void* user_data;
-	void (*callback_func)(void*, void*);
-};
-
-static int dma_core_atomic_lock(volatile atomic_t* core_lock, k_timeout_t timeout) {
-	if (K_TIMEOUT_EQ(timeout, K_NO_WAIT)) {
-		return atomic_cas(core_lock, 0, 1) ? 0 : -EBUSY;
-	}
-	if (K_TIMEOUT_EQ(timeout, K_FOREVER)) {
-		while (!atomic_cas(core_lock, 0, 1)) { k_yield(); }
-		return 0;
-	}
-	int64_t timeout_ms = k_ticks_to_ms_floor64(timeout.ticks);
-	int64_t deadline = k_uptime_get() + timeout_ms;
-	while (!atomic_cas(core_lock, 0, 1)) {
-		if (k_uptime_get() > deadline) {
-			return -ETIMEDOUT;
-		}
-		k_yield();
-	}
-	return 0;
+void get_channel_table(const struct device* dev, struct dma_channel_table** table) {
+  const struct dma_engine_cfg* cfg = (const struct dma_engine_cfg*)dev->config;
+  *table = (struct dma_channel_table*)cfg->smem_base_adr;
+  return;
 }
 
-static int dma_core_atomic_unlock(volatile atomic_t* core_lock) {
-	return atomic_set(core_lock, 0);
+static int dma_core_atomic_lock(atomic_t *lock, k_timeout_t timeout)
+{
+  if (K_TIMEOUT_EQ(timeout, K_NO_WAIT)) {
+    return atomic_cas(lock, 0, 1) ? 0 : -EBUSY;
+  }
+  if (K_TIMEOUT_EQ(timeout, K_FOREVER)) {
+    while (!atomic_cas(lock, 0, 1)) {
+      k_yield();
+    }
+ return 0;
+  }
+  const int64_t start = k_uptime_ticks();
+  const int64_t limit = timeout.ticks;
+  if (limit <= 0) {
+    return atomic_cas(lock, 0, 1) ? 0 : -EBUSY;
+  }
+  while (!atomic_cas(lock, 0, 1)) {
+    if ((k_uptime_ticks() - start) >= limit) {
+      return -ETIMEDOUT;
+    }
+    k_yield();
+  }
+  return 0;
 }
 
-// initalization function that sets up the framing of the shared memory, and confirms that the
-// slave and master cores can properly communicate with eachother
-// @param dev - the device (core) we are acting as an api for
-// @return - 0 upon success, else a standard zephyr error code (or defined above)
-static int init_core_dma_engine(const struct device* dev) {
-	struct dma_engine_cfg* cfg = (struct dma_engine_cfg*)dev->config;
-	struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
-	int code = 0;
-	dma_data->rw_lock = k_malloc(sizeof(struct k_mutex));
-	k_mutex_init(dma_data->rw_lock);
-	dma_data->smem_data_adr = cfg->smem_base_adr + sizeof(atomic_t);
-
-	if (cfg->m_core) {
-		// master creates the atomic lock
-		memset(cfg->smem_base_adr, 0, cfg->smem_size);
-		volatile atomic_t core_lock = ATOMIC_INIT(0);
-		memcpy(cfg->smem_base_adr, &core_lock, sizeof(atomic_t));
-		dma_data->core_lock = (atomic_t*)cfg->smem_base_adr;
-
-		// INTEAD OF THIS PING SENDS AND USE A CALLBACK TO REGISTER WHEN THE SLAVE RECEIVES
-		if ((code = send_impl(dev, &master_ready_code, sizeof(master_ready_code)))) {
-			return code;
-		}
-
-		uint8_t receive_byte;
-		// implicit wait for the slave to respond
-		if ((code = sync_receive_impl(dev, &receive_byte, sizeof(receive_byte), K_FOREVER))) {
-			return code;
-		}
-
-		if (receive_byte == slave_ready_code) {
-			memset(dma_data->smem_data_adr, 0, cfg->smem_size - sizeof(atomic_t));
-			return 0;
-		}
-	} else {
-		dma_data->core_lock = (atomic_t*)cfg->smem_base_adr;
-		uint8_t receive_byte;
-		sync_receive_impl(dev, &receive_byte, sizeof(receive_byte), K_FOREVER);
-		if (receive_byte == master_ready_code) {
-			if ((code = send_impl(dev, &slave_ready_code, sizeof(slave_ready_code)))) {
-				while (*dma_data->smem_data_adr != 0x00) {
-					k_msleep(50);
-				}
-				return code;
-			}
-		} else {
-			return -ENODATA;
-		}
-		return code;
-	}
+static int dma_core_atomic_unlock(atomic_t* lock) {
+	return atomic_set(lock, 0);
 }
 
-static void async_receive_callback(const struct device *dev, mbox_channel_id_t channel_id,
-		     void *user_data, struct mbox_msg *data) {
+static void init_channel_table(struct dma_channel_table* c_table) {
+  int table_state = atomic_get(&c_table->init_state);
+  if (table_state == CHAN_TABLE_STATE_FINISHED) { return; }
 
-	struct callback_data_wrapper* c_data = (struct callback_data_wrapper*)user_data;
+  if (table_state != CHAN_TABLE_STATE_UNINIT && 
+      table_state != CHAN_TABLE_STATE_INPROGRESS && 
+      table_state != CHAN_TABLE_STATE_FINISHED) {
+    atomic_set(&c_table->init_state, CHAN_TABLE_STATE_UNINIT);
+  }
+  if (atomic_cas(&c_table->init_state, CHAN_TABLE_STATE_UNINIT, CHAN_TABLE_STATE_INPROGRESS)) {
+    atomic_set(&c_table->chan_lock, 0);
+    for (uint8_t i = 0; i < CHAN_AMT; i++) {
+      struct dma_channel_table_entry* entry = &c_table->channels[i];
+      entry->available = 1;
+      entry->chan_id = -1;
+      entry->chan_tx_adr = NULL;
+      entry->chan_rx_adr = NULL;
+    }
+    atomic_set(&c_table->init_state, CHAN_TABLE_STATE_FINISHED);
+    return;
+  }
+  while (atomic_get(&c_table->init_state) != CHAN_TABLE_STATE_FINISHED) {
+    k_yield();
+  }
+  return;
+}
 
-	void* ret_data = k_malloc(c_data->data_size);
-	memcpy(ret_data, c_data->dma_data->smem_data_adr, c_data->data_size);
+static int init_core_dma_engine(const struct device* dev, uint8_t chan_id) {
+  const struct dma_engine_cfg* cfg = (const struct dma_engine_cfg*)dev->config;
+  struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
 
-	// call the user callback function
-	c_data->callback_func(ret_data, c_data->user_data);
+  if (chan_id >= (cfg->chan_amt)) {
+    return -1;
+  }
+  struct dma_channel_table* c_table = (struct dma_channel_table*)cfg->smem_base_adr;
+  init_channel_table(c_table);
+  dma_core_atomic_lock(&c_table->chan_lock, K_FOREVER);
 
-	// disable interrupts so the user can pass a new function if needed
-	mbox_set_enabled_dt(&c_data->cfg->rx, false);
+  struct dma_channel_table_entry* chan_info = &c_table->channels[chan_id];
+  if (chan_info->available) {
+    uintptr_t chan_rx_adr = ALIGN_UP((uintptr_t)(cfg->smem_base_adr + sizeof(struct dma_channel_table) + (cfg->chan_size * chan_id)), 8);
+    uintptr_t chan_tx_adr = ALIGN_UP((uintptr_t)(chan_rx_adr + (cfg->chan_size / 2)), 8);
+    if ((cfg->smem_base_adr + cfg->smem_total_size) < (uint8_t*)chan_rx_adr + cfg->chan_size) {
+      dma_core_atomic_unlock(&c_table->chan_lock);
+      return -1;
+    }
+    chan_info->chan_rx_adr = (uint8_t*)chan_rx_adr; 
+    chan_info->chan_tx_adr = (uint8_t*)chan_tx_adr;
+    chan_info->chan_id = chan_id; 
+    chan_info->available = 0;
+    struct dma_channel_info* tx = (struct dma_channel_info*)chan_info->chan_tx_adr;
+    struct dma_channel_info* rx = (struct dma_channel_info*)chan_info->chan_rx_adr;
+    atomic_set(&tx->seq, 0);
+    atomic_set(&tx->ack, 0);
+    atomic_set(&rx->seq, 0);
+    atomic_set(&rx->ack, 0);
+  }
+  if (cfg->is_master) {
+    dma_data->rx = (struct dma_channel_info*)chan_info->chan_rx_adr;
+    dma_data->tx = (struct dma_channel_info*)chan_info->chan_tx_adr;
+  } else {
+    dma_data->rx = (struct dma_channel_info*)chan_info->chan_tx_adr;
+    dma_data->tx = (struct dma_channel_info*)chan_info->chan_rx_adr;
+  }
+  dma_core_atomic_unlock(&c_table->chan_lock);
+  return 0;
+}
 
-	k_mutex_unlock(c_data->dma_data->rw_lock);
-	k_free(user_data);
-	return;
+static void async_receive_thread(void *p1, void *p2, void *p3) {
+  const struct device *dev = (const struct device *)p1;
+  void (*callback_func)(void*, void*, size_t) = (void (*)(void*, void*, size_t))p2;
+  void *user_data = p3;
+  struct dma_engine_data *dma_data = (struct dma_engine_data *)dev->data;
+  const struct dma_engine_cfg *cfg = (const struct dma_engine_cfg *)dev->config;
+  struct dma_channel_info *rx = dma_data->rx;
+
+  for (;;) {
+    if (atomic_get(&rx->seq) - 1 == atomic_get(&rx->ack)) {
+      size_t copy_size = (cfg->chan_size / 2) - offsetof(struct dma_channel_info, data);
+      void *data = (void *)rx->data;
+      atomic_inc(&rx->ack);
+      callback_func(data, user_data, copy_size);
+      return;
+    }
+    k_yield();
+  }
 }
 
 // recieves data from the other core and calls a user defined function containing the received data
@@ -141,41 +148,19 @@ static void async_receive_callback(const struct device *dev, mbox_channel_id_t c
 // @param data_size - the amount of data to cpy from shared memory back to the user in bytes
 // @param user_data - the given user data
 // @return - 0 on success an error code on failure (zephyr standard) and those defined above
-static int async_receive_impl(const struct device* dev, void (*callback_func)(void*, void*), size_t data_size, void* user_data) {
-	struct dma_engine_cfg* cfg = dev->config;
-	struct dma_engine_data* dma_data = dev->data;
-	if (data_size > cfg->smem_size - sizeof(atomic_t)) {
-		return -EDOM;
-	}
-	k_mutex_lock(dma_data->rw_lock, K_FOREVER);
+K_THREAD_STACK_DEFINE(async_stack, 1024);
+static struct k_thread async_thread;
 
-	struct callback_data_wrapper* wrap_user_data = k_malloc(sizeof(struct callback_data_wrapper));
-	wrap_user_data->user_data = user_data;
-	wrap_user_data->callback_func = callback_func;
-	wrap_user_data->cfg = cfg;
-	wrap_user_data->dma_data = dev->data;
-	wrap_user_data->data_size = data_size;
-
-	int code = 0;
-	// register our wrapper callback
-	if ((code = mbox_register_callback_dt(&cfg->rx, async_receive_callback, (void*)wrap_user_data))) {
-		k_mutex_unlock(dma_data->rw_lock);
-		return code;
-	}
-	// set interrupts to be enabled
-	if ((code = mbox_set_enabled_dt(&cfg->rx, true))) {
-		k_mutex_unlock(dma_data->rw_lock);
-		return code;
-	}
-	return 0;
-}
-
-// a helper function to sync_receive_impl that notifies it when it has received data
-static void sync_receive_callback(const struct device *dev, mbox_channel_id_t channel_id,
-		     void *user_data, struct mbox_msg *data) {
-
-	uint8_t* received_flag = (uint8_t*)user_data;
-	*received_flag = 1;
+static int async_receive_impl(const struct device *dev, void (*callback_func)(void*, void*, size_t), void *user_data) {
+    k_thread_create(&async_thread,
+                    async_stack,
+                    K_THREAD_STACK_SIZEOF(async_stack),
+                    async_receive_thread,
+                    (void *)dev,
+                    (void *)callback_func,
+                    user_data,
+                    0, 0, K_NO_WAIT);
+    return 0;
 }
 
 // recieves data and blocks the current thread until data has been received
@@ -186,55 +171,41 @@ static void sync_receive_callback(const struct device *dev, mbox_channel_id_t ch
 // standard zephyr time macros eg: K_FOREVER, K_MINUTES, K_MSEC ...
 // @return - 0 if execution is successfull or a standard zephyr error code upon failure
 static int sync_receive_impl(const struct device* dev, void* data, size_t data_size, k_timeout_t timeout) {
-
-	struct dma_engine_cfg* cfg = (struct dma_engine_cfg*)dev->config;
-	struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
-	if (data_size > cfg->smem_size - sizeof(atomic_t)) {
-		return -EDOM;
-	}
-	k_mutex_lock(dma_data->rw_lock, K_FOREVER);
-
-	int64_t timeout_ms = k_ticks_to_ms_floor64(timeout.ticks);
-	int64_t deadline = k_uptime_get() + timeout_ms;
-
-	int code = 0;
-
-	uint8_t received_flag = 0;
-	// register our wrapper callback
-	if ((code = mbox_register_callback_dt(&cfg->rx, sync_receive_callback, (void*)&received_flag))) {
-		goto exit_code;
-	}
-	// set interrupts to be enabled
-	if ((code = mbox_set_enabled_dt(&cfg->rx, true))) {
-		goto exit_code;
-	}
-
-	if (!K_TIMEOUT_EQ(timeout, K_FOREVER)) {
-		for (;;) {
-			if (received_flag) {
-				memcpy(data, dma_data->smem_data_adr, data_size);
-				code = 0;
-				goto exit_code;
-			}
-		}
-	}
-	for (;;) {
-		uint32_t cur_time = k_uptime_ticks();
-		if (received_flag) {
-			memcpy(data, dma_data->smem_data_adr, data_size);
-			code = 0;
-			goto exit_code;
-		}
-		if (cur_time >= deadline) {
-			code = -ETIMEDOUT;
-			goto exit_code;
-		}
-	}
-
-	exit_code:
-	k_mutex_unlock(dma_data->rw_lock);
-	mbox_set_enabled_dt(&cfg->rx, false);
-	return code;
+  struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
+  struct dma_channel_info* rx = dma_data->rx; 
+  if (K_TIMEOUT_EQ(timeout, K_NO_WAIT)) {
+    if (rx->seq - 1 == rx->ack) {
+      goto set_and_ret;
+    }
+  }
+  if (K_TIMEOUT_EQ(timeout, K_FOREVER)) {
+    for (;;) {
+      if (atomic_get(&rx->seq) - 1 == atomic_get(&rx->ack)) {
+        goto set_and_ret;
+      }
+    }
+    return 0;
+  }
+  const int64_t start = k_uptime_ticks();
+  const int64_t limit = timeout.ticks;
+  if (limit <= 0) {
+    if (atomic_get(&rx->seq) - 1 == atomic_get(&rx->ack)) {
+      goto set_and_ret;
+    }
+  }
+  for (;;) {
+    if (atomic_get(&rx->seq) - 1 == atomic_get(&rx->ack)) {
+      goto set_and_ret;
+    }
+    if ((k_uptime_ticks() - start) >= limit) {
+      return -ETIMEDOUT;
+    }
+    k_yield();
+  }
+  set_and_ret:
+  memcpy(data, rx->data, data_size); 
+  atomic_inc(&rx->ack);
+	return 0;
 }
 
 // sends data by notifying the other core and writing data to the shared memory pool
@@ -243,20 +214,13 @@ static int sync_receive_impl(const struct device* dev, void* data, size_t data_s
 // @param data_size - the size of the data the user is passing (must be under pool size)
 // @return - 0 upon success or a standard zephyr error code
 static int send_impl(const struct device* dev, void* data, size_t data_size) {
-	struct dma_engine_cfg* cfg = (struct dma_engine_cfg*)dev->config;
 	struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
-	if (data_size > cfg->smem_size - sizeof(atomic_t)) {
-		return -EDOM;
-	}
-	k_mutex_lock(dma_data->rw_lock, K_FOREVER);
-	dma_core_atomic_lock(dma_data->core_lock, K_FOREVER);
-
-	memcpy(dma_data->smem_data_adr, data, data_size);
-	mbox_send_dt(&cfg->tx, NULL);
-
-	k_mutex_unlock(dma_data->rw_lock);
-	dma_core_atomic_unlock(dma_data->core_lock);
-
+  struct dma_channel_info* tx = dma_data->tx;
+  if (atomic_get(&tx->seq) != atomic_get(&tx->ack)) {
+    return -1;
+  }
+  memcpy(tx->data, data, data_size);
+  atomic_inc(&tx->seq);
 	return 0;
 }
 
@@ -267,24 +231,20 @@ static const struct dma_engine dma_engine_api = {
 	.init = init_core_dma_engine
 };
 
-#define COREDMA_DEFINE(inst)									\
-	static struct dma_engine_data dma_engine_data_##inst = {				\
-		.rw_lock = NULL,								\
-		.core_lock = NULL,								\
-		.smem_data_adr = NULL,								\
-	};											\
-	static const struct dma_engine_cfg dma_engine_cfg_##inst = {				\
-		.tx = MBOX_DT_SPEC_INST_GET(inst, tx),						\
-		.rx = MBOX_DT_SPEC_INST_GET(inst, rx),						\
-		.m_core = DT_INST_PROP_OR(inst, hn_master, 0),					\
-		.smem_base_adr = (uint8_t *)DT_REG_ADDR(DT_INST_PHANDLE(inst, memory_region)),	\
-		.smem_size = (size_t)DT_REG_SIZE(DT_INST_PHANDLE(inst, memory_region)),		\
-	};											\
-	DEVICE_DT_INST_DEFINE(inst,								\
-			      NULL, NULL,							\
-			      &dma_engine_data_##inst,						\
-			      &dma_engine_cfg_##inst,						\
-			      POST_KERNEL, CONFIG_KERNEL_INIT_PRIORITY_DEVICE,			\
-			      &dma_engine_api);							\
+#define COREDMA_DEFINE(inst)									                                                                \
+	static struct dma_engine_data dma_engine_data_##inst;                                                       \
+	static const struct dma_engine_cfg dma_engine_cfg_##inst = {				                                        \
+		.is_master = DT_INST_PROP_OR(inst, is_master, 0),					                                                \
+		.smem_base_adr = (uint8_t *)DT_REG_ADDR(DT_INST_PHANDLE(inst, memory_region)),	                          \
+		.smem_total_size = (size_t)DT_REG_SIZE(DT_INST_PHANDLE(inst, memory_region)),		                          \
+    .chan_size = (size_t)DT_INST_PROP(inst, chan_size),                                                       \
+    .chan_amt = (uint8_t)DT_INST_PROP(inst, chan_amt),                                                        \
+	};											                                                                                    \
+	DEVICE_DT_INST_DEFINE(inst,								                                                                  \
+			      NULL, NULL,							                                                                          \
+			      &dma_engine_data_##inst,						                                                              \
+			      &dma_engine_cfg_##inst,						                                                                \
+			      POST_KERNEL, CONFIG_KERNEL_INIT_PRIORITY_DEVICE,			                                            \
+			      &dma_engine_api);							                                                                    \
 
 DT_INST_FOREACH_STATUS_OKAY(COREDMA_DEFINE)

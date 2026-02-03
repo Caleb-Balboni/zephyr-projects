@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test-complete.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test-complete.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-build.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-build.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-configure.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-configure.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-download.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-download.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-install.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-install.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-mkdir.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-mkdir.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-patch.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-patch.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-update.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-update.rule"
 		}
 	],
 	"target" : 

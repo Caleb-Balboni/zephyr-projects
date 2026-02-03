@@ -2953,6 +2953,22 @@
     ],
     [
         [
+            "int otp_read",
+            "const struct device *dev, off_t offset, void *data, size_t len"
+        ],
+        "otp.h",
+        false
+    ],
+    [
+        [
+            "int otp_program",
+            "const struct device *dev, off_t offset, const void *data, size_t len"
+        ],
+        "otp.h",
+        false
+    ],
+    [
+        [
             "int peci_config",
             "const struct device *dev, uint32_t bitrate"
         ],
@@ -3573,6 +3589,78 @@
             "const struct device *dev, stepper_drv_event_cb_t callback,\n\t\t\t\t       void *user_data"
         ],
         "stepper.h",
+        false
+    ],
+    [
+        [
+            "int swdp_output_sequence",
+            "const struct device *dev,\n\t\t\t\t   const uint32_t count,\n\t\t\t\t   const uint8_t *const data"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_input_sequence",
+            "const struct device *dev,\n\t\t\t\t  const uint32_t count,\n\t\t\t\t  uint8_t *const buf"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_transfer",
+            "const struct device *dev,\n\t\t\t    const uint8_t request,\n\t\t\t    uint32_t *const data,\n\t\t\t    const uint8_t idle_cycles,\n\t\t\t    uint8_t *const response"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_set_pins",
+            "const struct device *dev,\n\t\t\t    const uint8_t pins,\n\t\t\t    const uint8_t value"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_get_pins",
+            "const struct device *dev,\n\t\t\t    uint8_t *const state"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_set_clock",
+            "const struct device *dev,\n\t\t\t     const uint32_t clock"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_port_on",
+            "const struct device *dev"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_port_off",
+            "const struct device *dev"
+        ],
+        "swdp.h",
+        false
+    ],
+    [
+        [
+            "int swdp_configure",
+            "const struct device *dev,\n\t\t\t     const uint8_t turnaround,\n\t\t\t     const bool data_phase"
+        ],
+        "swdp.h",
         false
     ],
     [

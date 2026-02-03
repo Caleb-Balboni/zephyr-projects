@@ -1,13 +1,13 @@
 # Target labels
  zephyr-dma-driver-test
 # Source files and their labels
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test-complete.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-build.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-configure.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-download.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-install.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-mkdir.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-patch.rule
-/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-update.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/CMakeFiles/zephyr-dma-driver-test-complete.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-build.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-configure.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-download.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-install.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-mkdir.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-patch.rule
+/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/zephyr-dma-driver-test-prefix/src/zephyr-dma-driver-test-stamp/zephyr-dma-driver-test-update.rule

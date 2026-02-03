@@ -1,10 +1,10 @@
 default: zephyr-dma-driver-test
-build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build
+build_dir: /home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build
 domains:
   - name: zephyr-dma-driver-test
-    build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/zephyr-dma-driver-test
+    build_dir: /home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/zephyr-dma-driver-test
   - name: remote
-    build_dir: /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote
+    build_dir: /home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote
 flash_order:
   - zephyr-dma-driver-test
   - remote

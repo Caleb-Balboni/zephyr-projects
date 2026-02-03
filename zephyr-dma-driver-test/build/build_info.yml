@@ -1,27 +1,27 @@
 cmake:
   application:
-    source-dir: '/home/bionet-caleb/testing/zephyr-testing/zephyr/share/sysbuild'
+    source-dir: '/home/calebb/Projects/work-projects/zephyr/zephyr/share/sysbuild'
   board:
     name: 'frdm_mcxn947'
     path:
-     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947'
+     - '/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947'
     qualifiers: 'mcxn947/cpu0'
     revision: ''
   images:
    - name: 'zephyr-dma-driver-test'
-     source-dir: '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test'
+     source-dir: '/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test'
      type: 'MAIN'
    - name: 'remote'
      source-dir: ''
   kconfig:
     files:
-     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/empty.conf'
-     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/empty.conf'
+     - '/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/empty.conf'
+     - '/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/empty.conf'
     user-files:
-     - '/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/empty.conf'
+     - '/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/empty.conf'
   sysbuild: 'true'
 version: '0.1.0'
 west:
-  command: '/home/bionet-caleb/testing/zephyr-testing/myvenv/bin/west build -p always -b frdm_mcxn947/mcxn947/cpu0 . --sysbuild'
-  topdir: '/home/bionet-caleb/testing/zephyr-testing'
+  command: '/home/calebb/Projects/work-projects/myvenv/bin/west build -p always -b frdm_mcxn947/mcxn947/cpu0 . --sysbuild'
+  topdir: '/home/calebb/Projects/work-projects/zephyr'
   version: '1.5.0'
