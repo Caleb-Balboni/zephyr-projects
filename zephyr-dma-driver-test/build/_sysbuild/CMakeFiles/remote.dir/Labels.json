@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/CMakeFiles/remote"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/CMakeFiles/remote"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/CMakeFiles/remote.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/CMakeFiles/remote.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/CMakeFiles/remote-complete.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/CMakeFiles/remote-complete.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-build.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-build.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-configure.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-configure.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-download.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-download.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-install.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-install.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-mkdir.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-mkdir.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-patch.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-patch.rule"
 		},
 		{
-			"file" : "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-update.rule"
+			"file" : "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/remote-prefix/src/remote-stamp/remote-update.rule"
 		}
 	],
 	"target" : 

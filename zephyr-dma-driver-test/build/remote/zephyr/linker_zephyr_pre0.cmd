@@ -160,6 +160,7 @@ mipi_dbi_driver_api_area : { _mipi_dbi_driver_api_list_start = .; KEEP(*(SORT_BY
 mipi_dsi_driver_api_area : { _mipi_dsi_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mipi_dsi_driver_api.static.*))); _mipi_dsi_driver_api_list_end = .;; } > FLASH
 mspi_driver_api_area : { _mspi_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._mspi_driver_api.static.*))); _mspi_driver_api_list_end = .;; } > FLASH
 opamp_driver_api_area : { _opamp_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._opamp_driver_api.static.*))); _opamp_driver_api_list_end = .;; } > FLASH
+otp_driver_api_area : { _otp_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._otp_driver_api.static.*))); _otp_driver_api_list_end = .;; } > FLASH
 peci_driver_api_area : { _peci_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._peci_driver_api.static.*))); _peci_driver_api_list_end = .;; } > FLASH
 ps2_driver_api_area : { _ps2_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._ps2_driver_api.static.*))); _ps2_driver_api_list_end = .;; } > FLASH
 ptp_clock_driver_api_area : { _ptp_clock_driver_api_list_start = .; KEEP(*(SORT_BY_NAME(._ptp_clock_driver_api.static.*))); _ptp_clock_driver_api_list_end = .;; } > FLASH

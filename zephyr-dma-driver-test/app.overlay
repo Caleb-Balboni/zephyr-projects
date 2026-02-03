@@ -8,7 +8,7 @@
 		ranges;
 
 		shared_mem: memory@20060000 {
-			reg = <0x20060000 0x80>;
+			reg = <0x20060000 0x400>;
 			zephyr,memory-attr =
 				<(DT_MEM_ARM(ATTR_MPU_RAM_NOCACHE) | DT_MEM_ARM(ATTR_MPU_IO))>;
 			label = "SHARED_MEM";
@@ -17,10 +17,10 @@
 
 	coredma0: coredma {
 		compatible = "hn,coredma";
-		mboxes = <&mbox 1>, <&mbox 0>;
-		mbox-names = "tx", "rx";
 		memory-region = <&shared_mem>;
-		hn,master;
+    chan-amt = <1>;
+    chan-size = <256>;
+		is-master;
 	};
 };
 

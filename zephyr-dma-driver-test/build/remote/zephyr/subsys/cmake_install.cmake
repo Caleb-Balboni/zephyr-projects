@@ -1,4 +1,4 @@
-# Install script for directory: /home/bionet-caleb/testing/zephyr-testing/zephyr/subsys
+# Install script for directory: /home/calebb/Projects/work-projects/zephyr/zephyr/subsys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,123 +32,129 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
-# Set default install directory permissions.
+# Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/bionet-caleb/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "/home/calebb/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/canbus/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/debug/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/fb/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/fs/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/gnss/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/gnss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/instrumentation/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/instrumentation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/ipc/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/logging/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/modbus/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/pm/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/pmci/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/pmci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/portability/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/random/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/rtio/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/sd/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/stats/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/storage/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/tracing/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/usb/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/zephyr/subsys/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

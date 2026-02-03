@@ -1,4 +1,4 @@
-# Install script for directory: /home/bionet-caleb/testing/zephyr-testing/zephyr/share/sysbuild/images
+# Install script for directory: /home/calebb/Projects/work-projects/zephyr/zephyr/share/sysbuild/images
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,26 +39,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/bootloader/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/bootloader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/firmware_loader/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/firmware_loader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/modules/mcuboot/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/modules/mcuboot/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/boards/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/boards/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/soc/cmake_install.cmake")
+  include("/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/soc/cmake_install.cmake")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/_sysbuild/sysbuild/images/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

@@ -6,8 +6,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      913
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      923
     ]
   ],
   [
@@ -17,8 +17,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      948
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      958
     ]
   ],
   [
@@ -28,8 +28,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      1018
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      1028
     ]
   ],
   [
@@ -39,8 +39,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      1123
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      1133
     ]
   ],
   [
@@ -50,8 +50,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      1388
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      1403
     ]
   ],
   [
@@ -61,8 +61,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      2688
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      2733
     ]
   ],
   [
@@ -72,8 +72,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      2953
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      3003
     ]
   ],
   [
@@ -83,8 +83,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      2958
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      3008
     ]
   ],
   [
@@ -94,8 +94,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      3028
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      3078
     ]
   ],
   [
@@ -105,8 +105,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      5398
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      5458
     ]
   ],
   [
@@ -116,8 +116,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      5403
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      5463
     ]
   ],
   [
@@ -127,8 +127,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6768
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      6843
     ]
   ],
   [
@@ -138,8 +138,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6843
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      6918
     ]
   ],
   [
@@ -149,8 +149,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6853
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      6928
     ]
   ],
   [
@@ -160,8 +160,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6858
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      6933
     ]
   ],
   [
@@ -171,8 +171,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6883
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      6958
     ]
   ],
   [
@@ -182,8 +182,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6903
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      6978
     ]
   ],
   [
@@ -193,8 +193,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      6943
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7018
     ]
   ],
   [
@@ -204,8 +204,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7378
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7453
     ]
   ],
   [
@@ -215,8 +215,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7468
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7543
     ]
   ],
   [
@@ -226,8 +226,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7483
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7558
     ]
   ],
   [
@@ -237,8 +237,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7588
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7663
     ]
   ],
   [
@@ -248,8 +248,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7593
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7668
     ]
   ],
   [
@@ -259,8 +259,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7598
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7673
     ]
   ],
   [
@@ -270,8 +270,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7678
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7753
     ]
   ],
   [
@@ -281,8 +281,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7683
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7758
     ]
   ],
   [
@@ -292,8 +292,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7693
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7768
     ]
   ],
   [
@@ -303,8 +303,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7723
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7798
     ]
   ],
   [
@@ -314,8 +314,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7818
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7893
     ]
   ],
   [
@@ -325,8 +325,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      7828
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      7903
     ]
   ],
   [
@@ -336,8 +336,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      8063
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      8138
     ]
   ],
   [
@@ -347,8 +347,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      8068
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      8143
     ]
   ],
   [
@@ -358,8 +358,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      8378
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      8463
     ]
   ],
   [
@@ -369,8 +369,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      8388
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      8473
     ]
   ],
   [
@@ -380,8 +380,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      8463
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      8548
     ]
   ],
   [
@@ -391,8 +391,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      8498
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      8583
     ]
   ],
   [
@@ -402,8 +402,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      11388
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      11533
     ]
   ],
   [
@@ -413,8 +413,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      15028
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      15228
     ]
   ],
   [
@@ -424,8 +424,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
-      15133
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.dts",
+      15338
     ]
   ],
   [
@@ -459,7 +459,7 @@
     "1024",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       611
     ]
   ],
@@ -470,7 +470,7 @@
     "1024",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       161
     ]
   ],
@@ -481,7 +481,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       9
     ]
   ],
@@ -524,7 +524,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       10
     ]
   ],
@@ -543,8 +543,8 @@
     "156",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
-      13
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
+      19
     ]
   ],
   [
@@ -554,8 +554,8 @@
     "150000000",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
-      25
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
+      28
     ]
   ],
   [
@@ -565,8 +565,8 @@
     "2048",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/common/Kconfig.flexspi_xip",
-      21
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/common/Kconfig.flexspi_xip",
+      20
     ]
   ],
   [
@@ -576,8 +576,8 @@
     "0x10000000",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/common/Kconfig.flexspi_xip",
-      16
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/common/Kconfig.flexspi_xip",
+      15
     ]
   ],
   [
@@ -587,7 +587,7 @@
     "1",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.smp",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig.smp",
       43
     ]
   ],
@@ -616,7 +616,7 @@
     "256",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       176
     ]
   ],
@@ -627,7 +627,7 @@
     "2048",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       185
     ]
   ],
@@ -638,8 +638,8 @@
     "10000",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      827
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      833
     ]
   ],
   [
@@ -649,7 +649,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       757
     ]
   ],
@@ -660,7 +660,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       134
     ]
   ],
@@ -671,7 +671,7 @@
     "__start",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       206
     ]
   ],
@@ -728,14 +728,36 @@
     null
   ],
   [
+    "CONFIG_ICACHE_LINE_SIZE",
+    "n",
+    "int",
+    "32",
+    "default",
+    [
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/cortex_m/Kconfig",
+      118
+    ]
+  ],
+  [
+    "CONFIG_DCACHE_LINE_SIZE",
+    "n",
+    "int",
+    "32",
+    "default",
+    [
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/cortex_m/Kconfig",
+      115
+    ]
+  ],
+  [
     "CONFIG_TICKLESS_KERNEL",
     "y",
     "bool",
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      1088
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      1094
     ]
   ],
   [
@@ -745,7 +767,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/timer/Kconfig.cortex_m_systick",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/timer/Kconfig.cortex_m_systick",
       11
     ]
   ],
@@ -756,7 +778,7 @@
     "30",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/clock_control/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/clock_control/Kconfig",
       21
     ]
   ],
@@ -767,7 +789,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       13
     ]
   ],
@@ -794,7 +816,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       94
     ]
   ],
@@ -813,7 +835,7 @@
     "15",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       55
     ]
   ],
@@ -832,7 +854,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       525
     ]
   ],
@@ -851,7 +873,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/cortex_m/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/cortex_m/Kconfig",
       325
     ]
   ],
@@ -870,7 +892,7 @@
     "20",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       693
     ]
   ],
@@ -881,7 +903,7 @@
     "0x10a000",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       105
     ]
   ],
@@ -892,8 +914,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      863
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      869
     ]
   ],
   [
@@ -927,8 +949,8 @@
     "16",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
-      32
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
+      35
     ]
   ],
   [
@@ -978,7 +1000,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       11
     ]
   ],
@@ -989,8 +1011,19 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
-      10
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
+      16
+    ]
+  ],
+  [
+    "CONFIG_MCUX_FLASH_K4_API",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
+      31
     ]
   ],
   [
@@ -1002,36 +1035,14 @@
     null
   ],
   [
-    "CONFIG_MCUX_FLASH_K4_API",
-    "n",
-    "bool",
-    "y",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.defconfig",
-      28
-    ]
-  ],
-  [
     "CONFIG_SECOND_CORE_MCUX",
     "y",
     "bool",
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote/prj.conf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote/prj.conf",
       5
-    ]
-  ],
-  [
-    "CONFIG_ICACHE_LINE_SIZE",
-    "n",
-    "int",
-    "32",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/cortex_m/Kconfig",
-      118
     ]
   ],
   [
@@ -1065,19 +1076,8 @@
     "_cm33_core1",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig",
       68
-    ]
-  ],
-  [
-    "CONFIG_DCACHE_LINE_SIZE",
-    "n",
-    "int",
-    "32",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/cortex_m/Kconfig",
-      115
     ]
   ],
   [
@@ -1103,7 +1103,7 @@
     "4",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       583
     ]
   ],
@@ -1130,7 +1130,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/serial/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/serial/Kconfig",
       53
     ]
   ],
@@ -1157,7 +1157,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       7
     ]
   ],
@@ -1176,7 +1176,7 @@
     "-1",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/common/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/common/Kconfig",
       64
     ]
   ],
@@ -1187,7 +1187,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       572
     ]
   ],
@@ -1206,7 +1206,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       593
     ]
   ],
@@ -1217,7 +1217,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       225
     ]
   ],
@@ -1228,7 +1228,7 @@
     "4",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       537
     ]
   ],
@@ -1239,7 +1239,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       471
     ]
   ],
@@ -1266,8 +1266,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      769
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      775
     ]
   ],
   [
@@ -1277,7 +1277,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       14
     ]
   ],
@@ -1296,7 +1296,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       318
     ]
   ],
@@ -1331,7 +1331,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       5
     ]
   ],
@@ -1342,7 +1342,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       11
     ]
   ],
@@ -1363,7 +1363,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       17
     ]
   ],
@@ -1382,7 +1382,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       23
     ]
   ],
@@ -1401,7 +1401,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       29
     ]
   ],
@@ -1430,7 +1430,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       35
     ]
   ],
@@ -1441,7 +1441,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       39
     ]
   ],
@@ -1452,7 +1452,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       44
     ]
   ],
@@ -1463,7 +1463,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       53
     ]
   ],
@@ -1474,7 +1474,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       57
     ]
   ],
@@ -1485,7 +1485,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       62
     ]
   ],
@@ -1496,7 +1496,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       68
     ]
   ],
@@ -1515,7 +1515,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       77
     ]
   ],
@@ -1526,7 +1526,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       83
     ]
   ],
@@ -1537,7 +1537,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       89
     ]
   ],
@@ -1556,7 +1556,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       98
     ]
   ],
@@ -1567,7 +1567,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       102
     ]
   ],
@@ -1578,7 +1578,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       107
     ]
   ],
@@ -1589,7 +1589,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       114
     ]
   ],
@@ -1600,7 +1600,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       119
     ]
   ],
@@ -1623,13 +1623,21 @@
     null
   ],
   [
+    "CONFIG_NXP_MULTICORE",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
     "CONFIG_ZEPHYR_OPENISA_MODULE",
     "n",
     "bool",
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       126
     ]
   ],
@@ -1640,7 +1648,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       129
     ]
   ],
@@ -1651,7 +1659,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       134
     ]
   ],
@@ -1662,7 +1670,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       141
     ]
   ],
@@ -1673,7 +1681,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       149
     ]
   ],
@@ -1684,7 +1692,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       155
     ]
   ],
@@ -1695,7 +1703,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       164
     ]
   ],
@@ -1706,7 +1714,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       173
     ]
   ],
@@ -1717,7 +1725,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       177
     ]
   ],
@@ -1728,7 +1736,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       185
     ]
   ],
@@ -1747,7 +1755,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       191
     ]
   ],
@@ -1758,7 +1766,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       195
     ]
   ],
@@ -1769,7 +1777,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       200
     ]
   ],
@@ -1780,7 +1788,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       204
     ]
   ],
@@ -1791,7 +1799,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       207
     ]
   ],
@@ -1810,7 +1818,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       212
     ]
   ],
@@ -1821,7 +1829,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       218
     ]
   ],
@@ -1832,7 +1840,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       222
     ]
   ],
@@ -1843,7 +1851,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       225
     ]
   ],
@@ -1854,7 +1862,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       230
     ]
   ],
@@ -1873,7 +1881,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       236
     ]
   ],
@@ -1884,7 +1892,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       242
     ]
   ],
@@ -1895,7 +1903,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       248
     ]
   ],
@@ -1914,7 +1922,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       254
     ]
   ],
@@ -1925,7 +1933,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       260
     ]
   ],
@@ -1952,7 +1960,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       264
     ]
   ],
@@ -1963,7 +1971,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       267
     ]
   ],
@@ -1974,7 +1982,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       272
     ]
   ],
@@ -1993,7 +2001,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       278
     ]
   ],
@@ -2012,7 +2020,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       285
     ]
   ],
@@ -2031,7 +2039,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       290
     ]
   ],
@@ -2050,7 +2058,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       296
     ]
   ],
@@ -2069,7 +2077,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       302
     ]
   ],
@@ -2080,7 +2088,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       308
     ]
   ],
@@ -2109,7 +2117,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       312
     ]
   ],
@@ -2120,7 +2128,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       317
     ]
   ],
@@ -2139,7 +2147,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       323
     ]
   ],
@@ -2150,7 +2158,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       329
     ]
   ],
@@ -2161,7 +2169,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       335
     ]
   ],
@@ -2180,7 +2188,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote/prj.conf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote/prj.conf",
       2
     ]
   ],
@@ -2191,7 +2199,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       341
     ]
   ],
@@ -2202,7 +2210,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/build/remote/Kconfig/Kconfig.modules",
       345
     ]
   ],
@@ -2285,7 +2293,7 @@
     "frdm_mcxn947",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/Kconfig",
       5
     ]
   ],
@@ -2296,7 +2304,7 @@
     "",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/Kconfig",
       14
     ]
   ],
@@ -2307,7 +2315,7 @@
     "frdm_mcxn947/mcxn947/cpu1",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/Kconfig",
       24
     ]
   ],
@@ -2326,7 +2334,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig.v2",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/Kconfig.v2",
       10
     ]
   ],
@@ -2337,7 +2345,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig.v2",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/Kconfig.v2",
       15
     ]
   ],
@@ -2348,7 +2356,7 @@
     "mcxn947/cpu1",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/Kconfig.v2",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/Kconfig.v2",
       21
     ]
   ],
@@ -2359,7 +2367,7 @@
     "mcxn947",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.soc",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.soc",
       39
     ]
   ],
@@ -2370,7 +2378,7 @@
     "mcxn",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.soc",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.soc",
       8
     ]
   ],
@@ -2381,7 +2389,7 @@
     "MCXN947VDF",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig.soc",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig.soc",
       62
     ]
   ],
@@ -2448,7 +2456,7 @@
     "3",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/soc/nxp/mcx/mcxn/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/soc/nxp/mcx/mcxn/Kconfig",
       75
     ]
   ],
@@ -2475,7 +2483,7 @@
     "40",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/gpio/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/gpio/Kconfig",
       50
     ]
   ],
@@ -2486,7 +2494,7 @@
     "arm",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/Kconfig",
       10
     ]
   ],
@@ -2553,7 +2561,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/Kconfig",
       117
     ]
   ],
@@ -2564,7 +2572,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/Kconfig",
       134
     ]
   ],
@@ -2575,7 +2583,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/Kconfig",
       152
     ]
   ],
@@ -2602,7 +2610,7 @@
     "2",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/Kconfig",
       180
     ]
   ],
@@ -2621,7 +2629,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/Kconfig",
       299
     ]
   ],
@@ -2632,7 +2640,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/Kconfig",
       307
     ]
   ],
@@ -2784,7 +2792,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/arm/core/cortex_m/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/arm/core/cortex_m/Kconfig",
       419
     ]
   ],
@@ -2831,7 +2839,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/common/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/common/Kconfig",
       29
     ]
   ],
@@ -2842,7 +2850,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       201
     ]
   ],
@@ -2853,7 +2861,7 @@
     "64",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       217
     ]
   ],
@@ -2864,7 +2872,7 @@
     "0x30050000",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       225
     ]
   ],
@@ -2917,7 +2925,7 @@
     "4",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       547
     ]
   ],
@@ -2928,7 +2936,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       555
     ]
   ],
@@ -2955,7 +2963,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       638
     ]
   ],
@@ -3132,7 +3140,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/arch/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/arch/Kconfig",
       1208
     ]
   ],
@@ -3153,7 +3161,7 @@
     "16",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       30
     ]
   ],
@@ -3164,7 +3172,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       73
     ]
   ],
@@ -3175,7 +3183,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       79
     ]
   ],
@@ -3186,7 +3194,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       82
     ]
   ],
@@ -3197,7 +3205,7 @@
     "-127",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       86
     ]
   ],
@@ -3240,7 +3248,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       309
     ]
   ],
@@ -3283,7 +3291,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       369
     ]
   ],
@@ -3304,7 +3312,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       406
     ]
   ],
@@ -3315,7 +3323,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       430
     ]
   ],
@@ -3326,7 +3334,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       459
     ]
   ],
@@ -3337,7 +3345,7 @@
     "Booting Zephyr OS build",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       468
     ]
   ],
@@ -3348,7 +3356,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       475
     ]
   ],
@@ -3415,7 +3423,7 @@
     "-1",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       617
     ]
   ],
@@ -3434,7 +3442,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       635
     ]
   ],
@@ -3465,7 +3473,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       685
     ]
   ],
@@ -3476,12 +3484,20 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
       704
     ]
   ],
   [
     "CONFIG_TIMESLICE_PER_THREAD",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_TIMER_OBSERVER",
     "y",
     "bool",
     null,
@@ -3519,8 +3535,8 @@
     "10",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      747
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      753
     ]
   ],
   [
@@ -3538,7 +3554,7 @@
     "1024",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote/prj.conf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote/prj.conf",
       6
     ]
   ],
@@ -3567,8 +3583,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      873
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      879
     ]
   ],
   [
@@ -3578,8 +3594,8 @@
     "365",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      884
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      890
     ]
   ],
   [
@@ -3617,8 +3633,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig",
-      1118
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig",
+      1124
     ]
   ],
   [
@@ -3668,7 +3684,7 @@
     "30",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.device",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig.device",
       51
     ]
   ],
@@ -3679,7 +3695,7 @@
     "35",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.device",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig.device",
       59
     ]
   ],
@@ -3690,7 +3706,7 @@
     "40",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.device",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig.device",
       67
     ]
   ],
@@ -3701,7 +3717,7 @@
     "50",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.device",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig.device",
       73
     ]
   ],
@@ -3712,7 +3728,7 @@
     "90",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/kernel/Kconfig.device",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/kernel/Kconfig.device",
       81
     ]
   ],
@@ -3829,8 +3845,8 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/clock_control/Kconfig.mcux_syscon",
-      8
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/clock_control/Kconfig.nxp",
+      55
     ]
   ],
   [
@@ -3848,7 +3864,7 @@
     "128",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/console/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/console/Kconfig",
       16
     ]
   ],
@@ -3877,7 +3893,7 @@
     "60",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/console/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/console/Kconfig",
       37
     ]
   ],
@@ -3888,7 +3904,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/boards/nxp/frdm_mcxn947/frdm_mcxn947_mcxn947_cpu1_defconfig",
       8
     ]
   ],
@@ -4123,7 +4139,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/gpio/Kconfig.mcux",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/gpio/Kconfig.mcux",
       9
     ]
   ],
@@ -4174,7 +4190,7 @@
     "40",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/interrupt_controller/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/interrupt_controller/Kconfig",
       51
     ]
   ],
@@ -4217,7 +4233,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote/prj.conf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote/prj.conf",
       1
     ]
   ],
@@ -4228,7 +4244,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mbox/Kconfig.nxp_mailbox",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/mbox/Kconfig.nxp_mailbox",
       6
     ]
   ],
@@ -4239,7 +4255,7 @@
     "30",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mbox/Kconfig.ti_secproxy",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/mbox/Kconfig.ti_secproxy",
       13
     ]
   ],
@@ -4250,7 +4266,7 @@
     "40",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mbox/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/mbox/Kconfig",
       37
     ]
   ],
@@ -4269,7 +4285,7 @@
     "80",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mfd/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/mfd/Kconfig",
       17
     ]
   ],
@@ -4280,7 +4296,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/mfd/Kconfig.lpflexcomm",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/mfd/Kconfig.lpflexcomm",
       7
     ]
   ],
@@ -4326,6 +4342,14 @@
   ],
   [
     "CONFIG_OPAMP",
+    "y",
+    "bool",
+    null,
+    "unset",
+    null
+  ],
+  [
+    "CONFIG_OTP",
     "y",
     "bool",
     null,
@@ -4406,7 +4430,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/pinctrl/Kconfig.nxp_port",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/pinctrl/Kconfig.nxp_port",
       6
     ]
   ],
@@ -4527,7 +4551,7 @@
     "50",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/serial/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/serial/Kconfig",
       36
     ]
   ],
@@ -4586,7 +4610,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/serial/Kconfig.mcux_lpuart",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/serial/Kconfig.mcux_lpuart",
       6
     ]
   ],
@@ -4597,7 +4621,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/serial/Kconfig.mcux_lpuart",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/serial/Kconfig.mcux_lpuart",
       19
     ]
   ],
@@ -4608,7 +4632,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/serial/Kconfig.mcux_lpuart",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/serial/Kconfig.mcux_lpuart",
       25
     ]
   ],
@@ -4669,7 +4693,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/timer/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/timer/Kconfig",
       35
     ]
   ],
@@ -4710,7 +4734,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/drivers/timer/Kconfig.cortex_m_systick",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/drivers/timer/Kconfig.cortex_m_systick",
       33
     ]
   ],
@@ -4868,7 +4892,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/Kconfig",
       42
     ]
   ],
@@ -4879,7 +4903,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/Kconfig",
       48
     ]
   ],
@@ -4890,7 +4914,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/Kconfig",
       58
     ]
   ],
@@ -4909,7 +4933,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/Kconfig",
       81
     ]
   ],
@@ -4992,7 +5016,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/common/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/common/Kconfig",
       88
     ]
   ],
@@ -5003,7 +5027,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/common/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/common/Kconfig",
       97
     ]
   ],
@@ -5030,7 +5054,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/picolibc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/picolibc/Kconfig",
       8
     ]
   ],
@@ -5049,7 +5073,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/picolibc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/picolibc/Kconfig",
       34
     ]
   ],
@@ -5060,7 +5084,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/libc/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/libc/Kconfig",
       173
     ]
   ],
@@ -5122,7 +5146,7 @@
     "3",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/heap/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/heap/Kconfig",
       36
     ]
   ],
@@ -5141,7 +5165,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/heap/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/heap/Kconfig",
       57
     ]
   ],
@@ -5160,7 +5184,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/heap/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/heap/Kconfig",
       84
     ]
   ],
@@ -5221,17 +5245,6 @@
     null
   ],
   [
-    "CONFIG_ZVFS_OPEN_MAX",
-    "y",
-    "int",
-    "0",
-    "default",
-    [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/os/Kconfig",
-      8
-    ]
-  ],
-  [
     "CONFIG_ZVFS_OPEN_IGNORE_MIN",
     "y",
     "bool",
@@ -5270,7 +5283,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/os/Kconfig.cbprintf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/os/Kconfig.cbprintf",
       6
     ]
   ],
@@ -5289,7 +5302,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/os/Kconfig.cbprintf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/os/Kconfig.cbprintf",
       29
     ]
   ],
@@ -5348,7 +5361,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/os/Kconfig.cbprintf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/os/Kconfig.cbprintf",
       170
     ]
   ],
@@ -5399,7 +5412,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/posix/Kconfig.profile",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/posix/Kconfig.profile",
       29
     ]
   ],
@@ -5488,7 +5501,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/runtime/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/runtime/Kconfig",
       13
     ]
   ],
@@ -5583,7 +5596,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/lib/utils/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/lib/utils/Kconfig",
       103
     ]
   ],
@@ -5726,7 +5739,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/debug/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/subsys/debug/Kconfig",
       240
     ]
   ],
@@ -5953,7 +5966,7 @@
     "y",
     "assign",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote/prj.conf",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote/prj.conf",
       4
     ]
   ],
@@ -6052,7 +6065,7 @@
     "123456789",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/random/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/subsys/random/Kconfig",
       33
     ]
   ],
@@ -6063,7 +6076,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/random/Kconfig",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/subsys/random/Kconfig",
       82
     ]
   ],
@@ -6210,7 +6223,7 @@
     "",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/subsys/testsuite/Kconfig.coverage",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/subsys/testsuite/Kconfig.coverage",
       96
     ]
   ],
@@ -6285,7 +6298,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig",
+      "/home/calebb/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig",
       4
     ]
   ],
@@ -6296,7 +6309,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig",
+      "/home/calebb/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig",
       10
     ]
   ],
@@ -6307,7 +6320,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig",
+      "/home/calebb/zephyr-sdk-0.17.4/cmake/zephyr/Kconfig",
       14
     ]
   ],
@@ -6326,7 +6339,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       62
     ]
   ],
@@ -6345,7 +6358,7 @@
     "0xf6000",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       118
     ]
   ],
@@ -6356,7 +6369,7 @@
     "0",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       147
     ]
   ],
@@ -6367,7 +6380,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       158
     ]
   ],
@@ -6378,7 +6391,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       162
     ]
   ],
@@ -6405,7 +6418,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       212
     ]
   ],
@@ -6432,7 +6445,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       273
     ]
   ],
@@ -6443,7 +6456,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       286
     ]
   ],
@@ -6454,7 +6467,7 @@
     "0xE015E015",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       302
     ]
   ],
@@ -6465,7 +6478,7 @@
     "4",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       332
     ]
   ],
@@ -6476,7 +6489,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       338
     ]
   ],
@@ -6519,7 +6532,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       385
     ]
   ],
@@ -6572,7 +6585,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       486
     ]
   ],
@@ -6639,7 +6652,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       563
     ]
   ],
@@ -6650,7 +6663,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       571
     ]
   ],
@@ -6669,7 +6682,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       578
     ]
   ],
@@ -6704,7 +6717,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       627
     ]
   ],
@@ -6731,7 +6744,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       636
     ]
   ],
@@ -6742,7 +6755,7 @@
     "zephyr",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       660
     ]
   ],
@@ -6753,7 +6766,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       666
     ]
   ],
@@ -6772,7 +6785,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       708
     ]
   ],
@@ -6791,7 +6804,7 @@
     "0xFF",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       729
     ]
   ],
@@ -6898,7 +6911,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       974
     ]
   ],
@@ -6909,7 +6922,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       988
     ]
   ],
@@ -6928,7 +6941,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       1020
     ]
   ],
@@ -6947,7 +6960,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       1056
     ]
   ],
@@ -6974,7 +6987,7 @@
     "y",
     "default",
     [
-      "/home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr",
+      "/home/calebb/Projects/work-projects/zephyr/zephyr/Kconfig.zephyr",
       1126
     ]
   ]

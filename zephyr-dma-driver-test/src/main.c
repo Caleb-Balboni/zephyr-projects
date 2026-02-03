@@ -5,11 +5,15 @@
 
 const struct device* dev = DEVICE_DT_GET(DT_NODELABEL(coredma0));
 
+void callback(void* data, void* user_data, size_t data_size) {
+  printk("data %s\n", (char*)data);
+}
+
 int main(void) {
-	int code = dma_core_init(dev);
-	printk("code: %d\n", code);
-	const char data[32];
-	dma_core_sync_receive(dev, data, sizeof(data), K_FOREVER);
-	printk("data received: %s", data);
+	int code = dma_core_init(dev, 0);
+  struct dma_channel_table* table = NULL;
+  uint8_t data[32];
+  dma_core_async_receive(dev, callback, NULL);
+  while (1) { k_msleep(1000); }
 	return 0;
 }

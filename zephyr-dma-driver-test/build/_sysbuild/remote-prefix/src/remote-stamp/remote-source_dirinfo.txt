@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-dma-driver-test/remote
+source_dir=/home/calebb/Projects/work-projects/zephyr/zephyr-projects/zephyr-dma-driver-test/remote
 work_dir=
 
