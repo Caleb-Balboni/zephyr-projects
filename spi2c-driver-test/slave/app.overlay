@@ -1,0 +1,36 @@
+&flexcomm2_lpi2c2 {
+    status = "okay";
+    clock-frequency = <I2C_BITRATE_FAST>;
+
+    tsys01: tsys01@77 {
+	compatible = "te,frat";
+        reg = <0x77>;
+        status = "okay";
+    };
+};
+
+&flexcomm1_lpspi1 {
+	transfer-delay = <100>;
+	sck-pcs-delay = <200>;
+	pcs-sck-delay = <200>;
+	slavefrdm: slavefrdm@0 {
+		compatible = "vnd,spi-device";
+		reg = <0>;
+		spi-max-frequency = <1600000>;
+		label = "slave_frdm";
+	};
+};
+
+&flexcomm1 {
+	interrupts = <36 1>;
+};
+
+/ {
+	spi2cdev: spi2cdev {
+		compatible = "hn,spi2c";
+		i2c-devs = <&tsys01>;
+		signal-gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_HIGH>;
+		i2c-dev-num = <1>;
+		spi-dev = <&slavefrdm>;
+	};
+};

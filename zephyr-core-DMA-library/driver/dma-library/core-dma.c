@@ -58,8 +58,8 @@ static void init_channel_table(struct dma_channel_table* c_table) {
   int table_state = atomic_get(&c_table->init_state);
   if (table_state == CHAN_TABLE_STATE_FINISHED) { return; }
 
-  if (table_state != CHAN_TABLE_STATE_UNINIT && 
-      table_state != CHAN_TABLE_STATE_INPROGRESS && 
+  if (table_state != CHAN_TABLE_STATE_UNINIT &&
+      table_state != CHAN_TABLE_STATE_INPROGRESS &&
       table_state != CHAN_TABLE_STATE_FINISHED) {
     atomic_set(&c_table->init_state, CHAN_TABLE_STATE_UNINIT);
   }
@@ -100,9 +100,9 @@ static int init_core_dma_engine(const struct device* dev, uint8_t chan_id) {
       dma_core_atomic_unlock(&c_table->chan_lock);
       return -1;
     }
-    chan_info->chan_rx_adr = (uint8_t*)chan_rx_adr; 
+    chan_info->chan_rx_adr = (uint8_t*)chan_rx_adr;
     chan_info->chan_tx_adr = (uint8_t*)chan_tx_adr;
-    chan_info->chan_id = chan_id; 
+    chan_info->chan_id = chan_id;
     chan_info->available = 0;
     struct dma_channel_info* tx = (struct dma_channel_info*)chan_info->chan_tx_adr;
     struct dma_channel_info* rx = (struct dma_channel_info*)chan_info->chan_rx_adr;
@@ -172,7 +172,7 @@ static int async_receive_impl(const struct device *dev, void (*callback_func)(vo
 // @return - 0 if execution is successfull or a standard zephyr error code upon failure
 static int sync_receive_impl(const struct device* dev, void* data, size_t data_size, k_timeout_t timeout) {
   struct dma_engine_data* dma_data = (struct dma_engine_data*)dev->data;
-  struct dma_channel_info* rx = dma_data->rx; 
+  struct dma_channel_info* rx = dma_data->rx;
   if (K_TIMEOUT_EQ(timeout, K_NO_WAIT)) {
     if (rx->seq - 1 == rx->ack) {
       goto set_and_ret;
@@ -203,7 +203,7 @@ static int sync_receive_impl(const struct device* dev, void* data, size_t data_s
     k_yield();
   }
   set_and_ret:
-  memcpy(data, rx->data, data_size); 
+  memcpy(data, rx->data, data_size);
   atomic_inc(&rx->ack);
 	return 0;
 }

@@ -1,0 +1,21 @@
+&flexcomm1_lpspi1 {
+	transfer-delay = <100>;
+	sck-pcs-delay = <200>;
+	pcs-sck-delay = <200>;
+	master_frdm: master_frdm@0 {
+		compatible = "vnd,spi-device";
+		reg = <0>;
+		spi-max-frequency = <1600000>;
+		label = "master_frdm";
+	};
+};
+
+&flexcomm1 {
+	interrupts = <36 1>;
+};
+
+/ {
+	zephyr,user {
+		signal-gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_HIGH>;
+	};
+};
