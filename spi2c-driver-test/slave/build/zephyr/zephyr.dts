@@ -474,7 +474,7 @@
 						reg = < 0x0 >;                    /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:18 */
 						spi-max-frequency = < 0x186a00 >; /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:19 */
 						label = "slave_frdm";             /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:20 */
-						phandle = < 0x30 >;               /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:34 */
+						phandle = < 0x30 >;               /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:33 */
 					};
 				};
 
@@ -542,12 +542,13 @@
 					status = "okay";                         /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:2 */
 					clock-frequency = < 0x61a80 >;           /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:3 */
 
-					/* node '/soc/peripheral@50000000/flexcomm@94000/lpi2c@94800/tsys01@77' defined in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:5 */
+					/* node '/soc/peripheral@50000000/flexcomm@94000/lpi2c@94800/tsys01@77' defined in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:4 */
 					tsys01: tsys01@77 {
-						compatible = "te,frat"; /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:6 */
-						reg = < 0x77 >;         /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:7 */
-						status = "okay";        /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:8 */
-						phandle = < 0x2e >;     /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:31 */
+						compatible = "tsys01,sensor"; /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:5 */
+						dev-address = < 0xa >;        /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:6 */
+						reg = < 0x77 >;               /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:7 */
+						status = "okay";              /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:8 */
+						phandle = < 0x2e >;           /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:31 */
 					};
 				};
 			};
@@ -2392,9 +2393,8 @@
 	/* node '/spi2cdev' defined in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:29 */
 	spi2cdev: spi2cdev {
 		compatible = "hn,spi2c";                    /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:30 */
-		i2c-devs = < &tsys01 >;                     /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:31 */
+		custom-devs = < &tsys01 >;                  /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:31 */
 		signal-gpios = < &arduino_header 0xd 0x0 >; /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:32 */
-		i2c-dev-num = < 0x1 >;                      /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:33 */
-		spi-dev = < &slavefrdm >;                   /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:34 */
+		spi-dev = < &slavefrdm >;                   /* in zephyr/my-projects/spi2c-driver-test/slave/app.overlay:33 */
 	};
 };

@@ -2626,9 +2626,9 @@ zephyr_udc0: &usb1 {
 &flexcomm2_lpi2c2 {
     status = "okay";
     clock-frequency = <400000>;
-
     tsys01: tsys01@77 {
- compatible = "te,frat";
+ compatible = "tsys01,sensor";
+ dev-address = <10>;
         reg = <0x77>;
         status = "okay";
     };
@@ -2653,9 +2653,8 @@ zephyr_udc0: &usb1 {
 / {
  spi2cdev: spi2cdev {
   compatible = "hn,spi2c";
-  i2c-devs = <&tsys01>;
+  custom-devs = <&tsys01>;
   signal-gpios = <&arduino_header 13 (0 << 0)>;
-  i2c-dev-num = <1>;
   spi-dev = <&slavefrdm>;
  };
 };

@@ -60,4 +60,5 @@ list(APPEND kconfig_env_dirs ZEPHYR_UOSCORE_UEDHOC_MODULE_DIR=/home/bionet-caleb
 list(APPEND kconfig_env_dirs ZEPHYR_ZCBOR_MODULE_DIR=/home/bionet-caleb/testing/zephyr-testing/modules/lib/zcbor)
 list(APPEND kconfig_env_dirs ZEPHYR_CORE_DMA_MODULE_DIR=/home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver)
 list(APPEND kconfig_env_dirs ZEPHYR_SPI2C_MODULE_DIR=/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver)
+list(APPEND kconfig_env_dirs ZEPHYR_TEMP_SENSOR_MODULE_DIR=/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor)
 list(APPEND kconfig_env_dirs ZEPHYR_NRF_HW_MODELS_MODULE_DIR=/home/bionet-caleb/testing/zephyr-testing/modules/bsim_hw_models/nrf_hw_models)

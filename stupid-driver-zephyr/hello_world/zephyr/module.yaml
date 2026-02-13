@@ -1,6 +1,0 @@
-name: hello_world
-build:
-  cmake: .
-  kconfig: Kconfig
-  settings:
-    dts_root: .

@@ -1314,6 +1314,14 @@
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/core-dma/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/core-dma/driver/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/core-dma/driver/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/spi2c/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/spi2c/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/spi2c/spi2c-driver/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/spi2c/spi2c-driver/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/temp-sensor/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/temp-sensor/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/temp-sensor/drivers/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/temp-sensor/drivers/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/nrf_hw_models/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/nrf_hw_models/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/zephyr/kernel/CMakeFiles/kernel.dir

@@ -59,4 +59,5 @@
 "zcbor":"/home/bionet-caleb/testing/zephyr-testing/modules/lib/zcbor":"${ZEPHYR_ZCBOR_CMAKE_DIR}"
 "core-dma":"/home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver":"/home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver"
 "spi2c":"/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver":"/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver"
+"temp-sensor":"/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor":"/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor"
 "nrf_hw_models":"/home/bionet-caleb/testing/zephyr-testing/modules/bsim_hw_models/nrf_hw_models":"/home/bionet-caleb/testing/zephyr-testing/modules/bsim_hw_models/nrf_hw_models"

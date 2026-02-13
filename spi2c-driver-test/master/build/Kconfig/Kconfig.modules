@@ -346,6 +346,12 @@ config ZEPHYR_SPI2C_MODULE
 	bool
 	default y
 endmenu
+menu "temp-sensor (/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor)"
+osource "/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/Kconfig"
+config ZEPHYR_TEMP_SENSOR_MODULE
+	bool
+	default y
+endmenu
 config ZEPHYR_NRF_HW_MODELS_MODULE
 	bool
 	default y

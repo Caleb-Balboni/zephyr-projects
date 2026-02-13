@@ -689,7 +689,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/Kconfig/Kconfig.dts",
-      14228
+      14233
     ]
   ],
   [
@@ -700,7 +700,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/Kconfig/Kconfig.dts",
-      15033
+      15038
     ]
   ],
   [
@@ -711,7 +711,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/Kconfig/Kconfig.dts",
-      15138
+      15143
     ]
   ],
   [
@@ -722,7 +722,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/Kconfig/Kconfig.dts",
-      15193
+      15198
     ]
   ],
   [
@@ -2523,6 +2523,17 @@
     ]
   ],
   [
+    "CONFIG_ZEPHYR_TEMP_SENSOR_MODULE",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/Kconfig/Kconfig.modules",
+      353
+    ]
+  ],
+  [
     "CONFIG_ZEPHYR_NRF_HW_MODELS_MODULE",
     "n",
     "bool",
@@ -2530,7 +2541,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/Kconfig/Kconfig.modules",
-      351
+      357
     ]
   ],
   [

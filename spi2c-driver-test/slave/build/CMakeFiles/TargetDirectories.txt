@@ -1326,6 +1326,16 @@
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/spi2c/CMakeFiles/..__modules__spi2c-driver__spi2c-driver__spi2c.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/spi2c/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/spi2c/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/custom-dev/CMakeFiles/..__modules__spi2c-driver__spi2c-driver__custom-dev.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/custom-dev/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/custom-dev/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/drivers/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/drivers/CMakeFiles/rebuild_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/drivers/temp-sensor/CMakeFiles/..__modules__tsys01-sensor__drivers__temp-sensor.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/drivers/temp-sensor/CMakeFiles/edit_cache.dir
+/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/temp-sensor/drivers/temp-sensor/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/nrf_hw_models/CMakeFiles/edit_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/nrf_hw_models/CMakeFiles/rebuild_cache.dir
 /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/zephyr/kernel/CMakeFiles/kernel.dir

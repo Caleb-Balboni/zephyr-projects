@@ -5,7 +5,7 @@
  *   /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/zephyr/zephyr.dts.pre
  *
  * Directories with bindings:
- *   /home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver/dts/bindings, /home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/dts/bindings, $ZEPHYR_BASE/dts/bindings
+ *   /home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver/dts/bindings, /home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/dts/bindings, /home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/dts/bindings, $ZEPHYR_BASE/dts/bindings
  *
  * Node dependency ordering (ordinal and path):
  *   0   /
@@ -3524,6 +3524,12 @@
  * Devicetree node: /soc/peripheral@50000000/flexcomm@94000/lpi2c@94800/tsys01@77
  *
  * Node identifier: DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
+ *
+ * Binding (compatible = tsys01,sensor):
+ *   /home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/dts/bindings/input/tsys01,sensor.yaml
+ *
+ * (Descriptions have moved to the Devicetree Bindings Index
+ * in the documentation.)
  */
 
 /* Node's full path: */
@@ -3576,8 +3582,8 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_EXISTS 1
-#define DT_N_INST_0_te_frat   DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
-#define DT_N_NODELABEL_tsys01 DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
+#define DT_N_INST_0_tsys01_sensor DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
+#define DT_N_NODELABEL_tsys01     DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
 
 /* Bus info (controller: '/soc/peripheral@50000000/flexcomm@94000/lpi2c@94800', type: '['i2c']') */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_BUS_i2c 1
@@ -3591,19 +3597,36 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_FOREACH_RANGE(fn) 
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_IRQ_NUM 0
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_IRQ_LEVEL 0
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_COMPAT_MATCHES_te_frat 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_COMPAT_MATCHES_tsys01_sensor 1
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_STATUS_okay 1
 
 /* Pin control (pinctrl-<i>, pinctrl-names) properties: */
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_PINCTRL_NUM 0
 
 /* Generic property macros: */
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible {"te,frat"}
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_dev_address 10
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_dev_address_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status "okay"
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_STRING_UNQUOTED okay
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_STRING_TOKEN okay
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_STRING_UPPER_TOKEN OKAY
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0 "okay"
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0_ENUM_IDX 0
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0_ENUM_VAL_okay_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_ENUM_VAL_okay_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM(fn) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0)
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0)
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0, __VA_ARGS__)
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0, __VA_ARGS__)
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_LEN 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible {"tsys01,sensor"}
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_EXISTS 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0 "te,frat"
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_STRING_UNQUOTED te,frat
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_STRING_TOKEN te_frat
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_STRING_UPPER_TOKEN TE_FRAT
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0 "tsys01,sensor"
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_STRING_UNQUOTED tsys01,sensor
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_STRING_TOKEN tsys01_sensor
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_IDX_0_STRING_UPPER_TOKEN TSYS01_SENSOR
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_FOREACH_PROP_ELEM(fn) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, compatible, 0)
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, compatible, 0)
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_compatible_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, compatible, 0, __VA_ARGS__)
@@ -3614,21 +3637,12 @@
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_reg_IDX_0_EXISTS 1
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_reg_IDX_0 119
 #define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_reg_EXISTS 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status "okay"
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_STRING_UNQUOTED okay
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_STRING_TOKEN okay
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_STRING_UPPER_TOKEN OKAY
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0 "okay"
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0_EXISTS 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0_ENUM_IDX 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_IDX_0_ENUM_VAL_okay_EXISTS 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_ENUM_VAL_okay_EXISTS 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM(fn) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0)
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0)
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0, __VA_ARGS__)
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, status, 0, __VA_ARGS__)
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_LEN 1
-#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_status_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_zephyr_deferred_init 0
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_zephyr_deferred_init_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_wakeup_source 0
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_wakeup_source_EXISTS 1
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_zephyr_pm_device_runtime_auto 0
+#define DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77_P_zephyr_pm_device_runtime_auto_EXISTS 1
 
 /*
  * Devicetree node: /spi2cdev
@@ -3710,17 +3724,15 @@
 #define DT_N_S_spi2cdev_PINCTRL_NUM 0
 
 /* Generic property macros: */
-#define DT_N_S_spi2cdev_P_i2c_devs_IDX_0 DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
-#define DT_N_S_spi2cdev_P_i2c_devs_IDX_0_PH DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
-#define DT_N_S_spi2cdev_P_i2c_devs_IDX_0_EXISTS 1
-#define DT_N_S_spi2cdev_P_i2c_devs_FOREACH_PROP_ELEM(fn) fn(DT_N_S_spi2cdev, i2c_devs, 0)
-#define DT_N_S_spi2cdev_P_i2c_devs_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_spi2cdev, i2c_devs, 0)
-#define DT_N_S_spi2cdev_P_i2c_devs_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_spi2cdev, i2c_devs, 0, __VA_ARGS__)
-#define DT_N_S_spi2cdev_P_i2c_devs_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_spi2cdev, i2c_devs, 0, __VA_ARGS__)
-#define DT_N_S_spi2cdev_P_i2c_devs_LEN 1
-#define DT_N_S_spi2cdev_P_i2c_devs_EXISTS 1
-#define DT_N_S_spi2cdev_P_i2c_dev_num 1
-#define DT_N_S_spi2cdev_P_i2c_dev_num_EXISTS 1
+#define DT_N_S_spi2cdev_P_custom_devs_IDX_0 DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
+#define DT_N_S_spi2cdev_P_custom_devs_IDX_0_PH DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77
+#define DT_N_S_spi2cdev_P_custom_devs_IDX_0_EXISTS 1
+#define DT_N_S_spi2cdev_P_custom_devs_FOREACH_PROP_ELEM(fn) fn(DT_N_S_spi2cdev, custom_devs, 0)
+#define DT_N_S_spi2cdev_P_custom_devs_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_spi2cdev, custom_devs, 0)
+#define DT_N_S_spi2cdev_P_custom_devs_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_spi2cdev, custom_devs, 0, __VA_ARGS__)
+#define DT_N_S_spi2cdev_P_custom_devs_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_spi2cdev, custom_devs, 0, __VA_ARGS__)
+#define DT_N_S_spi2cdev_P_custom_devs_LEN 1
+#define DT_N_S_spi2cdev_P_custom_devs_EXISTS 1
 #define DT_N_S_spi2cdev_P_spi_dev DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_S_slavefrdm_0
 #define DT_N_S_spi2cdev_P_spi_dev_IDX_0 DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_S_slavefrdm_0
 #define DT_N_S_spi2cdev_P_spi_dev_IDX_0_PH DT_N_S_soc_S_peripheral_50000000_S_flexcomm_93000_S_spi_93000_S_slavefrdm_0
@@ -33286,7 +33298,7 @@
 #define DT_COMPAT_HAS_OKAY_vnd_spi_device 1
 #define DT_COMPAT_HAS_OKAY_nxp_lpuart 1
 #define DT_COMPAT_HAS_OKAY_nxp_lpi2c 1
-#define DT_COMPAT_HAS_OKAY_te_frat 1
+#define DT_COMPAT_HAS_OKAY_tsys01_sensor 1
 #define DT_COMPAT_HAS_OKAY_nxp_mbox_mailbox 1
 #define DT_COMPAT_HAS_OKAY_nxp_mcux_edma 1
 #define DT_COMPAT_HAS_OKAY_nxp_lpdac 1
@@ -33362,7 +33374,7 @@
 #define DT_N_INST_vnd_spi_device_NUM_OKAY 1
 #define DT_N_INST_nxp_lpuart_NUM_OKAY 2
 #define DT_N_INST_nxp_lpi2c_NUM_OKAY 3
-#define DT_N_INST_te_frat_NUM_OKAY 1
+#define DT_N_INST_tsys01_sensor_NUM_OKAY 1
 #define DT_N_INST_nxp_mbox_mailbox_NUM_OKAY 1
 #define DT_N_INST_nxp_mcux_edma_NUM_OKAY 1
 #define DT_N_INST_nxp_lpdac_NUM_OKAY 1
@@ -33503,10 +33515,10 @@
 #define DT_FOREACH_OKAY_VARGS_nxp_lpi2c(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_95000_S_lpi2c_95800, __VA_ARGS__) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_b7000_S_lpi2c_b7800, __VA_ARGS__)
 #define DT_FOREACH_OKAY_INST_nxp_lpi2c(fn) fn(0) fn(1) fn(2)
 #define DT_FOREACH_OKAY_INST_VARGS_nxp_lpi2c(fn, ...) fn(0, __VA_ARGS__) fn(1, __VA_ARGS__) fn(2, __VA_ARGS__)
-#define DT_FOREACH_OKAY_te_frat(fn) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77)
-#define DT_FOREACH_OKAY_VARGS_te_frat(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, __VA_ARGS__)
-#define DT_FOREACH_OKAY_INST_te_frat(fn) fn(0)
-#define DT_FOREACH_OKAY_INST_VARGS_te_frat(fn, ...) fn(0, __VA_ARGS__)
+#define DT_FOREACH_OKAY_tsys01_sensor(fn) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77)
+#define DT_FOREACH_OKAY_VARGS_tsys01_sensor(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_flexcomm_94000_S_lpi2c_94800_S_tsys01_77, __VA_ARGS__)
+#define DT_FOREACH_OKAY_INST_tsys01_sensor(fn) fn(0)
+#define DT_FOREACH_OKAY_INST_VARGS_tsys01_sensor(fn, ...) fn(0, __VA_ARGS__)
 #define DT_FOREACH_OKAY_nxp_mbox_mailbox(fn) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000)
 #define DT_FOREACH_OKAY_VARGS_nxp_mbox_mailbox(fn, ...) fn(DT_N_S_soc_S_peripheral_50000000_S_mbox_b2000, __VA_ARGS__)
 #define DT_FOREACH_OKAY_INST_nxp_mbox_mailbox(fn) fn(0)
@@ -33704,7 +33716,7 @@
  * Bus information for status "okay" nodes of each compatible
  */
 #define DT_COMPAT_vnd_spi_device_BUS_spi 1
-#define DT_COMPAT_te_frat_BUS_i2c 1
+#define DT_COMPAT_tsys01_sensor_BUS_i2c 1
 #define DT_COMPAT_ethernet_phy_BUS_mdio 1
 #define DT_COMPAT_zephyr_sdmmc_disk_BUS_sd 1
 #define DT_COMPAT_nxp_imx_flexspi_nor_BUS_spi 1

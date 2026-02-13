@@ -19,3 +19,4 @@
 "DTS_ROOT":"/home/bionet-caleb/testing/zephyr-testing/modules/hal/ti"
 "DTS_ROOT":"/home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver"
 "DTS_ROOT":"/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver"
+"DTS_ROOT":"/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor"

@@ -452,7 +452,7 @@ soc_series:STRING=MCXN
 //List of board directories for board (frdm_mcxn947)
 BOARD_DIRECTORIES:INTERNAL=/home/bionet-caleb/testing/zephyr-testing/zephyr/boards/nxp/frdm_mcxn947
 //DT bindings root directories
-CACHED_DTS_ROOT_BINDINGS:INTERNAL=/home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver/dts/bindings;/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/dts/bindings;/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/bindings
+CACHED_DTS_ROOT_BINDINGS:INTERNAL=/home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver/dts/bindings;/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/dts/bindings;/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/dts/bindings;/home/bionet-caleb/testing/zephyr-testing/zephyr/dts/bindings
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -562,7 +562,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=639
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=641
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

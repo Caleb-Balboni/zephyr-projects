@@ -181,6 +181,9 @@ config ZEPHYR_CORE_DMA_MODULE
 config ZEPHYR_SPI2C_MODULE
    bool
    default y
+config ZEPHYR_TEMP_SENSOR_MODULE
+   bool
+   default y
 config ZEPHYR_NRF_HW_MODELS_MODULE
    bool
    default y

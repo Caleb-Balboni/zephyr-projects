@@ -1,9 +1,9 @@
 &flexcomm2_lpi2c2 {
     status = "okay";
     clock-frequency = <I2C_BITRATE_FAST>;
-
     tsys01: tsys01@77 {
-	compatible = "te,frat";
+	compatible = "tsys01,sensor";
+	dev-address = <10>;
         reg = <0x77>;
         status = "okay";
     };
@@ -28,9 +28,8 @@
 / {
 	spi2cdev: spi2cdev {
 		compatible = "hn,spi2c";
-		i2c-devs = <&tsys01>;
+		custom-devs = <&tsys01>;
 		signal-gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_HIGH>;
-		i2c-dev-num = <1>;
 		spi-dev = <&slavefrdm>;
 	};
 };

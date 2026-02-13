@@ -1,0 +1,19 @@
+/ {
+    wuu_test: wuu_test {
+        gpios = <&gpio0 4 GPIO_ACTIVE_HIGH>;
+    };
+
+
+    gpio_keys {
+        compatible = "gpio-keys";
+
+        wakepin1: wakepin1 {
+            gpios = <&gpio1 3 GPIO_ACTIVE_HIGH>;
+            label = "WAKEPIN_GPIO1_3";
+        };
+    };
+
+    aliases {
+        wakeuppin = &wakepin1;
+    };
+};

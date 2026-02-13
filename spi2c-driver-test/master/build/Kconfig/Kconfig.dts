@@ -13772,6 +13772,11 @@ DT_COMPAT_TSC_KEYS := tsc-keys
 config DT_HAS_TSC_KEYS_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_TSC_KEYS))
 
+DT_COMPAT_TSYS01_SENSOR := tsys01,sensor
+
+config DT_HAS_TSYS01_SENSOR_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_TSYS01_SENSOR))
+
 DT_COMPAT_U_BLOX_F9P := u-blox,f9p
 
 config DT_HAS_U_BLOX_F9P_ENABLED

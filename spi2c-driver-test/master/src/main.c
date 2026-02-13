@@ -40,11 +40,32 @@ void signal_callback(const struct device *dev, struct gpio_callback *cb, uint32_
 K_THREAD_STACK_DEFINE(poll_stack, 1024)
 static struct k_thread poll_thread_t;
 
-void poll_thread(void* p1, void* p2, void* p3) {
-	while (1) {
+void send_read(void) {
+	uint8_t tx_buffer[255] = {0};
+	uint8_t rx_buffer[255] = {0};
+	struct packet* tx = (struct packet*)tx_buffer;
+	struct packet* rx = (struct packet*)rx_buffer;
+	tx->crc8 = 0;
+	tx->initiator = 0;
+	tx->seqnum = 0;
+	tx->size = 2;
+	tx->data[0] = 0x01;
+	tx->data[1] = 0xA;
 
+	struct spi_buf_set rx_buf_set;
+	struct spi_buf_set tx_buf_set;
 
-	k_sem_take(&sem, K_FOREVER);
+	struct spi_buf rx_buf;
+	struct spi_buf tx_buf;
+
+	init_buffer(&tx_buf_set, &tx_buf, 255, tx);
+	init_buffer(&rx_buf_set, &rx_buf, 255, rx);
+
+	spi_transceive_dt(&master_dev, &tx_buf_set, &rx_buf_set);
+}
+
+void read_slave(void) {
+
 	uint8_t tx_buffer[255] = {0};
 	uint8_t rx_buffer[255] = {0};
 	struct packet* tx = (struct packet*)tx_buffer;
@@ -55,14 +76,20 @@ void poll_thread(void* p1, void* p2, void* p3) {
 	struct spi_buf rx_buf;
 	struct spi_buf tx_buf;
 	printk("read size: %d\n", sizeof(struct packet) + 1);
-	init_buffer(&tx_buf_set, &tx_buf, sizeof(struct packet) + 2, tx);
-	init_buffer(&rx_buf_set, &rx_buf, sizeof(struct packet) + 2, rx);
-
+	init_buffer(&tx_buf_set, &tx_buf, sizeof(struct packet) + 5, tx);
+	init_buffer(&rx_buf_set, &rx_buf, sizeof(struct packet) + 5, rx);
 	spi_transceive_dt(&master_dev, &tx_buf_set, &rx_buf_set);
-	for (int i = 0; i < 16; i++) {
-		printk("0x%X ", rx_buffer[i]);
-	}
-	printk("\n");
+	printk("temp: %d\n", *(uint32_t*)(rx->data + 1));
+}
+
+void poll_thread(void* p1, void* p2, void* p3) {
+	while (1) {
+		if (k_sem_take(&sem, K_NO_WAIT) == 0) {
+			read_slave();
+		} else {
+			send_read();
+		}
+		k_msleep(25);
 	}
 }
 
@@ -81,35 +108,11 @@ int main(void) {
                   NULL, NULL, NULL,
                   0, 0, K_NO_WAIT);
 
-	gpio_pin_configure_dt(&signal_pin, GPIO_INPUT);
-	uint8_t tx_buffer[255] = {0};
-	uint8_t rx_buffer[255] = {0};
-	struct packet* tx = (struct packet*)tx_buffer;
-	struct packet* rx = (struct packet*)rx_buffer;
 	static struct gpio_callback signal_cb_data;
+	gpio_pin_configure_dt(&signal_pin, GPIO_INPUT);
 	gpio_pin_interrupt_configure_dt(&signal_pin, GPIO_INT_EDGE_TO_ACTIVE);
 	gpio_init_callback(&signal_cb_data, signal_callback, BIT(signal_pin.pin));
 	gpio_add_callback(signal_pin.port, &signal_cb_data);
-	tx->crc8 = 0;
-	tx->initiator = 0;
-	tx->seqnum = 0;
-	tx->size = 3;
-	tx->data[0] = 0x02;
-	tx->data[1] = 0xAA;
-	tx->data[2] = 1;
-
-	struct spi_buf_set rx_buf_set;
-	struct spi_buf_set tx_buf_set;
-
-	struct spi_buf rx_buf;
-	struct spi_buf tx_buf;
-
-	init_buffer(&tx_buf_set, &tx_buf, 255, tx);
-	init_buffer(&rx_buf_set, &rx_buf, 255, rx);
-
-	spi_transceive_dt(&master_dev, &tx_buf_set, &rx_buf_set);
-	k_msleep(1000);
-	spi_transceive_dt(&master_dev, &tx_buf_set, &rx_buf_set);
 	while (1) { k_msleep(1000); }
 	return 0;
 }

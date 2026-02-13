@@ -5,7 +5,7 @@
  *   /home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/master/build/zephyr/zephyr.dts.pre
  *
  * Directories with bindings:
- *   /home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver/dts/bindings, /home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/dts/bindings, $ZEPHYR_BASE/dts/bindings
+ *   /home/bionet-caleb/testing/zephyr-testing/modules/core-dma-driver/dts/bindings, /home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/dts/bindings, /home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/dts/bindings, $ZEPHYR_BASE/dts/bindings
  *
  * Node dependency ordering (ordinal and path):
  *   0   /

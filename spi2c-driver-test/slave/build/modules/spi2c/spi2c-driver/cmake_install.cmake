@@ -42,3 +42,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/spi2c/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/modules/spi2c/spi2c-driver/custom-dev/cmake_install.cmake")
+endif()
+

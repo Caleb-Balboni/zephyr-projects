@@ -693,6 +693,17 @@
     ]
   ],
   [
+    "CONFIG_DT_HAS_TSYS01_SENSOR_ENABLED",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.dts",
+      13778
+    ]
+  ],
+  [
     "CONFIG_DT_HAS_VND_SPI_DEVICE_ENABLED",
     "n",
     "bool",
@@ -700,7 +711,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.dts",
-      14228
+      14233
     ]
   ],
   [
@@ -711,7 +722,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.dts",
-      15033
+      15038
     ]
   ],
   [
@@ -722,7 +733,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.dts",
-      15138
+      15143
     ]
   ],
   [
@@ -733,7 +744,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.dts",
-      15193
+      15198
     ]
   ],
   [
@@ -1386,7 +1397,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/prj.conf",
-      10
+      11
     ]
   ],
   [
@@ -2570,6 +2581,28 @@
     ]
   ],
   [
+    "CONFIG_TSYS01_SENSOR",
+    "y",
+    "bool",
+    "y",
+    "assign",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/prj.conf",
+      7
+    ]
+  ],
+  [
+    "CONFIG_ZEPHYR_TEMP_SENSOR_MODULE",
+    "n",
+    "bool",
+    "y",
+    "default",
+    [
+      "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.modules",
+      353
+    ]
+  ],
+  [
     "CONFIG_ZEPHYR_NRF_HW_MODELS_MODULE",
     "n",
     "bool",
@@ -2577,7 +2610,7 @@
     "default",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/build/Kconfig/Kconfig.modules",
-      351
+      357
     ]
   ],
   [
@@ -6152,7 +6185,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/prj.conf",
-      7
+      8
     ]
   ],
   [
@@ -7567,7 +7600,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/prj.conf",
-      12
+      13
     ]
   ],
   [
@@ -7838,7 +7871,7 @@
     "assign",
     [
       "/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/spi2c-driver-test/slave/prj.conf",
-      11
+      12
     ]
   ],
   [

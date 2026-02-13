@@ -364,6 +364,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/spi2c/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/temp-sensor/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/bionet-caleb/testing/zephyr-testing/zephyr/my-projects/zephyr-i2c/build/modules/nrf_hw_models/cmake_install.cmake")
 endif()
 

@@ -25,6 +25,12 @@
 /home/bionet-caleb/testing/zephyr-testing/modules/lib/gui/lvgl/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/modules/lib/gui/lvgl/zephyr/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/modules/lib/picolibc/zephyr/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/spi2c-driver/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/modules/spi2c-driver/spi2c-driver/spi2c/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/drivers/Kconfig
+/home/bionet-caleb/testing/zephyr-testing/modules/tsys01-sensor/drivers/temp-sensor/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig
 /home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.constants
 /home/bionet-caleb/testing/zephyr-testing/zephyr/Kconfig.zephyr

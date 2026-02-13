@@ -1,6 +1,0 @@
-
-config HELLO_WORLD
-	bool "hello world"
-	default n
-	help
-		prints hello world
