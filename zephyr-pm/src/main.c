@@ -182,7 +182,7 @@ int main(void) {
 	gpio_pin_set_dt(&red_led, 1);
 	printk("entering deep sleep mode\n");
 	enable_external_wakeup_pin(7, EXTERNAL_PIN_WAKEUP_INTERRUPT, EXTERNAL_PIN_EDGE_ANY);
-	enter_cmc_sleep_mode();
+	enter_deep_sleep();
 	printk("exiting deep sleep mode\n");
 	gpio_pin_set_dt(&red_led, 0);
 	return 0;
