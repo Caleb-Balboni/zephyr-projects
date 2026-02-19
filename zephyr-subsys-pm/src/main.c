@@ -17,36 +17,39 @@ static const struct gpio_dt_spec rst_gpio =
 
 const struct device* dma_dev = DEVICE_DT_GET(DT_ALIAS(wakedma));
 
-static uint8_t a = 0xf;
-static uint8_t b = 0x0;
+const struct device* watchdog_dev = DEVICE_DT_GET(DT_ALIAS(watchdog0));
 
-static void arm_dma(int chan) {
-    static struct dma_block_config blk;
-    static struct dma_config cfg;
+static uint32_t a = 0xf;
+static uint32_t b = 0x0;
 
-    memset(&blk, 0, sizeof(blk));
-    memset(&cfg, 0, sizeof(cfg));
+static int arm_dma(int chan) {
+	static struct dma_block_config blk;
+	static struct dma_config cfg;
 
-    blk.block_size = sizeof(uint32_t);
-    blk.source_address = (uint32_t)(uintptr_t)&a;
-    blk.dest_address   = (uint32_t)(uintptr_t)&b;
+	memset(&blk, 0, sizeof(blk));
+	memset(&cfg, 0, sizeof(cfg));
 
-    cfg.channel_direction = MEMORY_TO_MEMORY;
-    cfg.source_data_size = 1;
-    cfg.dest_data_size   = 1;
-    cfg.source_burst_length = 1;
-    cfg.dest_burst_length   = 1;
+	blk.block_size = sizeof(uint32_t);
+	blk.source_address = (uint32_t)(uintptr_t)&a;
+	blk.dest_address   = (uint32_t)(uintptr_t)&b;
 
-    cfg.head_block = &blk;
-    cfg.dma_callback = NULL;
-    cfg.complete_callback_en = 1;
+	cfg.channel_direction = MEMORY_TO_MEMORY;
+	cfg.source_data_size = 4;
+	cfg.dest_data_size   = 4;
+	cfg.source_burst_length = 1;
+	cfg.dest_burst_length   = 1;
 
-    /* This is the key: connect DMAMUX source to this DMA channel */
-    cfg.dma_slot = WUU_DMAMUX_NUM;
+	cfg.head_block = &blk;
+	cfg.dma_callback = NULL;
+	cfg.complete_callback_en = 1;
 
-    int ret = dma_config(dma_dev, chan, &cfg);
+	cfg.dma_slot = WUU_DMAMUX_NUM;
 
-    dma_start(dma_dev, chan);
+	int ret = dma_config(dma_dev, chan, &cfg);
+	if (ret != 0) {
+		return ret;
+	}
+	return dma_start(dma_dev, chan);
 }
 
 int main(void) {
@@ -54,10 +57,13 @@ int main(void) {
 		printk("rst gpio not ready\n");
 		return 0;
 	}
-	//gpio_pin_configure_dt(&rst_gpio, GPIO_INPUT | GPIO_PULL_DOWN);
+	gpio_pin_configure_dt(&rst_gpio, GPIO_INPUT | GPIO_PULL_DOWN);
 	gpio_pin_configure_dt(&red_led, GPIO_OUTPUT_INACTIVE);
 	gpio_pin_set_dt(&red_led, 1);
-
+	if (!device_is_ready(&dma_dev)) {
+		printk("dma device was not ready\n");
+		return 0;
+	}
 	// test for a basic wakeup using a external pin
 	/*
 	printk("beginning power down process...\n");
@@ -91,6 +97,7 @@ int main(void) {
 	*/
 
 	// testing the usage of DMA
+	/*
 	wuu_external_pin_attach_cb(7, user_callback, NULL);
 	wuu_external_pin_enable_interrupt(1);
 	cmc_allow_dbg(1);
@@ -103,8 +110,11 @@ int main(void) {
 					 .edge = EXTERNAL_PIN_EDGE_RISING,
 					 .pm = EXTERNAL_PIN_ALL_POWER_MODES };
 	wuu_cfg_external_pin(3, &cfg2);
-	arm_dma(10);
-
+	int ret = arm_dma(10);
+	if (ret != 0) {
+		printk("dma failed to configure, ret: %d\n", ret);
+		return 0;
+	}
 	printk("entering deep sleep...\n");
 	k_busy_wait(50000);
 	cmc_deep_sleep();
@@ -114,6 +124,12 @@ int main(void) {
 	printk("CKMODE: %u\n", ckmode);
 	gpio_pin_set_dt(&red_led, 0);
 	printk("B: 0x%X", b);
+	*/
+	if (!device_is_ready(&watchdog_dev)) {
+		printk("watchdog is not ready\n");
+		return 0;
+	}
+	wuu_
 	return 0;
 }
 
