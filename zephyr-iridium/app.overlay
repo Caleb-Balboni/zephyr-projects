@@ -1,0 +1,25 @@
+&flexcomm2 {
+	status = "okay";
+};
+
+&flexcomm2_lpuart2 {
+    current-speed = <230400>;
+};
+
+/ {
+	rockblock_pins {
+		compatible = "gpio-keys";
+		power_enable: power_enable {
+			gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
+			label = "power enable";
+		};
+		iridium_enable: iridium_enable {
+			gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
+			label = "Iridium Enable";
+		};
+		iridium_booted: iridium_booted {
+			gpios = <&gpio1 23 GPIO_ACTIVE_HIGH>;
+			label = "Iridium Booted";
+		};
+	};
+};

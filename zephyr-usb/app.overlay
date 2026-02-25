@@ -1,0 +1,22 @@
+/*
+ * Devicetree overlay for FRDM-MCXN947
+ *
+ * Override console to use the physical UART on J17 (FLEXCOMM4)
+ * instead of CDC ACM (which we disabled).
+ */
+
+/ {
+	chosen {
+		zephyr,console = &flexcomm4_lpuart4;
+		zephyr,shell-uart = &flexcomm4_lpuart4;
+	};
+};
+
+&flexcomm4_lpuart4 {
+	status = "okay";
+	current-speed = <115200>;
+};
+
+&zephyr_udc0 {
+	status = "okay";
+};

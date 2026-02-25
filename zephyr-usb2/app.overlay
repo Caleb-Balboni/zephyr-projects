@@ -1,0 +1,18 @@
+/ {
+	chosen {
+		zephyr,console = &flexcomm4_lpuart4;
+		zephyr,shell-uart = &flexcomm4_lpuart4;
+	};
+};
+
+&flexcomm4_lpuart4 {
+	status = "okay";
+	current-speed = <115200>;
+};
+
+&zephyr_udc0 {
+	status = "okay";
+	cdc_acm_uart0: cdc_acm_uart0 {
+		compatible = "zephyr,cdc-acm-uart";
+	};
+};
