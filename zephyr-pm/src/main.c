@@ -26,17 +26,14 @@ typedef enum {
 	EXTERNAL_PIN_EDGE_ANY = 0x3U,
 } external_pin_edge_detection;
 
-#define WUU_BASE 0x40046000
-
-#define PIN_ENABLE_OFFSET1 0x8
-#define PIN_ENABLE_OFFSET2 0xC
-
-#define PIN_FLAG_OFFSET 0x20
-
-#define PIN_PMC_OFFSET 0x50
-
-#define PIN_DMATRIG_OFFSET1 0x38
-#define PIN_DMATRIG_OFFSET2 0x3C
+// 
+#define WUU_BASE          (0x40046000)        // Base address             page: 837
+#define WUU_PIN_ENABLE1   (WUU_BASE + 0x8)    // Pin Enable       (PE1)   page: 839
+#define WUU_PIN_ENABLE2   (WUU_BASE + 0xC)    // Pin Enable       (PE2)   page: 845
+#define WUU_PIN_FLAG      (WUU_BASE + 0x20)   // Pin Flag         (PF)    page: 857
+#define WUU_PIN_MODE_CFG  (WUU_BASE + 0x50)   // Pin Mode Cfg     (PMC)   page: 873
+#define PIN_DMATRIG_CFG1  (WUU_BASE + 0x38)   // Pin DMA/Trig Cfg (PDC1)  page: 864
+#define PIN_DMATRIG_CFG2  (WUU_BASE + 0x3C)   // Pin DMA/Trig Cfg (PDC2)  page: 868
 
 void print_32_bits(uint32_t val) {
 	for (int i = 0; i < 31; i++) {
