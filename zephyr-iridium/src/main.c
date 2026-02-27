@@ -20,29 +20,15 @@ int main(void) {
 	gpio_pin_configure_dt(&p_en, GPIO_OUTPUT | GPIO_PULL_DOWN);
 	gpio_pin_configure_dt(&i_en, GPIO_OUTPUT | GPIO_PULL_DOWN);
 	gpio_pin_configure_dt(&i_btd, GPIO_INPUT);
-	printk("hello there!\n");
 	rbBeginZephyrGpio(&p_en, &i_en, &i_btd);
-	printk("gpios set up!\n");
-	k_msleep(1000);
-	/*
-	printk("Testing UART...\n");
-	k_msleep(5000);  // give modem time
-
-	unsigned char c;
-	const struct device *uart = DEVICE_DT_GET(DT_NODELABEL(flexcomm2_lpuart2));
-	for (int i = 0; i < 100; i++) {
-		if (uart_poll_in(uart, &c) == 0) {
-			printk("Got byte: 0x%02x '%c'\n", c, c);
-		}
-		k_msleep(10);
-	}
-	printk("Done testing\n");
-	*/
 	if (!rbBegin(".")) {
 		printk("failed to begin");
 	}
-	printk("got past begin\n");
+	printk("got past rbBegin\n");
+	k_msleep(500);
 	char* serial = rbGetSerialNumber();
 	printk("iridium serial: %s", serial);
+	uint8_t signal = rbGetSignal();
+	printk("signal strength: %u", signal);
 	return 0;
 }
