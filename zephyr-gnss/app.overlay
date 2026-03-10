@@ -1,0 +1,11 @@
+&flexcomm2_lpuart2 {
+	status = "okay";
+	current-speed = <115200>;
+	gnss: gnss-nmea-generic {
+		compatible = "gnss-nmea-generic";
+	};
+};
+
+&flexcomm2 {
+	status = "okay";
+};

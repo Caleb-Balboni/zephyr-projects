@@ -1,0 +1,12 @@
+&flexcomm2_lpuart2 {
+	status = "okay";
+	current-speed = <115200>;
+};
+
+/ {
+	lte_modem: eg21_gl_lte_modem {
+		status = "okay";
+		compatible = "hn,lte";
+		uart-dev = <&flexcomm2_lpuart2>;
+	};
+};
