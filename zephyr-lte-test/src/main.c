@@ -1,6 +1,10 @@
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>
+#include <zephyr/net/net_ip.h>
+#include <zephyr/net/net_if.h>
+#include <zephyr/net/socket.h>
 #include <at_cmd.h>
+#include <errno.h>
 
 const struct device* modem = DEVICE_DT_GET(DT_NODELABEL(lte_modem));
 
@@ -90,6 +94,8 @@ int main(void) {
 		printk("modem was not ready\n");
 		return 0;
 	}
+
+	// INIT THE MODEM
 	int ret = eg21_init(modem);
 	if (ret < 0) {
 		printk("the script failed\n");
@@ -98,21 +104,23 @@ int main(void) {
 	eg21_hardware_ctx_t ctx;
 	eg21_get_hardware_ctx(modem, &ctx);
 
-	// HARDWARE CTX DATA
+	// GRAB HARDWARE CTX DATA
 	print_modem_hardware_data(&ctx);
 	printk("\n");
 
-	// SIM STATUS
+	// GRAB SIM STATUS
+	/*
 	eg21_sim_stat_t sim_stat;
 	sim_stat = eg21_get_sim_stat(modem);
 	print_modem_sim_stat(sim_stat);
+	*/
 
-	// REGISTRATION STATUS
-	eg21_net_reg_t reg_stat = EG21_REG_SEARCHING;
-	while (reg_stat == EG21_REG_SEARCHING) {
+	// GRAB REGISTRATION STATUS
+	eg21_net_reg_t reg = EG21_REG_UNREGISTERED;
+	while (reg != EG21_REG_REGISTERED_HOME && reg != EG21_REG_REGISTERED_ROAMING) {
 		eg21_update_net_reg(modem);
-		reg_stat = eg21_get_reg_stat(modem);
-		eg21_print_reg_stat(reg_stat);
+		reg = eg21_get_reg_stat(modem);
+		eg21_print_reg_stat(reg);
 		k_msleep(1000);
 	}
 
@@ -125,16 +133,43 @@ int main(void) {
 		print_signal_quality(&signal_quality);
 	}
 
-	// CONNECT
+	// CONNECT TO PPP
 	ret = eg21_connect(modem, "fast.t-mobile.com", EG21_PDP_IPV4, NULL, NULL, EG21_AUTH_NONE);
-	printk("connect %d\n", ret);
+	eg21_wait_connected(modem, K_FOREVER);
+
 	char ip_buf[32];
 	eg21_get_ip(modem, ip_buf, sizeof(ip_buf));
-	printk("IP ADDRESS: %s\n", ip_buf);
 
-	// ERROR REPORT
-	char buf[64];
-	ret = eg21_get_error_rep(modem, buf, sizeof(buf));
-	printk("ERROR REPORT: %s\n", buf);
+	printk("IP ADDRESS: %s\n", ip_buf);
+	printk("successfully connnected to ppp\n");
+
+	// CREATE SOCKET AND CONNECT
+	int sock = zsock_socket(AF_INET, NET_SOCK_STREAM, NET_IPPROTO_TCP);
+	struct sockaddr_in addr  = {
+		.sin_family = AF_INET,
+		.sin_port = htons(80),
+	};
+	zsock_inet_pton(AF_INET, "54.144.56.250", &addr.sin_addr);
+
+	ret = zsock_connect(sock, (struct sockaddr *)&addr, sizeof(addr));
+	if (ret < 0) {
+		printk("Connect failed: %d (errno=%d)\n", ret, errno);
+		return -1;
+	}
+
+	// SENDS REQUEST
+	const char *request =
+            "GET / HTTP/1.1\r\n"
+            "Host: httpbin.org\r\n"
+            "Accept-Encoding: identity\r\n"
+            "Connection: close\r\n"
+            "\r\n";
+	zsock_send(sock, request, strlen(request), 0);
+
+	// READ REQUEST RESPONSE
+	char buf[1024];
+	int n = zsock_recv(sock, buf, sizeof(buf) - 1, 0);
+	buf[n] = '\0';
+	printk("DATA: %s\n", buf);
 	return 0;
 }
