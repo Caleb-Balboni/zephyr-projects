@@ -16,6 +16,7 @@
 
 / {
 	zephyr,user {
-		signal-gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_HIGH>;
+		irq_gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_LOW>;
+		dtr_gpios = <&arduino_header ARDUINO_HEADER_R3_D6 GPIO_ACTIVE_LOW>;
 	};
 };

@@ -29,7 +29,8 @@
 	spi2cdev: spi2cdev {
 		compatible = "hn,spi2c";
 		custom-devs = <&tsys01>;
-		signal-gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_HIGH>;
+		irq-gpios = <&arduino_header ARDUINO_HEADER_R3_D7 GPIO_ACTIVE_LOW>;
+		dtr-gpios = <&arduino_header ARDUINO_HEADER_R3_D6 GPIO_ACTIVE_LOW>;
 		spi-dev = <&slavefrdm>;
 	};
 };
