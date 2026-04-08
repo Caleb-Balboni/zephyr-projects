@@ -1,0 +1,5 @@
+/ {
+    zephyr,user {
+        srdy-gpios = <&arduino_header ARDUINO_HEADER_R3_D6 GPIO_ACTIVE_HIGH>;
+    };
+};
